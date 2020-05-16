@@ -25,7 +25,7 @@ import Slider from "nouislider";
 // reactstrap components
 import {
   Button,
-  Label,
+  Label, 
   FormGroup,
   Input,
   InputGroupAddon,
