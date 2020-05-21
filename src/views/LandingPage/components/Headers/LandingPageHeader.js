@@ -20,7 +20,7 @@ import React from "react";
  
 // reactstrap components
 import { Button, Container } from "reactstrap";
-import auvlogo from '../../assets/img/auv-logo.png';
+import auvlogo from 'assets/img/auv-logo.png';
 // core components
 
 function LandingPageHeader() {

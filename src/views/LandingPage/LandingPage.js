@@ -36,15 +36,13 @@ import {
 } from "reactstrap";
 
 // core components
-import ExamplesNavbar from "components/Navbars/ExamplesNavbar.js";
-import LandingPageHeader from "components/Headers/LandingPageHeader.js";
-import AboutUs from "components/AboutUs/AboutUs.js";
-import Team from "components/Team/Team.js";
-import DemoFooter from "components/Footers/DemoFooter.js";
-import Sponsors from "components/Sponsors/Sponsors.js";
-import Posts from "components/Posts/Posts.js";
-import Vehicles from "components/Vehicles/Vehicles.js";
-import ContactUs from "components/ContactUs/ContactUs.js";
+import LandingPageHeader from "./components/Headers/LandingPageHeader.js";
+import AboutUs from "./components/AboutUs/AboutUs.js";
+import Team from "./components/Team/Team.js";
+import Sponsors from "./components/Sponsors/Sponsors.js";
+import Posts from "./components/Posts/Posts.js";
+import Vehicles from "./components/Vehicles/Vehicles.js";
+import ContactUs from "./components/ContactUs/ContactUs.js";
 
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -56,7 +54,6 @@ function LandingPage() {
   });
   return (
     <>
-      <ExamplesNavbar />
       <LandingPageHeader />
       <div className="main">
         <AboutUs />
@@ -66,7 +63,6 @@ function LandingPage() {
         <Posts />
         <ContactUs />
       </div>
-      <DemoFooter />
     </>
   );
 }

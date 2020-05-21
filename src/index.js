@@ -26,10 +26,13 @@ import "assets/scss/paper-kit.scss";
 import "assets/demo/demo.css";
 // pages
 import LandingPage from "views/LandingPage/LandingPage";
+import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
+import DemoFooter from "components/Footers/DemoFooter";
 // others
 
 ReactDOM.render(
   <BrowserRouter>
+  <ExamplesNavbar />
     <Switch>
       <Route
         path="/landing-page"
@@ -37,6 +40,7 @@ ReactDOM.render(
       />
       <Redirect to="/landing-page" />
     </Switch>
+    <DemoFooter/>
   </BrowserRouter>,
   document.getElementById("root")
 );
