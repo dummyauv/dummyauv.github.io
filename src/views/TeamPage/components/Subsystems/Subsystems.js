@@ -34,7 +34,7 @@ function Posts() {
                         <h3 className="">Software</h3>
                         <img
                             alt="..."
-                            src={require("assets/img/software.jpg")}
+                            src={require("assets/img/software.jpeg")}
                             height="200px"
                         />
                         <p>Develop the algorithms controlling the robot - working on Computer Vision, Localisation, and Control Systems</p>
