@@ -28,6 +28,7 @@ import "assets/demo/demo.css";
 import LandingPage from "views/LandingPage/LandingPage";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import DemoFooter from "components/Footers/DemoFooter";
+import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
 // others
 
 ReactDOM.render(
@@ -38,9 +39,12 @@ ReactDOM.render(
         path="/landing-page"
         render={props => <LandingPage {...props} />}
       />
+      <Route
+        path="/about-us"
+        render={props => <AboutUsPage {...props} />}
+      />
       <Redirect to="/landing-page" />
     </Switch>
-    <DemoFooter/>
   </BrowserRouter>,
   document.getElementById("root")
 );
