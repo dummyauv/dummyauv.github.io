@@ -30,6 +30,8 @@ import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import DemoFooter from "components/Footers/DemoFooter";
 import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
 import TeamPage from 'views/TeamPage/TeamPage'
+import AnahitaPage from 'views/Vehicles/AnahitaPage/AnahitaPage';
+import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
 // others
 
 ReactDOM.render(
@@ -47,6 +49,14 @@ ReactDOM.render(
       <Route
         path="/team"
         render={props => <TeamPage {...props} />}
+      />
+      <Route
+        path="/vehicles/anahita"
+        render={props => <AnahitaPage {...props} />}
+      />
+      <Route
+        path="/vehicles/varun"
+        render={props => <VarunPage {...props} />}
       />
       <Redirect to="/landing-page" />
     </Switch>
