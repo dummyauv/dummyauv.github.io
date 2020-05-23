@@ -53,11 +53,11 @@ function LandingPage() {
     return (
         <>
             <div className="main">
-                <Team/>
-                <Subsytems/>
-                <SubsystemHeads/>
-                <TeamMembers/>
-                <TeamVideo/>
+                <Team />
+                <Subsytems />
+                <SubsystemHeads />
+                {/* <TeamMembers/> */}
+                <TeamVideo />
             </div>
         </>
     );

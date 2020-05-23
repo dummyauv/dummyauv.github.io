@@ -19,6 +19,7 @@ import resimage from '../../../../assets/img/research.jpeg'
 import csrimage from '../../../../assets/img/csr.png'
 import trainimage from '../../../../assets/img/training.jpg'
 
+
 function Posts() {
     return (
         <>
@@ -45,15 +46,15 @@ function Posts() {
                             <h2>Training</h2>
                             <img src={trainimage} className="img img-responsive mt-4 mb-2" width="80%"></img>
                             <p>Team AUV-IITK provides training to all its new recruits in the various
-                                    field of Robotics. It is because of this training that many of the past members of
-                                    team AUV-IITK are pursuing their careers in robotics and doing exceptionally well
+                            field of Robotics. It is because of this training that many of the past members of
+                            team AUV-IITK are pursuing their careers in robotics and doing exceptionally well
                                     owing to their strong foundation.</p>
                         </Col>
                         <Col md="6" className="text-center">
                             <h2>Social Projects</h2>
                             <img src={csrimage} className="img img-responsive mt-4 mb-2" width="45%"></img>
                             <p>Apart from Robotics competitions, team AUV-IITK also actively
-                                    participates various hackathon and undertakes projects owing its responsibility to
+                            participates various hackathon and undertakes projects owing its responsibility to
                                     the society.</p>
                         </Col>
                     </Row>
