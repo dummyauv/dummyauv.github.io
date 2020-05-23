@@ -29,6 +29,7 @@ import LandingPage from "views/LandingPage/LandingPage";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
 import DemoFooter from "components/Footers/DemoFooter";
 import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
+import TeamPage from 'views/TeamPage/TeamPage'
 // others
 
 ReactDOM.render(
@@ -42,6 +43,10 @@ ReactDOM.render(
       <Route
         path="/about-us"
         render={props => <AboutUsPage {...props} />}
+      />
+      <Route
+        path="/team"
+        render={props => <TeamPage {...props} />}
       />
       <Redirect to="/landing-page" />
     </Switch>
