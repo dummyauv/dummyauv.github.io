@@ -32,14 +32,20 @@ function Posts() {
                     <Col md="2"></Col>
                     <Col md="6" className="text-center">
                         <h3 className="">Software</h3>
-                        <i class="nc-icon nc-laptop text-info" style={{ fontSize: '200px' }}></i>
-                        <p>Remove this para and add a better laptop icon </p>
+                        <img
+                            alt="..."
+                            src={require("assets/img/software.jpg")}
+                            height="200px"
+                        />
                         <p>Develop the algorithms controlling the robot - working on Computer Vision, Localisation, and Control Systems</p>
                     </Col>
                     <Col md="6" className="text-center">
                         <h3 className="">Electrical</h3>
-                        <i class="nc-icon nc-laptop text-info" style={{ fontSize: '200px' }}></i>
-                        <p>Remove this para and add thunder-bolt or bulb icon</p>
+                        <img
+                            alt="..."
+                            src={require("assets/img/electrical.jpg")}
+                            height="200px"
+                        />
                         <p>Build the electrical systems powering our AUV - working on Battery Management, Acoustic Localisation, and Circuit Designing</p>
                     </Col>
                     <Col md="6" className="text-center">
