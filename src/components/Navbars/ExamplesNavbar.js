@@ -20,7 +20,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-
+import auvlog from '../../assets/img/auv-logo-mini.png'
 // reactstrap components
 import {
   Collapse,
@@ -29,7 +29,11 @@ import {
   NavItem,
   NavLink,
   Nav,
-  Container
+  Container,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -77,7 +81,7 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            AUV-IITK
+            <img src={auvlog}></img>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -117,11 +121,43 @@ function ExamplesNavbar() {
                 Sponsor
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to="/index" tag={Link}>
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle
+                aria-expanded={false}
+                aria-haspopup={true}
+                caret
+                color="default"
+                data-toggle="dropdown"
+                href="#pablo"
+                id="dropdownMenuButton"
+                nav
+                onClick={e => e.preventDefault()}
+                role="button"
+              >
                 Vehicles
+                      </DropdownToggle>
+              <DropdownMenu
+                aria-labelledby="dropdownMenuButton"
+                className="dropdown-info"
+              >
+                <DropdownItem
+                  // href="#pablo"
+                  // onClick={e => e.preventDefault()}
+                >
+                  <NavLink to="/vehicles/anahita" tag={Link}>
+                Anahita
               </NavLink>
-            </NavItem>
+                        </DropdownItem>
+                <DropdownItem
+                  // href="#pablo"
+                  // onClick={e => e.preventDefault()}
+                >
+                  <NavLink to="/vehicles/varun" tag={Link}>
+                Varun
+              </NavLink>
+                        </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
             <NavItem>
               <NavLink to="/index" tag={Link}>
                 Latest Posts

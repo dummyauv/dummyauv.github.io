@@ -116,7 +116,7 @@ function SectionJavaScript() {
                   </div>
                 </div>
               </Modal>
-            </Col>
+            </Col> 
             <Col md="6">
               <div className="title">
                 <h3>Popovers</h3>
