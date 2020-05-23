@@ -98,38 +98,38 @@ function ExamplesNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
-                 Home
+              <NavLink to="/landing-page" tag={Link}>
+                Home
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/about-us" tag={Link}>
+                About Us
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/team" tag={Link}>
+                Team
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                 About Us
+                Sponsor
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                 Team
+                Vehicles
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                 Sponsor
+                Latest Posts
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                 Vehicles
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/index" tag={Link}>
-                 Latest Posts
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink to="/index" tag={Link}>
-                 Contact Us
+                Contact Us
               </NavLink>
             </NavItem>
             <NavItem>
