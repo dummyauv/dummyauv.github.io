@@ -139,6 +139,7 @@ function ExamplesNavbar() {
               <DropdownMenu
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
+                style={{backgroundColor:"#51BCDA"}}
               >
                 <DropdownItem
                   // href="#pablo"
