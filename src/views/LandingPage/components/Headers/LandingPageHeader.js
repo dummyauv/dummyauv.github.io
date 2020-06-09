@@ -21,17 +21,18 @@ import React from "react";
 // reactstrap components
 import { Button, Container } from "reactstrap";
 import auvlogo from 'assets/img/auv-logo.png';
+import "./LPHeader.css"
 // core components
 
 function LandingPageHeader() {
   let pageHeader = React.createRef();
-  const auvstyle= {
-    width: '40%',
-    position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)'
-  }
+  // const auvstyle= {
+  //   width: '40%',
+  //   position: 'absolute',
+  //   top: '50%',
+  //   left: '50%',
+  //   transform: 'translate(-50%, -50%)'
+  // }
   const h3style= {
     position: 'absolute',
     top: '80%',
@@ -58,7 +59,7 @@ function LandingPageHeader() {
         style={{
           backgroundImage: "url(" + require("assets/img/underwater-anahita.png") + ")"
         }}
-        className="page-header"
+        className="page-header trim"
         data-parallax={true}
         ref={pageHeader}
       >
@@ -66,10 +67,10 @@ function LandingPageHeader() {
         <Container>
           <div className="motto text-center">
             {/* <h1>Example page</h1> */}
-            <img src={auvlogo} style={auvstyle}></img>
+            <img src={auvlogo} className="animate"></img>
             {/* <h3>Start designing your landing page here.</h3> */}
             <br />
-            <h3 style={h3style}>Undergraduate Robotics Team for Marine Technology.</h3>
+            <h3  className="heading-text">Undergraduate Robotics Team for Marine Technology.</h3>
             {/* <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="btn-round mr-1"

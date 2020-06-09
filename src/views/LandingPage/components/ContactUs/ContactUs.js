@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import {
     Button,
     Card,
@@ -14,19 +15,19 @@ import {
     Row,
     Col
 } from "reactstrap";
-
+import "./ContactUs.css"
 function ContactUs() {
     return (
         <>
-        <div className="section landing-section">
+        <div className="section landing-section light-dark-ssk5">
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
+                <h2 className="text-center heading-ssk">Keep in touch?</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">
-                      <label>Name</label>
+                      <label className="robo-heading3">Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -37,7 +38,7 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                     <Col md="6">
-                      <label>Email</label>
+                      <label className="robo-heading3">Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -48,7 +49,7 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label>Message</label>
+                  <label className="robo-heading3">Message</label>
                   <Input
                     placeholder="Tell us your thoughts and feelings..."
                     type="textarea"
@@ -56,9 +57,9 @@ function ContactUs() {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                      <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
-                      </Button>
+                    <Link to='/about-us' className="button-ssk mt-5">
+              More
+            </Link>
                     </Col>
                   </Row>
                 </Form>

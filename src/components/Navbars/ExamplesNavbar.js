@@ -48,13 +48,13 @@ function ExamplesNavbar() {
   React.useEffect(() => {
     const updateNavbarColor = () => {
       if (
-        document.documentElement.scrollTop > 299 ||
-        document.body.scrollTop > 299
+        document.documentElement.scrollTop > 0 ||
+        document.body.scrollTop > 0
       ) {
         setNavbarColor("");
       } else if (
-        document.documentElement.scrollTop < 300 ||
-        document.body.scrollTop < 300
+        document.documentElement.scrollTop < 1 ||
+        document.body.scrollTop < 1
       ) {
         setNavbarColor("navbar-transparent");
       }
@@ -68,18 +68,19 @@ function ExamplesNavbar() {
   });
   return (
     <Navbar
-      className={classnames("fixed-top", navbarColor)}
+      className={classnames("fixed-top", navbarColor, "custom-nav")} 
       color-on-scroll="300"
       expand="lg"
     >
       <Container>
-        <div className="navbar-translate">
+        <div className="navbar-translate custom-nav">
           <NavbarBrand
             data-placement="bottom"
             to="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="AUV-IITK"
             tag={Link}
+            className="custom-nav"
           >
             <img src={auvlog}></img>
           </NavbarBrand>
@@ -126,7 +127,7 @@ function ExamplesNavbar() {
                 aria-expanded={false}
                 aria-haspopup={true}
                 caret
-                color="default"
+                color="black"
                 data-toggle="dropdown"
                 href="#pablo"
                 id="dropdownMenuButton"
@@ -143,18 +144,23 @@ function ExamplesNavbar() {
                 <DropdownItem
                   // href="#pablo"
                   // onClick={e => e.preventDefault()}
+                  style={{textAlign: "center"}}
                 >
-                  <NavLink to="/vehicles/anahita" tag={Link}>
-                Anahita
-              </NavLink>
+                  <Link to='/vehicles/anahita' style={{color: 'black'}}>
+                  Anahita
+                  </Link>
+                  
                         </DropdownItem>
-                <DropdownItem
+                <DropdownItem 
                   // href="#pablo"
                   // onClick={e => e.preventDefault()}
+                  style={{textAlign: "center"}}
+                  onClick={()=>{}}
                 >
-                  <NavLink to="/vehicles/varun" tag={Link}>
-                Varun
-              </NavLink>
+                  <Link to='/vehicles/varun' style={{color:'black'}}>
+                  Varun
+                  </Link>
+                  
                         </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
@@ -171,7 +177,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/auviitk"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -182,7 +188,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/AUV-IITK"
                 target="_blank"
                 title="Star on GitHub"
               >

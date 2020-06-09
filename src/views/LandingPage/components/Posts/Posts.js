@@ -1,4 +1,6 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+import "./Posts.css"
 import {
     Button,
     Card,
@@ -21,30 +23,43 @@ function Posts() {
     return (
         <>
         <div className="section landing-section">
-          <Container>
+          <div className="container-ssk">
             <Row className="d-flex justify-content-center">
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center mb-4">Posts</h2>
+                <h2 className="text-center mb-4 heading-ssk2">Posts</h2>
+                <hr></hr>
               </Col>
               <Col md="2"></Col>
-              <Col md="4" className="text-center">
-                <h2>Post 1</h2>
-                <p>AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub.</p>
+              <Col xl="6" className="text-center ">
+                <div className="post-ssk">
+                <h2 className="robo-heading4">Post 1</h2>
+                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
+                <Link to='/about-us' className="button-ssk">
+              More
+            </Link>
+                </div>
               </Col>
-              <Col md="4" className="text-center">
-                <h2>Post 2</h2>
-                <p>AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub.</p>
-
+              <Col xl="6" className="text-center ">
+                <div className="post-ssk">
+                <h2 className="robo-heading4">Post 1</h2>
+                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
+                <Link to='/about-us' className="button-ssk">
+              More
+            </Link>
+                </div>
               </Col>
-              <Col md="4" className="text-center">
-                <h2>Post 3</h2>
-                <p>AUV-IITK is a multidisciplinary team of IITK students involved in designing, manufacturing, and testing of a series of Autonomous Underwater Vehicles (AUVs), working towards providing a research platform for geoscientific research while preparing to compete in prestigious competitions such as NIOT, SAUVC, and RoboSub.</p>
-
+              <Col xl="6" className="text-center ">
+                <div className="post-ssk">
+                <h2 className="robo-heading4">Post 1</h2>
+                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
+                <Link to='/about-us' className="button-ssk">
+              More
+            </Link>
+                </div>
               </Col>
-              <button class="btn btn-primary ml-auto mr-auto mt-5"> More</button>
             </Row>
-          </Container>
+          </div>
         </div>
 
         </>

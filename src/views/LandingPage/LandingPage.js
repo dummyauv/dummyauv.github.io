@@ -43,7 +43,7 @@ import Sponsors from "./components/Sponsors/Sponsors.js";
 import Posts from "./components/Posts/Posts.js";
 import Vehicles from "./components/Vehicles/Vehicles.js";
 import ContactUs from "./components/ContactUs/ContactUs.js";
-
+import "./LandingPage.css"
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -57,8 +57,8 @@ function LandingPage() {
       <LandingPageHeader />
       <div className="main">
         <AboutUs />
-        <Team />
-        <Sponsors />
+        <Team className="team"/>
+        <Sponsors className="sponsors"/>
         <Vehicles />
         <Posts />
         <ContactUs />
