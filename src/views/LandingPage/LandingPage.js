@@ -54,7 +54,7 @@ function LandingPage() {
   });
   return (
     <>
-      <LandingPageHeader />
+      <LandingPageHeader className="abc"/>
       <div className="main">
         <AboutUs />
         <Team className="team"/>

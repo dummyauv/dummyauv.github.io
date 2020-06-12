@@ -40,7 +40,7 @@ import LandingPageHeader from "../LandingPage/components/Headers/LandingPageHead
 import AboutUs from "../LandingPage/components/AboutUs/AboutUs.js";
 import Participation from "./components/Participation/Participation"
 import Achievements from "./components/Achievements/Achievements"
-
+import "./AboutUsPage.css"
 function LandingPage() {
     document.documentElement.classList.remove("nav-open");
     React.useEffect(() => {
@@ -51,7 +51,7 @@ function LandingPage() {
     });
     return (
         <>
-            <div className="main">
+            <div className="main ">
                 <AboutUs />
                 <Participation/>
                 <Achievements/>

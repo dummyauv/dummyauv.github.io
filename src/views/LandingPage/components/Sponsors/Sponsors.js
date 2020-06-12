@@ -27,7 +27,7 @@ import {
 function Sponsors() {
     return (
         <>
-            <div className="section landing-section light-ssk">
+            <div className="section landing-section light-ssk" id="sponsors">
           {/* <Container> */}
             <Row className="ml-2">
               <Col md="2"></Col>

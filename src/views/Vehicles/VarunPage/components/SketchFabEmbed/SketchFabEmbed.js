@@ -1,4 +1,5 @@
 import React from 'react';
+import "./SketchFabEmbed.css"
 import {
     Button,
     Card,
@@ -29,12 +30,12 @@ function Posts() {
                 <Row className="d-flex justify-content-center">
                     <Col md="2"></Col>
                     <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 text-info"><b>VARUN on Sketchfab</b></h2>
+                        <h2 className="text-center mb-4 heading-ssk29">VARUN on Sketchfab</h2>
                     </Col>
                     <Col md="2"></Col>
                     <Col md="12" className="text-center">
                         <div className="sketchfab-embed-wrapper">
-                            <iframe title="A 3D model" width="1000" height="750" src="https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            <iframe title="A 3D model" className="sketchfab-ssk" src="https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
                             <p style={embedstyle}>
                                 {/* <a href="https://sketchfab.com/3d-models/varun-6e1274e10d9e4b6a922a5ed0baf9445f?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">VARUN</a>
         by <a href="https://sketchfab.com/karthic?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">AUVIITK</a>

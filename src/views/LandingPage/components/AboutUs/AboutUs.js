@@ -26,7 +26,7 @@ function AboutUs() {
   });
   return (
     <>
-      <div className="section text-center light-dark-ssk">
+      <div className="section text-center ">
         {/* <Container> */}
         <Row>
           <h2 className="title ml-auto mr-auto heading-ssk1">About Us</h2>

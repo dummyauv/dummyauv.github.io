@@ -70,7 +70,7 @@ function LandingPageHeader() {
             <img src={auvlogo} className="animate"></img>
             {/* <h3>Start designing your landing page here.</h3> */}
             <br />
-            <h3  className="heading-text">Undergraduate Robotics Team for Marine Technology.</h3>
+            <h3  className="heading-text mt-5">Undergraduate Robotics Team for Marine Technology.</h3>
             {/* <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="btn-round mr-1"

@@ -22,9 +22,9 @@ import {
 function Posts() {
     return (
         <>
-        <div className="section landing-section">
+        <div className="section landing-section ">
           <div className="container-ssk">
-            <Row className="d-flex justify-content-center">
+            <Row className="">
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto" md="8">
                 <h2 className="text-center mb-4 heading-ssk2">Posts</h2>

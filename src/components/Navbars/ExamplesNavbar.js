@@ -33,7 +33,8 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem
+  DropdownItem,
+  Button
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -117,11 +118,11 @@ function ExamplesNavbar() {
                 Team
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink to="/index" tag={Link}>
-                Sponsor
+            {/* <NavItem>
+              <NavLink to="/index" tag={Link} component={Link} to="#sponsors">
+                Sponsors
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle
                 aria-expanded={false}
@@ -140,29 +141,30 @@ function ExamplesNavbar() {
               <DropdownMenu
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
-                style={{backgroundColor:"#51BCDA"}}
+                style={{backgroundColor:"white"}}
               >
-                <DropdownItem
-                  // href="#pablo"
-                  // onClick={e => e.preventDefault()}
-                  style={{textAlign: "center"}}
-                >
+                
                   <Link to='/vehicles/anahita' style={{color: 'black'}}>
-                  Anahita
-                  </Link>
-                  
-                        </DropdownItem>
-                <DropdownItem 
+                  <DropdownItem
                   // href="#pablo"
                   // onClick={e => e.preventDefault()}
                   style={{textAlign: "center"}}
-                  onClick={()=>{}}
                 >
-                  <Link to='/vehicles/varun' style={{color:'black'}}>
-                  Varun
+                  Anahita
+                  </DropdownItem>
                   </Link>
                   
-                        </DropdownItem>
+                        
+                  <Link to='/vehicles/varun' style={{color: 'black'}} className="dropdown-ssk">
+                  <DropdownItem
+                  // href="#pablo"
+                  // onClick={e => e.preventDefault()}
+                  style={{textAlign: "center"}}
+                  className="dropdown-ssk"
+                >
+                  Varun
+                  </DropdownItem>
+                  </Link>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>

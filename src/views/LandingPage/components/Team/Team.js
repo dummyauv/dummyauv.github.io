@@ -26,7 +26,7 @@ function Team() {
       });
     return (
         <>
-            <div className="section landing-section light-light">
+            <div className="section landing-section light-light2">
                 <Container>
                     <Row>
                         <Col md="1"></Col>
