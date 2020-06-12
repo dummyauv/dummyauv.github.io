@@ -39,7 +39,7 @@ function LandingPageHeader() {
     <>
       <div
         style={{
-          backgroundImage: "url(" + require("assets/img/varun.jpg") + ")"
+          backgroundImage: "url(" + require("assets/img/anahita-2.jpg") + ")"
         }}
         className="page-header trim "
         data-parallax={true}
@@ -52,7 +52,7 @@ function LandingPageHeader() {
             <h1>Anahita</h1>
             {/* <h3>Start designing your landing page here.</h3> */}
             <br />
-            <h3  className="heading-text mt-2">The God of Oceans</h3>
+            <h3  className="heading-text mt-2">The Goddess of Waters</h3>
             {/* <Button
               href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               className="btn-round mr-1"

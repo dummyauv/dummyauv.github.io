@@ -19,7 +19,7 @@ function TalkAbout() {
     return (
         <>
             <div className="section section-dark text-center">
-          <Container>
+          {/* <Container> */}
             <h2 className="title">Team Members</h2>
             <Row>
               <Col md="4">
@@ -594,7 +594,7 @@ function TalkAbout() {
               </Col>
             </Row>
           
-          </Container>
+          {/* </Container> */}
         </div>
         
         </>

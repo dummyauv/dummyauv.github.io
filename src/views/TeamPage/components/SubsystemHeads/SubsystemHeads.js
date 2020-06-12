@@ -19,9 +19,10 @@ function TalkAbout() {
   return (
     <>
       <div className="section light-dark-ssk5 text-center">
-        <Container>
+        {/* <Container> */}
+        <div className="padding-small">
           <h2 className="title heading-ssk232">Faculty Advisor</h2>
-          <Col md="4 ml-auto mr-auto">
+          <Col xl="4 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -52,14 +53,6 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
@@ -67,7 +60,7 @@ function TalkAbout() {
             </Col>
             <h1 className="title heading-ssk232">Senior Members</h1>
           <Row>
-            <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -98,20 +91,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -142,20 +127,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -186,14 +163,6 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
@@ -204,7 +173,7 @@ function TalkAbout() {
 
           <h1 className="title heading-ssk232">Subsystem Heads</h1>
           <Row>
-          <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -235,20 +204,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -279,20 +240,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="4 ml-auto mr-auto">
+            <Col lg="4 ml-auto mr-auto" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -304,7 +257,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Jaskeerat Singh</CardTitle>
-                      <h6 className="card-category">Mechanical Subsystem Head</h6>
+                      <h6 className="card-category">Mechanical Subsystem co-Head</h6>
                     </div>
                   </a>
                 </CardBody>
@@ -323,7 +276,35 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
+                    <i className="fa fa-linkedin flip" />
+                  </Button>
+                </CardFooter>
+              </Card>
+            </Col>
+            <Col lg="4 ml-auto mr-auto" sm="6">
+              <Card className="card-profile card-plain card-ssk">
+                <CardBody>
+                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <div className="author">
+                      <img
+                        alt="..."
+                        src={require("assets/img/team/kamlesh.jpg")}
+                        className="image-prof"
+                      />
+                      <></>
+                      <CardTitle tag="h4" className="text-info13 pt-3">Kamlesh Kalsariya</CardTitle>
+                      <h6 className="card-category">Mechanical Subsystem co-Head</h6>
+                    </div>
+                  </a>
+                </CardBody>
+                <CardFooter className="text-center margin-neg">
+                  <Button
+                    className="btn-just-icon btn-neutral"
+                    color="link"
+                    href="#pablo"
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="fa fa-facebook flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -341,7 +322,7 @@ function TalkAbout() {
 
           <h1 className="title heading-ssk232">Software Subsystem</h1>
           <Row>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody className="margin-bottom">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -353,7 +334,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Rishabh Doge</CardTitle>
-                      <h6 className="card-category">Y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -372,20 +353,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -397,7 +370,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Shivanshu Tyagi</CardTitle>
-                      <h6 className="card-category">Y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -416,20 +389,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -441,7 +406,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Shubham Korde</CardTitle>
-                      <h6 className="card-category"> Y19</h6>
+                      <h6 className="card-category"> </h6>
                     </div>
                   </a>
                 </CardBody>
@@ -460,32 +425,24 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/prakhar.jpg")}
                         className="image-prof"
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Prakhar Maheshwari</CardTitle>
-                      <h6 className="card-category">y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -504,32 +461,24 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/aryansh.jpg")}
                         className="image-prof"
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Aryansh Bansal</CardTitle>
-                      <h6 className="card-category">y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -548,32 +497,24 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/Krishna.jpg")}
                         className="image-prof"
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Krishna Agrawal</CardTitle>
-                      <h6 className="card-category">y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -585,14 +526,6 @@ function TalkAbout() {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -605,19 +538,19 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/atharv.jpg")}
                         className="image-prof"
                       />
                       
                       <CardTitle tag="h4" className="text-info13 pt-3">Atharv Singh Patlan</CardTitle>
-                      <h6 className="card-category">y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -629,14 +562,6 @@ function TalkAbout() {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -654,7 +579,7 @@ function TalkAbout() {
 
           <h1 className="title heading-ssk232">Electrical Subsystem</h1>
           <Row>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -666,7 +591,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Utkarsh Jha</CardTitle>
-                      <h6 className="card-category">  Y19</h6>
+                      <h6 className="card-category">  </h6>
                     </div>
                   </a>
                 </CardBody>
@@ -685,20 +610,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -710,7 +627,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Neelabh Singhania</CardTitle>
-                      <h6 className="card-category"> Y19</h6>
+                      <h6 className="card-category"> </h6>
                     </div>
                   </a>
                 </CardBody>
@@ -729,20 +646,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -754,7 +663,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Munish Gupta</CardTitle>
-                      <h6 className="card-category">Y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -773,20 +682,12 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -798,7 +699,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Sunny Bhagat</CardTitle>
-                      <h6 className="card-category">Y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -817,37 +718,24 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
                     <i className="fa fa-linkedin flip" />
                   </Button>
                 </CardFooter>
               </Card>
             </Col>
-
-          </Row>
-
-          <h1 className="title heading-ssk232">Mechanical Subsystem</h1>
-          <Row>
-          <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/kamlesh.jpg")}
+                        src={require("assets/img/team/debaditya.jpg")}
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="text-info13 pt-3">Kamlesh Kalasariya</CardTitle>
-                      <h6 className="card-category"> Y18</h6>
+                      <CardTitle tag="h4" className="text-info13 pt-3">Debaditya Bhattacharya</CardTitle>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -866,7 +754,39 @@ function TalkAbout() {
                     href="#pablo"
                     onClick={e => e.preventDefault()}
                   >
-                    <i className="fa fa-google-plus flip" />
+                    <i className="fa fa-linkedin flip" />
+                  </Button>
+                </CardFooter>
+              </Card>
+            </Col>
+          </Row>
+
+          <h1 className="title heading-ssk232">Mechanical Subsystem</h1>
+          <Row>
+          <Col xl="3 ml-auto mr-auto" md="4" sm="6">
+              <Card className="card-profile card-plain card-ssk">
+                <CardBody>
+                  <a href="#pablo" onClick={e => e.preventDefault()}>
+                    <div className="author">
+                      <img
+                        alt="..."
+                        src={require("assets/img/team/shashank.jpeg")}
+                        className="image-prof"
+                      />
+                      <></>
+                      <CardTitle tag="h4" className="text-info13 pt-3">Shashank Katiyar</CardTitle>
+                      <h6 className="card-category"></h6>
+                    </div>
+                  </a>
+                </CardBody>
+                <CardFooter className="text-center margin-neg">
+                  <Button
+                    className="btn-just-icon btn-neutral"
+                    color="link"
+                    href="#pablo"
+                    onClick={e => e.preventDefault()}
+                  >
+                    <i className="fa fa-facebook flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -879,7 +799,7 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
@@ -891,7 +811,7 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="text-info13 pt-3">Prateek Pandey</CardTitle>
-                      <h6 className="card-category">Y19</h6>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -903,14 +823,6 @@ function TalkAbout() {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -923,19 +835,19 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/tanishq.jpg")}
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="text-info13 pt-3">Jaskeerat Singh</CardTitle>
-                      <h6 className="card-category">Mechanical Subsystem Head</h6>
+                      <CardTitle tag="h4" className="text-info13 pt-3">Tanishq Chourishi</CardTitle>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -947,14 +859,6 @@ function TalkAbout() {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -967,19 +871,19 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="3 ml-auto mr-auto">
+            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/jaskeerat.jpg")}
+                        src={require("assets/img/team/team-1.jpg")}
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="text-info13 pt-3">Jaskeerat Singh</CardTitle>
-                      <h6 className="card-category">Mechanical Subsystem Head</h6>
+                      <CardTitle tag="h4" className="text-info13 pt-3">Jayant</CardTitle>
+                      <h6 className="card-category"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -991,14 +895,6 @@ function TalkAbout() {
                     onClick={e => e.preventDefault()}
                   >
                     <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-google-plus flip" />
                   </Button>
                   <Button
                     className="btn-just-icon btn-neutral ml-1"
@@ -1013,7 +909,8 @@ function TalkAbout() {
             </Col>
 
           </Row>
-        </Container>
+        </div>
+        {/* </Container> */}
       </div>
 
     </>

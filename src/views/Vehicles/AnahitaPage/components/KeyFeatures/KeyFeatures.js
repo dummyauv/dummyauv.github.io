@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect} from 'react';
 import "./KeyFeatures.css";
 import {
     Button,
@@ -25,6 +26,10 @@ const embedstyle= {
 
 
 function Posts() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      });
     return (
         <>
             <div className="section landing-section light-light2">

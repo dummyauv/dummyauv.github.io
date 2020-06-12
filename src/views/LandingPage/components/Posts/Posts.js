@@ -33,32 +33,30 @@ function Posts() {
               <Col md="2"></Col>
               <Col xl="6" className="text-center ">
                 <div className="post-ssk">
-                <h2 className="robo-heading4">Post 1</h2>
-                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
+                <h2 className="robo-heading4">ANSYS helps AUV-IITK design its latest vehicle Anahita</h2>
+                <p className="para-ssk2">One of the primary stages in designing and modeling of an AUV is the study of the motion of the vehicle and the subsequent visualization of fluid flow across the body of the bot.</p>
+
+                <p className="para-ssk2">Using ANSYS, we can produce 3D flow visualization. Using which we can identify vortex location, find streamlines of velocity across 3D and 2D profiles of the vehicle and find the total drag force on the robot.</p>            
                 <Link to='/about-us' className="button-ssk">
-              More
+              Continue Reading
             </Link>
                 </div>
               </Col>
               <Col xl="6" className="text-center ">
                 <div className="post-ssk">
-                <h2 className="robo-heading4">Post 1</h2>
-                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
+                <h2 className="robo-heading4">7 Useful Tips for ROS Users</h2>
+                <p className="para-ssk2">Earlier people had to write a large amount of code ranging 
+                from low-level driver functions to high-level control algorithms for their robots. 
+                I too experienced this pain when I started working on the underwater vehicle project 
+                in my undergraduate university. This approach sometimes made changing even one sensor
+                 on our system a daunting task. However, things changed when we started using Robot 
+                 Operating System (ROS) as the framework for our robot's software stack. </p>            
                 <Link to='/about-us' className="button-ssk">
-              More
+              Continue Reading
             </Link>
                 </div>
               </Col>
-              <Col xl="6" className="text-center ">
-                <div className="post-ssk">
-                <h2 className="robo-heading4">Post 1</h2>
-                <p className="para-ssk2">Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!Posts hai hi nahi. Koi likhdo please!!! Posts hai hi nahi. Koi likhdo please!!!</p>            
-                <Link to='/about-us' className="button-ssk">
-              More
-            </Link>
-                </div>
-              </Col>
-            </Row>
+             </Row>
           </div>
         </div>
 

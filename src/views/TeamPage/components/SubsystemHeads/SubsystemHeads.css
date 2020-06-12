@@ -59,3 +59,7 @@ img.image-prof{
     box-shadow: 2px 2px 2px #cccccc;
 }
 
+.padding-small{
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
