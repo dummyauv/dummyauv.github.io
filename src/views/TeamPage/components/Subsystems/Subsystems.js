@@ -23,21 +23,19 @@ function Posts() {
     return (
         <>
             <div className="section landing-section">
-
+                <Container>
                 <Row className="d-flex justify-content-center">
-                    <Col md="2"></Col>
-                    <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 heading-ssk16">Subsystems</h2>
+                    <Col className="ml-auto mr-auto" md="12">
+                        <h2 className="text-center mb-4 heading-main">Subsystems</h2>
                     </Col>
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center ml-2 mr-2">
-                        <h3 className="heading-ssk15">Software</h3>
+                    <Col xl="6" md="6" className="text-center">
+                        <h3 className="small-heading">Software</h3>
                         <img
                             alt="..."
                             src={require("assets/img/software.jpg")}
                             className="img-ssks"
                         />
-                        <p className="desc-ssk24">The software subsystem develops the algorithms 
+                        <p className="desc-ssk1">The software subsystem develops the algorithms 
                         controlling the robot and making it autonomous. We use latest cutting edge 
                         technologies in the world of robotics software. We use ROS(Robot Operating System) 
                         as a communication middleware between all processes running on our robot.The software 
@@ -49,14 +47,14 @@ function Posts() {
                          vehicles motion and enable it perform at full potential. </p>
                     </Col>
                     
-                    <Col md="8" className="text-center ml-2 mr-2">
-                        <h3 className="heading-ssk15">Electrical</h3>
+                    <Col xl="6" md="6" className="text-center">
+                        <h3 className="small-heading">Electrical</h3>
                         <img
                             alt="..."
-                            src={require("assets/img/electrical.jpg")}
+                            src={require("assets/img/electrical.jpeg")}
                             className="img-sske"
                         />
-                        <p className="desc-ssk24">The Electrical Subsystem builds the electrical framework 
+                        <p className="desc-ssk1">The Electrical Subsystem builds the electrical framework 
                         powering our AUV. We work on the electrical aspects of the AUV, providing
                         power, driving actuators and interfacing with various sensors on board. We 
                         build custom made PCBs to meet the specific requirements of the tasks. The
@@ -66,29 +64,29 @@ function Posts() {
                         The main aim of the Electrical subsystem is to manage electrical setup and 
                         act as an interface between the software and mechanical subsystems. </p>
                     </Col>
-                    <Col md="8" className="text-center ml-2 mr-2">
-                        <h3 className="heading-ssk15 mb-2">Mechanical</h3>
+                    <Col md="6" className="text-center">
+                        <h3 className="small-heading mb-2">Mechanical</h3>
                         <img
                             alt="..."
                             src={require("assets/img/gear.jpg")}
                             className="img-sskm"
                         />
-                        <p className="desc-ssk24">The mechanical subsystem if responsible for design and
+                        <p className="desc-ssk1">The mechanical subsystem if responsible for design and
                         manufacture of the vehicle. We design the entire vehicle and accessories - 
                         working on Fluid Dynamics, Actuator controls, and Pneumatics. We plan, simulate 
                         and test the physical structure of the AUV and then manufacture it
                         using state of art manufacturing techniques. We use latest software such as SolidWorks and ANSYS 
                         to make the design robust, modular, light and strong. </p>
                     </Col>
-                    <Col md="8" className="text-center ml-2 mr-2">
-                        <h3 className="heading-ssk15 mb-2">Business</h3>
+                    <Col md="6" className="text-center">
+                        <h3 className="small-heading mb-2">Business</h3>
                         <img
                             alt="..."
-                            src={require("assets/img/brief.jpg")}
+                            src={require("assets/img/business.jpg")}
                             className="img-sskb"
                         />
 
-                        <p className="desc-ssk24">The Business subsystem manages the fundings and outreach 
+                        <p className="desc-ssk1">The Business subsystem manages the fundings and outreach 
                         activities of the team. We manage the expenditures and fundings of the team.
                         We represent the team before our sponsors and try to procure them. 
                         We maintain the team website and pages on the different social media platforms. 
@@ -97,7 +95,7 @@ function Posts() {
                         three subsystems.</p>
                     </Col>
                 </Row>
-
+                </Container>
             </div>
 
         </>

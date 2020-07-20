@@ -27,29 +27,31 @@
 }
 
 .img-ssks{
-    margin-top: 40px;
-    width: 40vw;
-    margin-bottom: 40px;
-    border-radius: 20px;
-    border: 1px solid black;
+    height: 35rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
 }
 
 .img-sske{
-    width: 20vw;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    height: 35rem;
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    /* background-color: black; */
     /* border: 1px solid black; */
 
 }
 
 .img-sskm{
-    width: 30vw;
+    height: 35rem;
+    width: 100%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .img-sskb{
-    width: 30vw;
-    margin-top: -20px;
+    height: 35rem;
+    width: 100%;
+    margin-top: 40px;
     margin-bottom: 40px;
 }

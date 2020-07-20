@@ -29,8 +29,8 @@ function Posts() {
 
                 <Row className="d-flex justify-content-center">
                     <Col md="2"></Col>
-                    <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 heading-ssk29">ANAHITA on Sketchfab</h2>
+                    <Col className="ml-auto mr-auto" md="6">
+                        <h2 className="text-center mb-4 heading-main">ANAHITA on Sketchfab</h2>
                     </Col>
                     <Col md="2"></Col>
                     

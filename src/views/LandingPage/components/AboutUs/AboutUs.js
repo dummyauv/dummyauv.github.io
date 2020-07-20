@@ -28,11 +28,16 @@ function AboutUs() {
     <>
       <div className="section text-center ">
         <Container className="reduce-margin">
+        
         <Row>
           <h2 className="heading-main">About Us</h2>
         </Row>
         <Row>
-          <Col className="left-desc" xl="5">
+          <Col className="left-desc" xl="9">
+          <img
+              src={anahitapic}
+              className=" image-anahita"
+            ></img>
             <h1 className="small-heading">We are Robotics Enthusiasts!</h1>
             <p className="description desc-ssk1">
               We are a team of undergraduate students researching in the field
@@ -56,17 +61,7 @@ function AboutUs() {
             </Link>
 
           </Col>
-          <Col>
-            <img
-              src={anahitapic}
-              width="90%"
-              className=" image-anahita"
-            ></img>
-          </Col>
-        </Row>
-        <br />
-        <br />
-        <Row className="icons-row text-align-center">
+          <Col xl="3">
           <Col xl="3" md="6">
             <div className=" icon-ssk">
               <div className="icon icon-info">
@@ -111,6 +106,12 @@ function AboutUs() {
               </div>
             </div>
           </Col>
+          </Col>
+        </Row>
+        <br />
+        <br />
+        <Row className="icons-row text-align-center">
+          
         </Row>
         </Container>
       </div>

@@ -53,6 +53,9 @@ function LandingPage() {
     return (
         <>
             <div className="main">
+                <div style={{height:'20rem'}}>
+
+                </div>
                 <Team />
                 <Subsytems />
                 <SubsystemHeads />
