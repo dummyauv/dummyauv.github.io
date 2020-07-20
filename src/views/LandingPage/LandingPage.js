@@ -43,6 +43,7 @@ import Sponsors from "./components/Sponsors/Sponsors.js";
 import Posts from "./components/Posts/Posts.js";
 import Vehicles from "./components/Vehicles/Vehicles.js";
 import ContactUs from "./components/ContactUs/ContactUs.js";
+import Footer from "../../components/Footers/DemoFooter";
 import "./LandingPage.css"
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
@@ -63,6 +64,7 @@ function LandingPage() {
         <Posts />
         <ContactUs />
       </div>
+      <Footer/>
     </>
   );
 }

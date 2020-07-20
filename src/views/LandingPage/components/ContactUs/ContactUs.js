@@ -57,14 +57,13 @@ function ContactUs() {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                    <Link to='/about-us' className="button-ssk mt-5">
-              More
-            </Link>
+                  <a className="button-ssk mt-5" href="javascript:alert('Hello World!');">Send</a>
                     </Col>
                   </Row>
                 </Form>
               </Col>
             </Row>
+            
           </Container>
         </div>
       

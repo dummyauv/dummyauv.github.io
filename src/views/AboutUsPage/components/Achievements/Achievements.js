@@ -31,19 +31,19 @@ function Posts() {
                         <Col xl="12" className="text-center">
                             <h3 className="heading-ssk15">Undergraduate Roboticists</h3>
                             <img src={atwork} className="img-sska1"></img>
-                            <p className="desc-ssk24">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
+                            <p className="desc-ssk243">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
                         </Col>
                         <hr></hr>
                         <Col xl="12" className="text-center">
                             <h3 className="heading-ssk15">National Competition Winner</h3>
                             <img src={niotwin} className="img-sska2"></img>
-                            <p className="desc-ssk24">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
+                            <p className="desc-ssk243">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
                         </Col>
                         <hr></hr>
                         <Col xl="12" className="text-center">
                             <h3 className="heading-ssk15">Ingenious Design & Creativity</h3>
                             <img src={desbot} className="img-sska3"></img>
-                            <p className="desc-ssk24">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
+                            <p className="desc-ssk243">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
                         </Col>
                     </Row>
                 
