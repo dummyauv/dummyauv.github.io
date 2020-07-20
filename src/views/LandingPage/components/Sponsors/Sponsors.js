@@ -28,11 +28,11 @@ function Sponsors() {
     return (
         <>
             <div className="section landing-section light-ssk" id="sponsors">
-          {/* <Container> */}
+          <Container>
             <Row className="ml-2">
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto mb-4" md="8">
-                <h2 className="text-center mb-4 heading-ssk2">Our Sponsors</h2>
+                <h2 className="text-center mb-4 heading-main">Our Sponsors</h2>
               </Col>
               <Col md="2"></Col>
               <Col lg="3" xs="6">
@@ -60,7 +60,7 @@ function Sponsors() {
                 <img src={altium} className="img-responsive1" width="80%"></img>
               </Col>
             </Row>
-          {/* </Container> */}
+          </Container>
         </div>
         
         </>

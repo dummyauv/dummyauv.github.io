@@ -19,15 +19,15 @@ import "./ContactUs.css"
 function ContactUs() {
     return (
         <>
-        <div className="section landing-section light-dark-ssk5">
-          <Container>
+        <div className="section landing-section">
+          <Container className="u-border">
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center heading-ssk">Keep in touch?</h2>
+                <h2 className="text-center heading-main">Keep in touch?</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">
-                      <label className="robo-heading3">Name</label>
+                      <label className="small-heading">Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -38,7 +38,7 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                     <Col md="6">
-                      <label className="robo-heading3">Email</label>
+                      <label className="small-heading">Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -49,7 +49,7 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label className="robo-heading3">Message</label>
+                  <label className="small-heading">Message</label>
                   <Input
                     placeholder="Tell us your thoughts and feelings..."
                     type="textarea"
@@ -57,7 +57,7 @@ function ContactUs() {
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
-                  <a className="button-ssk mt-5" href="javascript:alert('Hello World!');">Send</a>
+                  <a className="btn-blue mt-5" href="javascript:alert('Hello World!');">Send</a>
                     </Col>
                   </Row>
                 </Form>

@@ -27,13 +27,13 @@ function AboutUs() {
   return (
     <>
       <div className="section text-center ">
-        {/* <Container> */}
+        <Container className="reduce-margin">
         <Row>
-          <h2 className="title ml-auto mr-auto heading-ssk1">About Us</h2>
+          <h2 className="heading-main">About Us</h2>
         </Row>
         <Row>
-          <Col className="left-desc" xl="6">
-            <h4 className="robo-heading1">We are Robotics Enthusiasts!</h4>
+          <Col className="left-desc" xl="5">
+            <h1 className="small-heading">We are Robotics Enthusiasts!</h1>
             <p className="description desc-ssk1">
               We are a team of undergraduate students researching in the field
               of marine robotics. The team started off in 2014, as the
@@ -51,7 +51,7 @@ function AboutUs() {
             </p>
             <br />
 
-            <Link to='/about-us' className="button-ssk">
+            <Link to='/about-us' className="btn-blue">
               More
             </Link>
 
@@ -60,7 +60,7 @@ function AboutUs() {
             <img
               src={anahitapic}
               width="90%"
-              className="mt-4 img-rounded image-anahita"
+              className=" image-anahita"
             ></img>
           </Col>
         </Row>
@@ -68,7 +68,7 @@ function AboutUs() {
         <br />
         <Row className="icons-row text-align-center">
           <Col xl="3" md="6">
-            <div className="info icon-ssk">
+            <div className=" icon-ssk">
               <div className="icon icon-info">
                 <h3>2</h3>
               </div>
@@ -79,7 +79,7 @@ function AboutUs() {
             </div>
           </Col>
           <Col xl="3" md="6">
-            <div className="info icon-ssk">
+            <div className=" icon-ssk">
               <div className="icon icon-info">
                 <h3>30</h3>
               </div>
@@ -90,7 +90,7 @@ function AboutUs() {
             </div>
           </Col>
           <Col xl="3" md="6">
-            <div className="info icon-ssk">
+            <div className=" icon-ssk">
               <div className="icon icon-info">
                 <h3>30+</h3>
               </div>
@@ -101,7 +101,7 @@ function AboutUs() {
             </div>
           </Col>
           <Col xl="3" md="6">
-            <div className="info icon-ssk">
+            <div className=" icon-ssk">
               <div className="icon icon-info">
                 <h3>400+</h3>
               </div>
@@ -112,7 +112,7 @@ function AboutUs() {
             </div>
           </Col>
         </Row>
-        {/* </Container> */}
+        </Container>
       </div>
     </>
   );
