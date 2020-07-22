@@ -26,17 +26,13 @@ function Posts() {
     return (
         <>
             <div className="section landing-section">
-
+            <Container>
                 <Row className="d-flex justify-content-center">
-                    <Col md="2"></Col>
-                    <Col className="ml-auto mr-auto" md="6">
+                    <Col>
                         <h2 className="text-center mb-4 heading-main">ANAHITA on Sketchfab</h2>
                     </Col>
-                    <Col md="2"></Col>
-                    
-                    <h2>Coming soon..</h2>
                 </Row>
-
+            </Container>
             </div>
 
         </>

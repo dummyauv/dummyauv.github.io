@@ -28,35 +28,29 @@ function Posts() {
     return (
         <>
             <div className="section landing-section">
-
-                <Row className=" light-light2">
-                    <Col md="2"></Col>
+            <Container>
+                <Row className="">
+                    
                     <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 heading-ssk92"><b>SPECIFICATIONS</b></h2>
+                        <h2 className="text-center mb-4 heading-main"><b>SPECIFICATIONS</b></h2>
                     </Col>
-                    <Col md="2"></Col>
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center">
-                        <h3 className="heading-ssk9">Mechanical</h3>
-                        <img src={labelled} className="img-responsive white-bg" width="80%"></img>
-                        <p className="desc-ssk">Exploded View of Varun</p>
+                    <Col md="6" className="text-center">
+                        <h3 className="small-heading">Mechanical</h3>
+                        <img src={labelled} className="image-anahita"></img>
+                        <p className="small-heading-edited">EXPLODED VIEW OF VARUN</p>
                         <ul classname>
-                            <li className="desc-ssk">Five degrees of freedom</li>
-                            <li className="desc-ssk">Weigth of 44.5 kg with +1% buoyancy</li>
-                            <li className="desc-ssk">Max coefficient of drag at 1.5 m/s 0.42</li>
-                            <li className="desc-ssk">Motion through 6 brushed-DC Seabotix thrusters</li>
-                            <li className="desc-ssk">Pneumatics actuation for torpedo shooting</li>
-                            <li className="desc-ssk">Fabricated using in-house manufacturing facilities</li>
+                            <li className="desc-ssk1">Five degrees of freedom</li>
+                            <li className="desc-ssk1">Weigth of 44.5 kg with +1% buoyancy</li>
+                            <li className="desc-ssk1">Max coefficient of drag at 1.5 m/s 0.42</li>
+                            <li className="desc-ssk1">Motion through 6 brushed-DC Seabotix thrusters</li>
+                            <li className="desc-ssk1">Pneumatics actuation for torpedo shooting</li>
+                            <li className="desc-ssk1">Fabricated using in-house manufacturing facilities</li>
                         </ul>
                     </Col>
-                    <Col md="2"></Col>
-                </Row>
-                <Row>
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center mb-5">
-                        <h3 className="heading-ssk292">Electrical</h3>
-                        <img src={powerimg} className="img-responsive white-bg2" width="80%"></img>
-                        <p className="desc-ssk1">Schematic Diagram of Power Distribution Board</p>
+                    <Col md="6" className="text-center mb-5">
+                        <h3 className="small-heading mb-5">Electrical</h3>
+                        <img src={powerimg} className="image-anahita mb-large"></img>
+                        <p className="small-heading-edited mt-5">SCHEMATIC DIAGRAM OF POWER DISTRIBUTION BOARD</p>
                         <ul classname="mb-5">
                             <li className="desc-ssk1">Powered by four 3S Lithium-Polymer Batteries</li>
                             <li className="desc-ssk1">Custom made power-distribution board with protection and monitoring circuits</li>
@@ -65,28 +59,25 @@ function Posts() {
                             <li className="desc-ssk1">Intel NUC for high-processing power</li>
                         </ul>
                     </Col>
-                    <Col md="2"></Col>
-                </Row>
-                <Row className="light-light2">
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center mt-5">
-                        <h3 className="heading-ssk9">Software</h3>
-                        <img src={soft} className="img-responsive white-bg" width="80%"></img>
-                        <p className="desc-ssk">Frameworks in Varun's Code</p>
+                    <Col md="3"></Col>
+                    <Col md="6" className="text-center mt-5">
+                        <h3 className="small-heading">Software</h3>
+                        <img src={soft} className="image-anahita"></img>
+                        <p className="small-heading-edited">FRAMEWORKS USED IN VARUN'S CODE</p>
                         <ul classname>
-                            <li className="desc-ssk">System integration through ROS on Ubuntu 14.04</li>
-                            <li className="desc-ssk">Simulation through Gazebo to optimize testing time</li>
-                            <li className="desc-ssk">Image processing to perform vision-based tasks</li>
-                            <li className="desc-ssk">Navigation through dead-reckoning sensors</li>
-                            <li className="desc-ssk">Intel NUC for high-processing power</li>
-                            <li className="desc-ssk">GUI enabled control for debugging</li>
-                            <li className="desc-ssk">Code available on GitHub with documentation under BSD-3 License Clause</li>
+                            <li className="desc-ssk1">System integration through ROS on Ubuntu 14.04</li>
+                            <li className="desc-ssk1">Simulation through Gazebo to optimize testing time</li>
+                            <li className="desc-ssk1">Image processing to perform vision-based tasks</li>
+                            <li className="desc-ssk1">Navigation through dead-reckoning sensors</li>
+                            <li className="desc-ssk1">Intel NUC for high-processing power</li>
+                            <li className="desc-ssk1">GUI enabled control for debugging</li>
+                            <li className="desc-ssk1">Code available on GitHub with documentation under BSD-3 License Clause</li>
                         </ul>
                     </Col>
-                    <Col md="2"></Col>
+                    <Col md="3"></Col>
                     
                 </Row>
-
+            </Container>
             </div>
 
         </>

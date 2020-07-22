@@ -32,9 +32,9 @@ function Team() {
                         <Col md="1"></Col>
                         <Col className="ml-auto mr-auto mb-4" md="10">
                             <h2 className="text-center mb-4 heading-main">Our Team</h2>
+                            <img src={teamphoto} className=" img-anahita"></img>
                             <p className="description text-center mb-2 desc-ssk1">Over the past years, the team has witnessed a close collaboration between students from various departments coming and sharing ideas; creating a small yet strong network of people who are eagerly looking for a low-cost solution to large-scale problems.</p>
                             <p className="description text-center mb-5 desc-ssk1">Working long hours and brainstorming some complex problems leads to a very special bonding between the members of the teams. This leads to a lot of nicknames and some extremely fun gaming nights.</p>
-                            <img src={teamphoto} className=" img-anahita"></img>
                         </Col>
                         <Col md="1"></Col>
                         <Link to='/team' className="btn-blue mt-3 ml-auto mr-auto">

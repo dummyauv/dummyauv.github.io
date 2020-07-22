@@ -47,9 +47,6 @@ structural support and reduced mass</h4></li>
                             <li><h4 className="desc-ssk1">Production cost of Rs. <b >23,00,000</b></h4></li>
                         </ul>
                     </Col>
-                    <Col>
-                        <h2 className="text-center mb-4 heading-main">ANAHITA on Sketchfab</h2>
-                    </Col>
                 </Row>
                 </Container>
             </div>

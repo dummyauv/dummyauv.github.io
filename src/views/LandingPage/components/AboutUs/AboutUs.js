@@ -30,15 +30,17 @@ function AboutUs() {
         <Container className="reduce-margin">
         
         <Row>
-          <h2 className="heading-main">About Us</h2>
+          <h2 className="heading-main">About Us</h2>          
         </Row>
+        <h1 className="small-heading-edited ">WE ARE ROBOTICS ENTHUSIASTS!</h1>
         <Row>
           <Col className="left-desc" xl="9">
+          
           <img
               src={anahitapic}
               className=" image-anahita"
             ></img>
-            <h1 className="small-heading">We are Robotics Enthusiasts!</h1>
+            
             <p className="description desc-ssk1">
               We are a team of undergraduate students researching in the field
               of marine robotics. The team started off in 2014, as the

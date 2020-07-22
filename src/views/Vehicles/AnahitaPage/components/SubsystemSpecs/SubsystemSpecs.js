@@ -28,35 +28,30 @@ function Posts() {
     return (
         <>
             <div className="section landing-section">
-
-                <Row className=" light-light2">
-                    <Col md="2"></Col>
-                    <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 heading-ssk92"><b>SPECIFICATIONS</b></h2>
-                    </Col>
-                    <Col md="2"></Col>
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center">
-                        <h3 className="heading-ssk9">Mechanical</h3>
-                        <img src={labelled} className="img-responsive white-bg" width="80%"></img>
-                        <p className="desc-ssk">Anahita Vehicle:- Structure</p>
-                        <ul classname>
-                            <li className="desc-ssk"><b>Six</b> degrees of freedom.</li>
-                            <li className="desc-ssk">Weigth of <b>32 kg</b> with +1% buoyancy</li>
-                            <li className="desc-ssk">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
-                            <li className="desc-ssk">Motion through <b>8 T200 (Blue Robotics) thrusters.</b></li>
-                            <li className="desc-ssk">Pneumatics actuation for torpedo shooting</li>
-                            <li className="desc-ssk">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
-                        </ul>
-                    </Col>
-                    <Col md="2"></Col>
-                </Row>
+            <Container>
                 <Row>
                     <Col md="2"></Col>
-                    <Col md="8" className="text-center mb-5">
-                        <h3 className="heading-ssk292">Electrical</h3>
-                        <img src={powerimg} className="img-responsive white-bg2" width="80%"></img>
-                        <p className="desc-ssk1">Complete Electrical Flowchart</p>
+                    <Col className="ml-auto mr-auto" md="8">
+                        <h2 className="text-center mb-4 heading-main"><b>SPECIFICATIONS</b></h2>
+                    </Col>
+                    <Col md="2"></Col>
+                    <Col md="6" className="text-center">
+                        <h3 className="small-heading">Mechanical</h3>
+                        <img src={labelled} className="image-anahita"></img>
+                        <p className="small-heading-edited">Anahita Vehicle:- Structure</p>
+                        <ul classname>
+                            <li className="desc-ssk1"><b>Six</b> degrees of freedom.</li>
+                            <li className="desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
+                            <li className="desc-ssk1">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
+                            <li className="desc-ssk1">Motion through <b>8 T200 (Blue Robotics) thrusters.</b></li>
+                            <li className="desc-ssk1">Pneumatics actuation for torpedo shooting</li>
+                            <li className="desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
+                        </ul>
+                    </Col>
+                    <Col md="6" className="text-center mb-5">
+                        <h3 className="small-heading">Electrical</h3>
+                        <img src={powerimg} className="image-anahita elec-edit"></img>
+                        <p className="small-heading-edited">COMPLETE ELECTRICAL FLOWCHART</p>
                         <ul classname="mb-5">
                             <li className="desc-ssk1">Powered by Two <b>25v Li-Po batteries</b></li>
                             <li className="desc-ssk1"><b>Intel i7 NUC</b> for fast processing</li>
@@ -65,27 +60,23 @@ function Posts() {
                             <li className="desc-ssk1"><b>Custom PCB</b> for ESCs and Micro-controller with Compact design</li>
                         </ul>
                     </Col>
-                    <Col md="2"></Col>
-                </Row>
-                <Row className="light-light2">
-                    <Col md="2"></Col>
-                    <Col md="8" className="text-center mt-5">
-                        <h3 className="heading-ssk9">Software</h3>
-                        <img src={soft} className="img-responsive white-bg" width="80%"></img>
-                        <p className="desc-ssk">Software Data and Control Flow</p>
+                    <Col md="3"></Col>
+                    <Col md="6" className="text-center mt-5 ml-auto mr-auto">
+                        <h3 className="small-heading">Software</h3>
+                        <img src={soft} className="image-anahita"></img>
+                        <p className="small-heading-edited">SOFTWARE DATA AND CONTROL FLOW</p>
                         <ul classname>
-                            <li className="desc-ssk">System integration through ROS on <b>Ubuntu 18.04</b></li>
-                            <li className="desc-ssk">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
-                            <li className="desc-ssk">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>
-                            <li className="desc-ssk">New stack with <b>improved documentation, continuous deployment and optimised structure</b></li>
-                            <li className="desc-ssk">Experimenting with different types of control systems - <b>model based & model free</b></li>
-                            <li className="desc-ssk"><b>Code available on GitHub</b> with documentation under BSD-3 License Clause</li>
+                            <li className="desc-ssk1">System integration through ROS on <b>Ubuntu 18.04</b></li>
+                            <li className="desc-ssk1">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
+                            <li className="desc-ssk1">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>
+                            <li className="desc-ssk1">New stack with <b>improved documentation, continuous deployment and optimised structure</b></li>
+                            <li className="desc-ssk1">Experimenting with different types of control systems - <b>model based & model free</b></li>
+                            <li className="desc-ssk1"><b>Code available on GitHub</b> with documentation under BSD-3 License Clause</li>
                         </ul>
                     </Col>
-                    <Col md="2"></Col>
-                    
+                    <Col md="3"></Col>                    
                 </Row>
-
+            </Container>
             </div>
 
         </>

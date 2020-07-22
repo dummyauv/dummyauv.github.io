@@ -52,8 +52,9 @@ function LandingPage() {
     <>
       <LandingPageHeader />
       <div className="main">
+      <SketchFabEmbed/>
         <KeyFeatures/>
-        <SketchFabEmbed/>
+        
         <SubsystemSpecs/>
       </div>
     </>
