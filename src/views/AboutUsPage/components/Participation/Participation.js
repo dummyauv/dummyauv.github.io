@@ -14,10 +14,10 @@ import {
     Row,
     Col
 } from "reactstrap";
-import combinedimage from '../../../../assets/img/combined.jpg'
-import resimage from '../../../../assets/img/research.jpeg'
-import csrimage from '../../../../assets/img/csr.png'
-import trainimage from '../../../../assets/img/training.jpg'
+import combinedimage from '../../../../assets/img/competitions.jpg'
+import resimage from '../../../../assets/img/research.jpg'
+import csrimage from '../../../../assets/img/projects.jpg'
+import trainimage from '../../../../assets/img/training.png'
 import "./Participation.css"
 
 function Posts() {
@@ -31,7 +31,7 @@ function Posts() {
                         <Col md="2"></Col>
                         <Col xl="6" className="text-center">
                             <h2 className="heading-main">Student Competitions</h2>
-                            <img src={combinedimage} className=" image-anahita" ></img>
+                            <img src={combinedimage} className=" img-ssk3" ></img>
                             <p className="desc-ssk1">We aim to participate in National and International student-level AUV
                             compeititions - Robosub (organised by AUVSI), Singapore AUV Challenge, and the
                                     NIOT-Student AUV Challenge.</p>

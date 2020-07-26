@@ -52,3 +52,7 @@
     text-shadow: 2px 2px 10px rgb(2, 13, 19);
     animation: ease-in 1s ;
 }
+
+.margin-neg{
+    margin-top: -2rem !important;
+}
