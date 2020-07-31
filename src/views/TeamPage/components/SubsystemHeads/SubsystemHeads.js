@@ -19,7 +19,7 @@ function TalkAbout() {
   return (
     <>
       <div className="section text-center">
-        {/* <Container> */}
+        <Container>
         <div className="padding-small">
           <h2 className="title heading-main">Faculty Advisor</h2>
           <Col xl="4 ml-auto mr-auto" md="4" sm="6">
@@ -184,8 +184,8 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Sajal Goyal</CardTitle>
-                      <h6 className="desc-ssk1"> Software Subsystem Head</h6>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Sajal Goyal</CardTitle>
+                      <h6 className="desc-ssk1"> Software Head</h6>
                     </div>
                   </a>
                 </CardBody>
@@ -220,8 +220,8 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Devendra Kharolia</CardTitle>
-                      <h6 className="desc-ssk1"> Electrical Subsystem Head</h6>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Devendra Kharolia</CardTitle>
+                      <h6 className="desc-ssk1"> Electrical Head</h6>
                     </div>
                   </a>
                 </CardBody>
@@ -256,8 +256,8 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Jaskeerat Singh</CardTitle>
-                      <h6 className="desc-ssk1">Mechanical Subsystem co-Head</h6>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Jaskeerat Singh</CardTitle>
+                      <h6 className="desc-ssk1">Mechanical Co-Head</h6>
                     </div>
                   </a>
                 </CardBody>
@@ -292,8 +292,8 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Kamlesh Kalsariya</CardTitle>
-                      <h6 className="desc-ssk1">Mechanical Subsystem co-Head</h6>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Kamlesh Kalsariya</CardTitle>
+                      <h6 className="desc-ssk1">Mechanical co-Head</h6>
                     </div>
                   </a>
                 </CardBody>
@@ -333,7 +333,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Rishabh Doge</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Rishabh Dugaye</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -369,7 +369,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Shivanshu Tyagi</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Shivanshu Tyagi</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -405,7 +405,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Shubham Korde</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Shubham Korde</CardTitle>
                       <h6 className="desc-ssk1"> </h6>
                     </div>
                   </a>
@@ -441,7 +441,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Prakhar Maheshwari</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Prakhar Maheshwari</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -477,7 +477,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Aryansh Bansal</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Aryansh Bansal</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -513,7 +513,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Krishna Agrawal</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Krishna Agrawal</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -549,7 +549,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       
-                      <CardTitle tag="h4" className="small-heading pt-3">Atharv Singh Patlan</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Atharv Singh Patlan</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -590,7 +590,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Utkarsh Jha</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Utkarsh Jha</CardTitle>
                       <h6 className="desc-ssk1">  </h6>
                     </div>
                   </a>
@@ -626,7 +626,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Neelabh Singhania</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Neelabh Singhania</CardTitle>
                       <h6 className="desc-ssk1"> </h6>
                     </div>
                   </a>
@@ -662,7 +662,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Munish Gupta</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Munish Gupta</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -698,7 +698,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Sunny Bhagat</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Sunny Bhagat</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -734,7 +734,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Debaditya Bhattacharya</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Debaditya Bhattacharya</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -774,7 +774,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Shashank Katiyar</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Shashank Katiyar</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -810,7 +810,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Prateek Pandey</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Prateek Pandey</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -846,7 +846,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Tanishq Chourishi</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Tanishq Chourishi</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -882,7 +882,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Jayant</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Jayant</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
@@ -910,7 +910,7 @@ function TalkAbout() {
 
           </Row>
         </div>
-        {/* </Container> */}
+        </Container>
       </div>
 
     </>

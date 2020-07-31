@@ -68,7 +68,7 @@ function Posts() {
                         <h3 className="small-heading mb-2">Mechanical</h3>
                         <img
                             alt="..."
-                            src={require("assets/img/gear.jpg")}
+                            src={require("assets/img/mechanical.jpg")}
                             className="img-sskm"
                         />
                         <p className="desc-ssk1">The mechanical subsystem if responsible for design and
