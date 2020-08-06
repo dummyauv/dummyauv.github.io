@@ -38,9 +38,8 @@ function Posts() {
                         <h2 className="text-center mb-4 heading-main">Key Features</h2>
                     </Col>
                     <Col md="2"></Col>
-                    <Col md="3"></Col>
                     <Col md="6" className="text-center">
-                        <ul classname>
+                        <ul style={{marginTop: '15rem'}}>
                             <li><h4 className="desc-ssk1"><b >Modular design</b> for easy assembly and installation</h4></li>
                             <li><h4 className="desc-ssk1">Staging vehicle to carry out experiments</h4></li>
                             <li><h4 className="desc-ssk1">Capable of <b>underwater inspection and data collection </b></h4></li>
@@ -48,7 +47,16 @@ function Posts() {
                             <li><h4 className="desc-ssk1">Budget of Rs. <b >7,45,000</b></h4></li>
                         </ul>
                     </Col>
-                    <Col md="3"></Col>
+                    <Col md="6" className="text-center">
+                        <div className="">
+                            <iframe title="A 3D model" className="sketchfab-ssk1" src="https://sketchfab.com/models/6e1274e10d9e4b6a922a5ed0baf9445f/embed?preload=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            <p style={embedstyle}>
+                                {/* <a href="https://sketchfab.com/3d-models/varun-6e1274e10d9e4b6a922a5ed0baf9445f?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">VARUN</a>
+        by <a href="https://sketchfab.com/karthic?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">AUVIITK</a>
+        on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a> */}
+                            </p>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
 

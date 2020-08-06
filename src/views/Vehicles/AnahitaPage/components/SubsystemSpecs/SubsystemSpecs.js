@@ -35,11 +35,18 @@ function Posts() {
                         <h2 className="text-center mb-4 heading-main"><b>SPECIFICATIONS</b></h2>
                     </Col>
                     <Col md="2"></Col>
+                </Row>
+                <Row>
+                    <h3 className="small-heading ml-auto mr-auto">Mechanical</h3>
+                </Row>
+                <Row>
                     <Col md="6" className="text-center">
-                        <h3 className="small-heading">Mechanical</h3>
+                        
                         <img src={labelled} className="image-anahita"></img>
                         <p className="small-heading-edited">Anahita Vehicle:- Structure</p>
-                        <ul classname>
+                    </Col>
+                    <Col md="6" className="text-center">    
+                        <ul style={{marginTop: '8rem'}}>
                             <li className="desc-ssk1"><b>Six</b> degrees of freedom.</li>
                             <li className="desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
                             <li className="desc-ssk1">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
@@ -48,11 +55,13 @@ function Posts() {
                             <li className="desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
                         </ul>
                     </Col>
+                </Row>
+                <Row>
+                    <h3 className="small-heading ml-auto mr-auto">Electrical</h3>
+                </Row>
+                <Row>
                     <Col md="6" className="text-center mb-5">
-                        <h3 className="small-heading">Electrical</h3>
-                        <img src={powerimg} className="image-anahita elec-edit"></img>
-                        <p className="small-heading-edited">COMPLETE ELECTRICAL FLOWCHART</p>
-                        <ul classname="mb-5">
+                        <ul classname="mb-5" style={{marginTop: '10rem'}}>
                             <li className="desc-ssk1">Powered by Two <b>25v Li-Po batteries</b></li>
                             <li className="desc-ssk1"><b>Intel i7 NUC</b> for fast processing</li>
                             <li className="desc-ssk1"><b>Two IDS UI-5260SE-C-HQ Rev.4</b> cameras for 1080p video feed</li>
@@ -60,12 +69,21 @@ function Posts() {
                             <li className="desc-ssk1"><b>Custom PCB</b> for ESCs and Micro-controller with Compact design</li>
                         </ul>
                     </Col>
-                    <Col md="3"></Col>
-                    <Col md="6" className="text-center mt-5 ml-auto mr-auto">
-                        <h3 className="small-heading">Software</h3>
+                    <Col md="6" className="text-center mb-5">
+                        <img src={powerimg} className="image-anahita elec-edit"></img>
+                        <p className="small-heading-edited">COMPLETE ELECTRICAL FLOWCHART</p>
+                    </Col>
+                </Row>    
+                <Row>
+                    <h3 className="small-heading ml-auto mr-auto">Software</h3>
+                </Row>
+                <Row>
+                    <Col md="6" className="text-center mt-5 ml-auto mr-auto">                        
                         <img src={soft} className="image-anahita"></img>
                         <p className="small-heading-edited">SOFTWARE DATA AND CONTROL FLOW</p>
-                        <ul classname>
+                    </Col>
+                    <Col md="6" className="text-center mt-5 ml-auto mr-auto">
+                        <ul style={{marginTop: '5rem'}}>
                             <li className="desc-ssk1">System integration through ROS on <b>Ubuntu 18.04</b></li>
                             <li className="desc-ssk1">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
                             <li className="desc-ssk1">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>
