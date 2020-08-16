@@ -34,7 +34,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Button
+  Button,
+  Row
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -68,8 +69,10 @@ function ExamplesNavbar() {
     };
   });
   return (
-    <Navbar
-      className={classnames("fixed-top", navbarColor, "custom-nav")} 
+    <div>
+      <Navbar
+      className={classnames( "custom-nav","fixed-top", navbarColor)} 
+      // className="fixed-top custom-nav"
       color-on-scroll="300"
       expand="lg"
     >
@@ -203,6 +206,8 @@ function ExamplesNavbar() {
         </Collapse>
       </Container>
     </Navbar>
+  
+    </div>
   );
 }
 
