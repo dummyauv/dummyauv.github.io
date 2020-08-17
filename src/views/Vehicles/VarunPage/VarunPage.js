@@ -36,7 +36,6 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "./components/Header/Header";
 import KeyFeatures from './components/KeyFeatures/KeyFeatures';
 import SketchFabEmbed from './components/SketchFabEmbed/SketchFabEmbed'
 import SubsystemSpecs from './components/SubsystemSpecs/SubsystemSpecs'
@@ -50,7 +49,6 @@ function LandingPage() {
   });
   return (
     <>
-      <LandingPageHeader />
       <div className="main">
         <SketchFabEmbed/>
         <KeyFeatures/>

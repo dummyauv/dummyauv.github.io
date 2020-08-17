@@ -25,8 +25,9 @@ import "assets/css/bootstrap.min.css";
 import "assets/scss/paper-kit.scss";
 import "assets/demo/demo.css";
 // pages
-import LandingPage from "views/LandingPage/LandingPage";
+import LandingPageHeader from "./views/LandingPage/components/Headers/LandingPageHeader.js";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
+import LandingPage from "views/LandingPage/LandingPage";
 import DemoFooter from "components/Footers/DemoFooter";
 import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
 import TeamPage from 'views/TeamPage/TeamPage'
@@ -35,7 +36,9 @@ import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
 // others
 
 ReactDOM.render(
+
   <BrowserRouter>
+ <LandingPageHeader />
   <ExamplesNavbar />
     <Switch>
       <Route

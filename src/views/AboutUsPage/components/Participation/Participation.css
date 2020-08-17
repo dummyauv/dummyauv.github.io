@@ -10,9 +10,9 @@
 }
 
 .heading-ssk23{
-    font-family: Montserrat  ;
+    font-family: Lato  ;
     font-size: 40px;
-    color: #DDE2EC;
+    color: #000000;
     text-shadow: 2px 2px 10px #CCCCCC;
     
 }
@@ -47,8 +47,8 @@
 }
 
 .desc-ssk{
-    font-family: Montserrat  ;
-    color: #DDE2EC;
+    font-family: Lato  ;
+    color: #000000;
     font-size: 20px;
     margin-bottom: 20px;
 }

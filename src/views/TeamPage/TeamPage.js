@@ -36,7 +36,6 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "../LandingPage/components/Headers/LandingPageHeader.js";
 import Team from "../LandingPage/components/Team/Team.js";
 import Subsytems from "./components/Subsystems/Subsystems";
 import SubsystemHeads from './components/SubsystemHeads/SubsystemHeads';

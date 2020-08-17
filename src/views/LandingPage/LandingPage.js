@@ -36,7 +36,6 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "./components/Headers/LandingPageHeader.js";
 import AboutUs from "./components/AboutUs/AboutUs.js";
 import Team from "./components/Team/Team.js";
 import Sponsors from "./components/Sponsors/Sponsors.js";
@@ -44,8 +43,11 @@ import Posts from "./components/Posts/Posts.js";
 import Vehicles from "./components/Vehicles/Vehicles.js";
 import ContactUs from "./components/ContactUs/ContactUs.js";
 import Footer from "../../components/Footers/DemoFooter";
+
+import "./LandingPage.css"
 import "./LandingPage.css"
 function LandingPage() {
+
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -55,7 +57,6 @@ function LandingPage() {
   });
   return (
     <>
-      <LandingPageHeader className="abc"/>
       <div className="main">
         <AboutUs />
         <Team className="team"/>

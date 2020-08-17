@@ -16,11 +16,12 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 import auvlog from '../../assets/img/auv-logo-mini.png'
+import "./ExamplesNavbar.css"
 // reactstrap components
 import {
   Collapse,
@@ -46,66 +47,39 @@ function ExamplesNavbar() {
     setNavbarCollapse(!navbarCollapse);
     document.documentElement.classList.toggle("nav-open");
   };
+const [scrolled,setScrolled]=React.useState(false);
 
+  const handleScroll=() => {
+    const offset=window.scrollY;
+    if(offset > 250 ){
+      setScrolled(true);
+    }
+    else{
+      setScrolled(false);
+    }
+  }
   React.useEffect(() => {
-    const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 0 ||
-        document.body.scrollTop > 0
-      ) {
-        setNavbarColor("");
-      } else if (
-        document.documentElement.scrollTop < 1 ||
-        document.body.scrollTop < 1
-      ) {
-        setNavbarColor("navbar-transparent");
-      }
-    };
+    window.addEventListener('scroll',handleScroll)
+  })
 
-    window.addEventListener("scroll", updateNavbarColor);
+  let x=['navbar'];
+  if(scrolled){
+    x.push('scrolled');
+  }
 
-    return function cleanup() {
-      window.removeEventListener("scroll", updateNavbarColor);
-    };
-  });
   return (
-    <div>
+    <div  className={x.join(" ")}>
       <Navbar
-      className={classnames( "custom-nav","fixed-top", navbarColor)} 
-      // className="fixed-top custom-nav"
       color-on-scroll="300"
       expand="lg"
     >
       <Container>
-        <div className="navbar-translate custom-nav">
-          <NavbarBrand
-            data-placement="bottom"
-            to="/index"
-            target="_blank"
-            title="AUV-IITK"
-            tag={Link}
-            className="custom-nav"
-          >
-            <img src={auvlog}></img>
-          </NavbarBrand>
-          <button
-            aria-expanded={navbarCollapse}
-            className={classnames("navbar-toggler navbar-toggler", {
-              toggled: navbarCollapse
-            })}
-            onClick={toggleNavbarCollapse}
-          >
-            <span className="navbar-toggler-bar bar1" />
-            <span className="navbar-toggler-bar bar2" />
-            <span className="navbar-toggler-bar bar3" />
-          </button>
-        </div>
         <Collapse
           className="justify-content-end"
           navbar
           isOpen={navbarCollapse}
         >
-          <Nav navbar>
+          <Nav navbar className="navigation">
             <NavItem>
               <NavLink to="/landing-page" tag={Link}>
                 Home

@@ -36,7 +36,6 @@ import {
 } from "reactstrap";
 
 // core components
-import LandingPageHeader from "../LandingPage/components/Headers/LandingPageHeader.js";
 import AboutUs from "../LandingPage/components/AboutUs/AboutUs.js";
 import Participation from "./components/Participation/Participation"
 import Achievements from "./components/Achievements/Achievements"
@@ -50,7 +49,7 @@ function LandingPage() {
         };
     });
     return (
-        <>
+        <>  
             <div className="main ">
                 <AboutUs />
                 <Participation/>
