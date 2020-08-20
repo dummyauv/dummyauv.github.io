@@ -31,20 +31,20 @@ function Posts() {
                         <Col md="2"></Col>
                         <Col xl="6" className="text-center">
                             <h2 className="heading-main">Student Competitions</h2>
-                            <img src={combinedimage} className=" img-ssk3" ></img>
+                            <img src={combinedimage} className=" image-anahita" ></img>
                             <p className="desc-ssk1">We aim to participate in National and International student-level AUV
                             compeititions - Robosub (organised by AUVSI), Singapore AUV Challenge, and the
-                                    NIOT-Student AUV Challenge.</p>
+                                    NIOT-Student AUV Challenge.</p> 
                         </Col>
                         <Col xl="6" className="text-center">
                             <h2 className="heading-main">Research Potential</h2>
-                            <img src={resimage} className=" img-ssk2" ></img>
+                            <img src={resimage} className=" image-anahita" ></img>
                             <p className="desc-ssk1">Contribute to the development in the fields of marine technology, and
                                     implement cutting-edge research ideas to our vehicles</p>
                         </Col>
                         <Col xl="6" className="text-center">
                             <h2 className="heading-main">Training</h2>
-                            <img src={trainimage} className=" img-ssk3" ></img>
+                            <img src={trainimage} className=" image-anahita" ></img>
                             <p className="desc-ssk1">Team AUV-IITK provides training to all its new recruits in the various
                             field of Robotics. It is because of this training that many of the past members of
                             team AUV-IITK are pursuing their careers in robotics and doing exceptionally well
@@ -52,7 +52,7 @@ function Posts() {
                         </Col>
                         <Col xl="6" className="text-center">
                             <h2 className="heading-main">Social Projects</h2>
-                            <img src={csrimage} className=" img-ssk4"></img>
+                            <img src={csrimage} className=" image-anahita"></img>
                             <p className="desc-ssk1">Apart from Robotics competitions, team AUV-IITK also actively
                             participates various hackathon and undertakes projects owing its responsibility to
                                     the society.</p>

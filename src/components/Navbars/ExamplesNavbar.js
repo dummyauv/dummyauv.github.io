@@ -68,16 +68,39 @@ const [scrolled,setScrolled]=React.useState(false);
   }
 
   return (
-    <div  className={x.join(" ")}>
+    <div  className={x.join(" ")} style={{backgroundColor: 'black !important'}}>
       <Navbar
       color-on-scroll="300"
       expand="lg"
     >
-      <Container>
+      <Container >
+      <div className="navbar-translate" style={{transform:'translateX(80%)'}}>
+          {/* <NavbarBrand
+            data-placement="bottom"
+            to="/index"
+            target="_blank"
+            title="Coded by Creative Tim"
+            tag={Link}
+          >
+            Paper Kit 2
+          </NavbarBrand> */}
+          <button
+            aria-expanded={navbarCollapse}
+            className={classnames("navbar-toggler navbar-toggler", {
+              toggled: navbarCollapse,
+            })}
+            onClick={toggleNavbarCollapse}
+            style={{float: 'right'}}
+          >
+            <span className="navbar-toggler-bar bar1" />
+            <span className="navbar-toggler-bar bar2" />
+            <span className="navbar-toggler-bar bar3" />
+          </button>
+        </div>
         <Collapse
           className="justify-content-end"
           navbar
-          isOpen={navbarCollapse}
+          isOpen={navbarCollapse} 
         >
           <Nav navbar className="navigation">
             <NavItem>

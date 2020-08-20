@@ -63,52 +63,52 @@ function AboutUs() {
             </Link>
 
           </Col>
-          <Col xl="3">
-          <Col xl="3" md="6">
-            <div className=" icon-ssk">
-              <div className="icon icon-info">
-                <h3>2</h3>
-              </div>
-              <div className="description">
-                <h4 className="info-title">Vehicles</h4>
-                
-              </div>
-            </div>
-          </Col>
-          <Col xl="3" md="6">
-            <div className=" icon-ssk">
-              <div className="icon icon-info">
-                <h3>30</h3>
-              </div>
-              <div className="description">
-                <h4 className="info-title">Team Members</h4>
-                
+          <div xl="3" className="icons-container">
+            <div xl="3" md="3" sm="6" className=" single-icon-container">
+              <div className=" icon-ssk">
+                <div className="icon icon-info">
+                  <strong><h3>2</h3></strong>
+                </div>
+                <div className="description">
+                  <h4 className="info-title"><strong>Vehicles</strong></h4>
+                  
+                </div>
               </div>
             </div>
-          </Col>
-          <Col xl="3" md="6">
-            <div className=" icon-ssk">
-              <div className="icon icon-info">
-                <h3>30+</h3>
-              </div>
-              <div className="description">
-                <h4 className="info-title">Projects </h4>
-                
-              </div>
-            </div>
-          </Col>
-          <Col xl="3" md="6">
-            <div className=" icon-ssk">
-              <div className="icon icon-info">
-                <h3>400+</h3>
-              </div>
-              <div className="description">
-                <h4 className="info-title">NightOuts</h4>
-                
+            <div xl="3" md="3" sm="6" className="single-icon-container">
+              <div className=" icon-ssk">
+                <div className="icon icon-info">
+                  <h3>30</h3>
+                </div>
+                <div className="description">
+                  <h4 className="info-title"><strong>Team Members</strong></h4>
+                  
+                </div>
               </div>
             </div>
-          </Col>
-          </Col>
+            <div xl="3" md="3" sm="6" className="single-icon-container">
+              <div className=" icon-ssk">
+                <div className="icon icon-info">
+                  <h3>30+</h3>
+                </div>
+                <div className="description">
+                  <h4 className="info-title">Projects </h4>
+                  
+                </div>
+              </div>
+            </div>
+            <div xl="3" md="3" sm="6" className="single-icon-container">
+              <div className=" icon-ssk">
+                <div className="icon icon-info">
+                  <h3>400+</h3>
+                </div>
+                <div className="description">
+                  <h4 className="info-title">NightOuts</h4>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </Row>
         <br />
         <br />

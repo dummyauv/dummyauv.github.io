@@ -47,7 +47,6 @@
 }
 
 
-
 .btn-blue{
     color: rgba(35,174,244);
     background-color: white;
@@ -70,10 +69,16 @@
     opacity: 0;
 }
 
+.single-icon-container{
+    /* background-color: orange; */
+    margin-left: 2rem;
+}
 .icon-ssk{
     position: relative;
     width: 20rem;
     height: 20rem;
+    font-weight: 700;
+    text-decoration: bold;
     border: 2px solid rgba(35,174,244,0.67);
     margin: 3.5rem auto ;
     padding: auto auto;
@@ -83,21 +88,20 @@
 }
 
 .icon-ssk:hover{
-    background-color: rgba(35,174,244);
-    box-shadow: 0px 2px 10px rgba(35,174,244,0.67);
+
 
     transform: translateY(-10px);
 }
 
 
 .icon-ssk:hover .icon-info{
-    color: white;
-    transform: scale(1.2);
+    
+    transform: scale(1.1);
 }
 .icon-ssk:hover .info-title{
-    color: white;
+    
 
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
@@ -132,4 +136,60 @@
 .u-margin-bottom{
     border-bottom: 3px solid #3d3d3d;
     border-radius: 1rem;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .icons-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .icons-container{
+        background-color:transparent;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .single-icon-container{
+        display: inline-block;
+        /* background-color: yellow; */
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .icon-ssk{
+        width: 15rem;
+        height: 15rem;
+
+    }
+
+    .icon-info{
+        color: rgba(35, 174, 244, 0.67);
+        font-weight: 800;
+        font-size: 2rem;
+        font-family: Lato  ;
+        text-decoration: bold;
+    }
+    
+    
+    .info-title{
+        font-family: Lato  ;
+        text-transform: uppercase;
+        text-decoration: bold;
+        color: rgba(35, 174, 244, 0.67);
+        letter-spacing: 2px;
+        text-align: center;
+        font-size: 1.5rem;
+        padding-left: auto ;
+        padding-right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
