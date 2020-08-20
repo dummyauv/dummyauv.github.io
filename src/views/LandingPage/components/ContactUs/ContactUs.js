@@ -13,7 +13,7 @@ import {
     InputGroup,
     Container,
     Row,
-    Col
+    Col 
 } from "reactstrap";
 import "./ContactUs.css"
 function ContactUs() {
@@ -22,12 +22,12 @@ function ContactUs() {
         <div className="section landing-section">
           <Container className="u-border">
             <Row>
-              <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center heading-main">Keep in touch?</h2>
+              <Col md='6' >
+                <h2 className=" heading-main">Keep in touch with us</h2>
                 <Form className="contact-form">
                   <Row>
-                    <Col md="6">
-                      <label className="small-heading">Name</label>
+                    <Col md="12">
+                      <label className="desc-ssk">Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -37,8 +37,8 @@ function ContactUs() {
                         <Input placeholder="Name" type="text" />
                       </InputGroup>
                     </Col>
-                    <Col md="6">
-                      <label className="small-heading">Email</label>
+                    <Col md="12">
+                      <label className="desc-ssk">Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -49,19 +49,33 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label className="small-heading">Message</label>
+                  <label className="desc-ssk">Message</label>
                   <Input
                     placeholder="Tell us your thoughts and feelings..."
                     type="textarea"
                     rows="4"
                   />
-                  <Row>
+                  <Row> 
                     <Col className="ml-auto mr-auto" md="4">
-                  <a className="btn-blue mt-5" href="javascript:alert('Hello World!');">Send</a>
+                  <a className="btn-blue mt-5" href="javascript:alert('Sorry! There has been some problem ');">Send</a>
                     </Col>
                   </Row>
                 </Form>
               </Col>
+              <Col md="6">
+                <h2 className="small-heading">Contact details</h2>
+                <p className="desc-ssk u-margin-top-large"><i className="fa fa-phone contact-icon" />Phone Number:- +91 9521597992 </p>
+                <p className="desc-ssk "><i className="fa fa-envelope-square contact-icon" />Email id:- iitkauv@gmail.com </p>
+                <div className="contact-address-container">
+                <i className="fa fa-map contact-icon" />
+                <p className="desc-ssk contact-form-address" >Address:- AUV Room, Hall of Residence 2,
+                Indian Institute of Technology, Kanpur, Uttar Pradesh,    India - 208016 </p>
+                </div>
+                
+                
+                
+              </Col>
+            
             </Row>
             
           </Container>

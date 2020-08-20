@@ -1,0 +1,26 @@
+.red-back{
+    width: 100%;
+
+}
+
+.event-image-container{
+
+}
+
+.event-image{
+    width: 100%;
+} 
+
+.event-container{
+    height: 100%;
+}
+
+.headings-container{
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.primary-heading-event{
+    /* background-color: green; */
+    margin-top: 20%;
+}

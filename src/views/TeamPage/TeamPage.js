@@ -51,7 +51,7 @@ function LandingPage() {
     return (
         <>
             <div className="main">
-                <div style={{height:'20rem'}}>
+                <div style={{height:'5rem'}}>
 
                 </div>
                 <Team />

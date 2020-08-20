@@ -52,7 +52,7 @@ function LandingPage() {
         <SketchFabEmbed/>
         <KeyFeatures/>
         <SubsystemSpecs/>
-      </div>
+      </div>  
     </>
   );
 }

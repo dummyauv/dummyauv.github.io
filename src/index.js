@@ -35,6 +35,9 @@ import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
 import TeamPage from 'views/TeamPage/TeamPage'
 import AnahitaPage from 'views/Vehicles/AnahitaPage/AnahitaPage';
 import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
+import EventsPage from 'views/EventsPage/EventsPage';
+import BlogsPage from 'views/BlogsPage/BlogsPage';
+import ContactUsPage from 'views/ContactUsPage/ContactUsPage';
 // others
 
 ReactDOM.render(
@@ -62,6 +65,20 @@ ReactDOM.render(
       <Route
         path="/vehicles/varun"
         render={props => <VarunPage {...props} />}
+      />
+
+      <Route
+        path="/events"
+        render={props => <EventsPage {...props} />}
+      />
+      <Route
+        path="/blogs"
+        render={props => <BlogsPage {...props} />}
+      />
+
+      <Route
+        path="/contact-us"
+        render={props => <ContactUsPage {...props} />}
       />
       <Redirect to="/landing-page" />
     </Switch>

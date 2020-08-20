@@ -62,16 +62,17 @@ const [scrolled,setScrolled]=React.useState(false);
     window.addEventListener('scroll',handleScroll)
   })
 
-  let x=['navbar'];
+  let x=['navbar','custom-navbar-ssk'];
   if(scrolled){
     x.push('scrolled');
   }
 
-  return (
-    <div  className={x.join(" ")} style={{backgroundColor: 'black !important'}}>
+  return (  
+    <div  className={x.join(" ")} >
       <Navbar
       color-on-scroll="300"
       expand="lg"
+      className="custom-navbar-ssk"
     >
       <Container >
       <div className="navbar-translate" style={{transform:'translateX(80%)'}}>
@@ -83,7 +84,7 @@ const [scrolled,setScrolled]=React.useState(false);
             tag={Link}
           >
             Paper Kit 2
-          </NavbarBrand> */}
+          </NavbarBrand> */} 
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
@@ -116,6 +117,11 @@ const [scrolled,setScrolled]=React.useState(false);
             <NavItem>
               <NavLink to="/team" tag={Link}>
                 Team
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink to="/events" tag={Link}>
+                Events
               </NavLink>
             </NavItem>
             {/* <NavItem>
@@ -168,12 +174,12 @@ const [scrolled,setScrolled]=React.useState(false);
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
-                Latest Posts
+              <NavLink to="/blogs" tag={Link}>
+                Blogs
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/index" tag={Link}>
+              <NavLink to="/contact-us" tag={Link}>
                 Contact Us
               </NavLink>
             </NavItem>
