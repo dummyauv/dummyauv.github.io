@@ -62,7 +62,6 @@ function LandingPage() {
         <Team className="team"/>
         <Sponsors className="sponsors"/>
         <Vehicles />
-        <ContactUs />
       </div>
       <Footer/>
     </>

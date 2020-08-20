@@ -17,7 +17,7 @@
 
 */
 import React from "react";
-
+import Footer from '../../components/Footers/Footer';
 // reactstrap components
 import {
     Button,
@@ -61,6 +61,7 @@ function LandingPage() {
                 {/* <TeamMembers/> */}
                 <TeamVideo />
             </div>
+            <Footer/>
         </>
     );
 }

@@ -39,6 +39,7 @@ import {
 import KeyFeatures from './components/KeyFeatures/KeyFeatures';
 import SketchFabEmbed from './components/SketchFabEmbed/SketchFabEmbed'
 import SubsystemSpecs from './components/SubsystemSpecs/SubsystemSpecs'
+import Footer from '../../../components/Footers/Footer';
 function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
@@ -55,6 +56,7 @@ function LandingPage() {
         
         <SubsystemSpecs/>
       </div>
+      <Footer/>
     </>
   ); 
 }

@@ -39,6 +39,7 @@ import {
 import AboutUs from "../LandingPage/components/AboutUs/AboutUs.js";
 import Participation from "./components/Participation/Participation"
 import Achievements from "./components/Achievements/Achievements"
+import Footer from '../../components/Footers/Footer';
 import "./AboutUsPage.css"
 function LandingPage() {
     document.documentElement.classList.remove("nav-open");
@@ -55,6 +56,7 @@ function LandingPage() {
                 <Participation/>
                 <Achievements/>
             </div>
+            <Footer/>
         </>
     );
 }
