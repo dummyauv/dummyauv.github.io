@@ -19,18 +19,22 @@ function Footer() {
         <Row className="footer-heading">
             <h2 className="footer-heading-content"></h2>
         </Row> 
-      <Container>
-        <Row>
+        <br />
+        <Row style={{width: "100%",padding:"10px"}}>
+            <Col md="1">
+            </Col>
             <Col md="4">
                 <div className="footer-auv-logo"></div>
                 <div className="footer-heading-primary">Team AUV-IITK</div>
-                <div className="footer-address">AUV Room, Hall-2,    
-                    Indian Institute of Technology, Kalyanpur, Kanpur Nagar,
-                    Uttar Pradesh-208016, India
+                <div className="footer-address">
+                AUV Room, Hall-2, 
+                <br/>Indian Institute of Technology Kanpur,
+                <br />Uttar Pradesh-208016, India
                 </div>
             </Col>
-            <Col md="4">
-                <div className="footer-links-heading">Quick Links</div>   
+
+            <Col md="2">
+                <div className="footer-links-heading u-margin-top-negative-medium">Quick Links</div>   
                 <NavLink to="/landing-page" tag={Link} className="footer-nav-link">
                     Home
                 </NavLink> 
@@ -78,53 +82,64 @@ function Footer() {
                     <i className="fa fa-linkedin-square" />
                     <p className="d-lg-none">Facebook</p>
                 </NavLink>
+                <NavLink
+                    data-placement="bottom"
+                    href="mailto:iitkauv@gmail.com"
+                    target="_blank"
+                    title="Write Us"
+                    className="footer-nav-icon"
+                >
+                    <i className="fa fa-envelope-square" />
+                    <p className="d-lg-none">Mail</p>
+                </NavLink>
                 </div>
+
+                
             </Col> 
-            <Col md="4" >
+            <Col md="1">
+            </Col>
+            <Col md="3" >
+
                 <h1 className="footer-links-heading u-margin-top-negative-medium">Reach Us</h1>
                 
                 <Form className="footer-form">
                   <Row>
                     <Col md="12">
-                      <label className="footer-links-heading u-margin-top-negative">Name</label>
-                      <InputGroup className="u-margin-bottom-small">
+                      <InputGroup >
                         <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-single-02" />
+                          <InputGroupText className="footer-input-group">
+                            <i style={{color:"white"}} className="nc-icon nc-single-02" />
                           </InputGroupText>
                         </InputGroupAddon>
                         <Input placeholder="Name" type="text" className="footer-input-group" />
                       </InputGroup>
                     </Col>
                     <Col md="12">
-                      <label className="footer-links-heading u-margin-top-negative">Email</label>
-                      <InputGroup>
-                        <InputGroupAddon addonType="prepend">
-                          <InputGroupText>
-                            <i className="nc-icon nc-email-85" />
+                      <InputGroup className=" mt-4">
+                        <InputGroupAddon  addonType="prepend">
+                          <InputGroupText className="footer-input-group">
+                            <i style={{color:"white"}} className=" nc-icon nc-email-85" />
                           </InputGroupText>
                         </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
+                        <Input placeholder="Email" type="text" className="footer-input-group" />
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label className="footer-links-heading u-margin-top-negative-small">Message</label>
                   <Input
-                    placeholder="Tell us your thoughts and feelings..."
+                    placeholder="Any message or feedback for us..."
                     type="textarea"
                     rows="4"
-                    className="footer-input-group"
+                    className="footer-input-group mt-4"
                   />
                   <Row>
-                    <Col className="ml-auto mr-auto" md="4">
-                  <a className="btn-blue mt-5" href="javascript:alert('Sorry we do not have a backend setup');">Send</a>
+                    <Col  md="4">
+                  <a className="btn mt-3" href="javascript:alert('Sorry we do not have a backend setup');">Send</a>
                     </Col>
                   </Row>
                 </Form>
                 
             </Col> 
         </Row>
-      </Container>
     </footer>
   );
 }

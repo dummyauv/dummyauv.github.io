@@ -33,31 +33,47 @@ function Sponsors() {
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto mb-4" md="8">
                 <h2 className="text-center mb-4 heading-main">Our Sponsors</h2>
+                <br />
               </Col>
+              <br />
               <Col md="2"></Col>
               <Col lg="3" xs="6">
-                <img src={solidworks} className="img-responsive1" width="100%"></img>
+                <img src={altium} className="img-responsive1" width="100%"></img>
               </Col>
               <Col lg="3" xs="6">
-                <img src={mathworks} className="img-responsive1" width="80%"></img>
+                <img src={xsens} className="img-responsive1" width="100%"></img>
               </Col>
               <Col lg="3" xs="6">
-                <img src={ids} className="img-responsive1" width="80%"></img>
-              </Col>
+                <img src={ids} className="img-responsive1" width="100%"></img>
+              </Col>  
               <Col lg="3" xs="6">
-                <img src={ansys} className="img-responsive1" width="80%"></img>
+                <img src={ansys} className="img-responsive1" width="100%"></img>
               </Col>
-              <Col lg="3" xs="6">
-                <img src={xsens} className="img-responsive1" width="80%"></img>
+              </Row>
+                            <br />
+              <Row>
+
+              <Col lg="4" xs=" ml-auto mr-auto">
+                <img src={sparton} className="img-responsive1" width="100%"></img>
               </Col>
-              <Col lg="3" xs="6">
-                <img src={sparton} className="img-responsive1" width="80%"></img>
+              <Col lg="4" xs="ml-auto mr-auto">
+                <img src={mathworks}  className="img-responsive1" width="100%"></img>
               </Col>
-              <Col lg="3" xs="6">
-                <img src={dord} className="img-responsive1" width="80%"></img>
+
+              <Col lg="4" xs="ml-auto mr-auto">
+                <img src={solidworks} className=" img-responsive1" width="100%"></img>
               </Col>
-              <Col lg="3" xs="6">
-                <img src={altium} className="img-responsive1" width="80%"></img>
+
+              </Row>
+                <br/>
+              <Row>
+              <Col lg="3" xs="3">
+              </Col>
+              <Col lg="6" xs="ml-auto mr-auto">
+              <img src={dord} className="img-responsive1" width="100%"></img>
+              </Col>
+
+              <Col lg="3" xs="3">
               </Col>
             </Row>
           </Container>

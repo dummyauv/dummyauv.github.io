@@ -17,7 +17,6 @@
 
 */
 import React from "react";
-import Footer from '../../../components/Footers/Footer';
 // reactstrap components
 import {
   Button,
@@ -54,7 +53,6 @@ function LandingPage() {
         <KeyFeatures/>
         <SubsystemSpecs/>
       </div>
-      <Footer/>
     </>
   );
 }

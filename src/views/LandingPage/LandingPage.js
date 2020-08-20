@@ -42,7 +42,6 @@ import Sponsors from "./components/Sponsors/Sponsors.js";
 import Posts from "./components/Posts/Posts.js";
 import Vehicles from "./components/Vehicles/Vehicles.js";
 import ContactUs from "./components/ContactUs/ContactUs.js";
-import Footer from "../../components/Footers/Footer";
 
 import "./LandingPage.css"
 import "./LandingPage.css"
@@ -63,7 +62,6 @@ function LandingPage() {
         <Sponsors className="sponsors"/>
         <Vehicles />
       </div>
-      <Footer/>
     </>
   );
 }

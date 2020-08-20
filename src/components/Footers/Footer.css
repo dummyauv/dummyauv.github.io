@@ -1,5 +1,6 @@
 .footer-new{
     background-color: #2e2e2e;
+    width: 100%;
 }
 
 .footer-heading{
@@ -23,24 +24,27 @@
 }
 
 .footer-auv-logo{
-    width: 40%;
-    height: 6rem;
-    margin: 3rem auto;
+    width: 120px;
+    height: 12rem;
+    margin: 3rem ; 
     /* background-image: linear-gradient(to bottom, orange, orange), url(../../assets/img/auv-logo-mini.png); */
-    background-image:  url(../../assets/img/auv-logo-mini.png);
-    background-size: cover;
+    background-image:  url(../../assets/img/logos/auv_logo2.png);
+    background-size: 100% 100%;
 }
 
 .footer-heading-primary{
+    margin: 3rem ; 
     font-size: 2rem;
     color: white;
-    text-align: center;
+    letter-spacing: 1px;
     font-family: Roboto;
     font-weight: 700;
+    /* s */
+    width: 45%
 }
 
 .footer-address{
-    margin: 3rem auto; 
+    margin: 3rem ; 
     margin-bottom: 5rem;
     font-size: 1.4rem;
     color: white;
@@ -48,13 +52,12 @@
     font-family: Roboto;
     font-weight: 400;
     /* s */
-    width: 45%
+    width: 100%;
 }
 
 .footer-nav-link{
     /* background-color: red; */
     margin: 0;
-    text-align: center;
     padding:0.5rem;
     font-family: Roboto;
     color: white;
@@ -67,11 +70,9 @@
 }
 
 .footer-links-heading{
-    margin-top: 6rem;
     font-family: Roboto;
     font-weight: 400;
     color: white;
-    text-align: center;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
@@ -91,12 +92,11 @@
 .nav-icons-container{
     display: flex;
     margin-top: 1rem;
-    /* background-color: red; */
-    justify-content: center;
 }
 
 .footer-form{
     margin-bottom: 2rem;
+    width: 90%;
 }
 
 .u-margin-top-negative{
@@ -105,6 +105,8 @@
 
 .footer-input-group{
     font-family: Roboto;
+    background-color: rgb(10,10,10);
+    border-style: none;
 }
 
 .u-margin-bottom-small{

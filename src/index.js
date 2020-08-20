@@ -27,6 +27,8 @@ import "assets/demo/demo.css";
 // pages
 import LandingPageHeader from "./views/LandingPage/components/Headers/LandingPageHeader.js";
 import ExamplesNavbar from "components/Navbars/ExamplesNavbar";
+import Footer from "./components/Footers/Footer";
+
 import LandingPage from "views/LandingPage/LandingPage";
 import DemoFooter from "components/Footers/DemoFooter";
 import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
@@ -38,7 +40,7 @@ import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
 ReactDOM.render(
 
   <BrowserRouter>
- <LandingPageHeader />
+  <LandingPageHeader />
   <ExamplesNavbar />
     <Switch>
       <Route
@@ -63,6 +65,8 @@ ReactDOM.render(
       />
       <Redirect to="/landing-page" />
     </Switch>
+
+    <Footer/>
   </BrowserRouter>,
   document.getElementById("root")
 );
