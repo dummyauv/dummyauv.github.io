@@ -14,7 +14,7 @@ import {
     Row,
     Col
 } from "reactstrap";
-import labelled from '../../../../../assets/img/anahita/AnahitaMech.jpg';
+import anahita_exploded from '../../../../../assets/img/anahita/anahita_exploded.png';
 import powerimg from '../../../../../assets/img/anahita/AnahitaElec.jpg';
 import soft from '../../../../../assets/img/anahita/AnahitaSoft.jpg';
 import "./subs.css"
@@ -42,17 +42,17 @@ function Posts() {
                 <Row>
                     <Col md="6" className="text-center">
                         
-                        <img src={labelled} className="image-anahita"></img>
+                        <img src={anahita_exploded} className="image-anahita"></img>
                         <p className="small-heading-edited">Anahita Vehicle:- Structure</p>
                     </Col>
                     <Col md="6" className="text-center">    
                         <ul style={{marginTop: '8rem'}}>
-                            <li className="desc-ssk1"><b>Six</b> degrees of freedom.</li>
-                            <li className="desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
-                            <li className="desc-ssk1">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
-                            <li className="desc-ssk1">Motion through <b>8 T200 (Blue Robotics) thrusters.</b></li>
-                            <li className="desc-ssk1">Pneumatics actuation for torpedo shooting</li>
-                            <li className="desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
+                            <li className="text-left desc-ssk1"><b>Six</b> degrees of freedom.</li>
+                            <li className="text-left desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
+                            <li className="text-left desc-ssk1">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
+                            <li className="text-left text-left desc-ssk1">Motion through <b>8 T200 (Blue Robotics) thrusters.</b></li>
+                            <li className="text-left desc-ssk1">Pneumatics actuation for torpedo shooting</li>
+                            <li className="text-left desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
                         </ul>
                     </Col>
                 </Row>
@@ -62,11 +62,11 @@ function Posts() {
                 <Row>
                     <Col md="6" className="text-center mb-5">
                         <ul classname="mb-5" style={{marginTop: '10rem'}}>
-                            <li className="desc-ssk1">Powered by Two <b>25v Li-Po batteries</b></li>
-                            <li className="desc-ssk1"><b>Intel i7 NUC</b> for fast processing</li>
-                            <li className="desc-ssk1"><b>Two IDS UI-5260SE-C-HQ Rev.4</b> cameras for 1080p video feed</li>
-                            <li className="desc-ssk1"><b>Teledyne Pathfinder DVL</b> for velocity measurements.</li>
-                            <li className="desc-ssk1"><b>Custom PCB</b> for ESCs and Micro-controller with Compact design</li>
+                            <li className="text-left desc-ssk1">Powered by Two <b>25v Li-Po batteries</b></li>
+                            <li className="text-left desc-ssk1"><b>Intel i7 NUC</b> for fast processing</li>
+                            <li className="text-left desc-ssk1"><b>Two IDS UI-5260SE-C-HQ Rev.4</b> cameras for 1080p video feed</li>
+                            <li className="text-left desc-ssk1"><b>Teledyne Pathfinder DVL</b> for velocity measurements.</li>
+                            <li className="text-left desc-ssk1"><b>Custom PCB</b> for ESCs and Micro-controller with Compact design</li>
                         </ul>
                     </Col>
                     <Col md="6" className="text-center mb-5">
@@ -84,12 +84,12 @@ function Posts() {
                     </Col>
                     <Col md="6" className="text-center mt-5 ml-auto mr-auto">
                         <ul style={{marginTop: '5rem'}}>
-                            <li className="desc-ssk1">System integration through ROS on <b>Ubuntu 18.04</b></li>
-                            <li className="desc-ssk1">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
-                            <li className="desc-ssk1">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>
-                            <li className="desc-ssk1">New stack with <b>improved documentation, continuous deployment and optimised structure</b></li>
-                            <li className="desc-ssk1">Experimenting with different types of control systems - <b>model based & model free</b></li>
-                            <li className="desc-ssk1"><b>Code available on GitHub</b> with documentation under BSD-3 License Clause</li>
+                            <li className="text-left desc-ssk1">System integration through ROS on <b>Ubuntu 18.04</b></li>
+                            <li className="text-left desc-ssk1">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
+                            <li className="text-left desc-ssk1">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>
+                            <li className="text-left desc-ssk1">New stack with <b>improved documentation, continuous deployment and optimised structure</b></li>
+                            <li className="text-left desc-ssk1">Experimenting with different types of control systems - <b>model based & model free</b></li>
+                            <li className="text-left desc-ssk1"><b>Code available on GitHub</b> with documentation under BSD-3 License Clause</li>
                         </ul>
                     </Col>
                     <Col md="3"></Col>                    

@@ -66,7 +66,7 @@ function Footer() {
                     data-placement="bottom"
                     href="https://www.facebook.com/auviitk"
                     target="_blank"
-                    title="Like us on Facebook"
+                    title="Follow us on Facebook"
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-facebook-square" />
@@ -80,7 +80,7 @@ function Footer() {
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-linkedin-square" />
-                    <p className="d-lg-none">Facebook</p>
+                    <p className="d-lg-none">Linkedin</p>
                 </NavLink>
                 <NavLink
                     data-placement="bottom"
@@ -91,6 +91,17 @@ function Footer() {
                 >
                     <i className="fa fa-envelope-square" />
                     <p className="d-lg-none">Mail</p>
+                </NavLink>
+                <NavLink
+                    data-placement="bottom"
+                    href="https://www.instagram.com/auviitk/"
+                    target="_blank"
+                    title="Fllow us on Instagram
+                    "
+                    className="footer-nav-icon"
+                >
+                    <i className="fa fa-instagram" />
+                    <p className="d-lg-none">Instagram</p>
                 </NavLink>
                 </div>
 

@@ -723,42 +723,7 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/debaditya.jpg")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Debaditya Bhattacharya</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
+            
           </Row>
 
           <h1 className="title heading-main">Mechanical Subsystem</h1>

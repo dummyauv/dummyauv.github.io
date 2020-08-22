@@ -39,7 +39,7 @@ import {
   Row
 } from "reactstrap";
 
-function ExamplesNavbar() {
+function ExamplesNavbar(props) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -63,9 +63,12 @@ const [scrolled,setScrolled]=React.useState(false);
   })
 
   let x=['navbar','custom-navbar-ssk'];
-  if(scrolled){
-    x.push('scrolled');
+  if(props.page == "landing-page"){
+    if(scrolled){
+      x.push('scrolled');
+     }
   }
+  else x.push('scrolled');
 
   return (  
     <div  className={x.join(" ")} >
@@ -99,28 +102,27 @@ const [scrolled,setScrolled]=React.useState(false);
           </button>
         </div>
         <Collapse
-          className="justify-content-end"
+          className=" justify-content-end"
           navbar
           isOpen={navbarCollapse} 
         >
-          <Nav navbar className="navigation">
+          <Nav navbar className=" mr-5 navigation">
             <NavItem>
-              <NavLink to="/landing-page" tag={Link}>
-                Home
+              <NavLink  className="navbar-content" to="/landing-page" tag={Link}>Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/about-us" tag={Link}>
+              <NavLink className="navbar-content" to="/about-us" tag={Link}>
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/team" tag={Link}>
+              <NavLink className="navbar-content" to="/team" tag={Link}>
                 Team
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/events" tag={Link}>
+              <NavLink className="navbar-content" to="/events" tag={Link}>
                 Events
               </NavLink>
             </NavItem>
@@ -141,13 +143,14 @@ const [scrolled,setScrolled]=React.useState(false);
                 nav
                 onClick={e => e.preventDefault()}
                 role="button"
+                className="navbar-content"
               >
                 Vehicles
                       </DropdownToggle>
               <DropdownMenu
                 aria-labelledby="dropdownMenuButton"
                 className="dropdown-info"
-                style={{backgroundColor:"white"}}
+                style={{backgroundColor:"rgb(220,220,220)",borderRadius:"0"}}
               >
                 
                   <Link to='/vehicles/anahita' style={{color: 'black'}}>
@@ -174,12 +177,12 @@ const [scrolled,setScrolled]=React.useState(false);
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink to="/blogs" tag={Link}>
+              <NavLink className="navbar-content" to="/blogs" tag={Link}>
                 Blogs
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/contact-us" tag={Link}>
+              <NavLink className="navbar-content" to="/contact-us" tag={Link}>
                 Contact Us
               </NavLink>
             </NavItem>

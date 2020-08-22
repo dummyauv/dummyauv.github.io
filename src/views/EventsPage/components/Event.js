@@ -15,6 +15,8 @@ import {
     Col 
 } from "reactstrap";
 import "./Event.css"
+
+
 function Event(props) {
     return (
         <>
@@ -22,19 +24,28 @@ function Event(props) {
                    <Container className="red-back">
                        
                         <Row className="event-container">
-                            <Col md= '6' className="event-image-container" >
-                                <img src={require("assets/img/anahita-1.jpg")} className="event-image"></img>
+                            <Col className="ml-auto mr-auto" md="12">
+                                <a href={props.event.link} add target="_blank" >
+                                 <h2 className="text-left comp-heading heading-main">{props.event.name}</h2>
+                                </a>
                             </Col>
-                            <Col md='6' className="headings-container"> 
-                                <h1 className="heading-main primary-heading-event">{props.event.heading}</h1>
-                                <h2 className="small-heading-edited secondary-heading-event">SUBHEADING FOR EVENT 1</h2>
+                            <Col md= '8' className="event-image-container" >
+                                <img src={props.event.image} className="event-image"></img>
+                            </Col>
+                            <Col md='4' className="headings-container"> 
+                                <h1 className="small-heading primary-heading-event">{props.event.heading}</h1>
+                                <h2 className=" mt-3 small-heading-edited secondary-heading-event">{props.event.subheading}</h2>
+                                <h1 className="small-heading primary-heading-event">{props.event.heading02}</h1>
+                                <h2 className=" mt-3 small-heading-edited secondary-heading-event">{props.event.subheading02}</h2>
+                                <h2 className=" mt-3 small-heading-edited secondary-heading-event">{props.event.subheading03}</h2>
+                                <h2 className=" mt-3 small-heading-edited secondary-heading-event">{props.event.subheading04}</h2>
                             </Col>
                         </Row>
                         <Row>
-                            <p className="desc-ssk1">
+                            <p className="text-left desc-ssk1">
                                 {props.event.para1}
                             </p>
-                            <p className="desc-ssk1">
+                            <p className="text-left desc-ssk1">
                                 {props.event.para2}
                             </p>
                         </Row>

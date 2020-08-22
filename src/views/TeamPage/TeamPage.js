@@ -34,6 +34,8 @@ import {
     Col
 } from "reactstrap";
 
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
+
 // core components
 import Team from "../LandingPage/components/Team/Team.js";
 import Subsytems from "./components/Subsystems/Subsystems";
@@ -50,10 +52,8 @@ function LandingPage() {
     });
     return (
         <>
+        <ExamplesNavbar/>
             <div className="main">
-                <div style={{height:'5rem'}}>
-
-                </div>
                 <Team />
                 <Subsytems />
                 <SubsystemHeads />

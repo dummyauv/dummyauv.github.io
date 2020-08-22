@@ -29,16 +29,12 @@ function AboutUs() {
       <div className="section text-center ">
         <Container className="reduce-margin">
         
-        <Row>
-          <h2 className="heading-main">About Us</h2>          
-        </Row>
-        <h1 className="small-heading-edited ">WE ARE ROBOTICS ENTHUSIASTS!</h1>
-        <Row>
-          <Col className="left-desc" xl="9">
+        <Row >
+          <Col className="mt-0 left-desc" xl="9">
           
           <img
               src={anahitapic}
-              className=" image-anahita"
+              className=" w-100"
             ></img>
             
             <p className="description desc-ssk1">
@@ -63,52 +59,46 @@ function AboutUs() {
             </Link>
 
           </Col>
-          <div xl="3" className="icons-container">
+
+          <div xl="3" className="">
             <div xl="3" md="3" sm="6" className=" single-icon-container">
               <div className=" icon-ssk">
-                <div className="icon icon-info">
-                  <strong><h3>2</h3></strong>
-                </div>
+                  <i className=" mt-4 fa fa-cogs fa-5x" />
                 <div className="description">
-                  <h4 className="info-title"><strong>Vehicles</strong></h4>
+                  <h4 className=""><strong>2 Vehicles Made</strong></h4>
                   
                 </div>
               </div>
             </div>
             <div xl="3" md="3" sm="6" className="single-icon-container">
               <div className=" icon-ssk">
-                <div className="icon icon-info">
-                  <h3>30</h3>
-                </div>
+                <i className="  mt-4 fa fa-users fa-5x" />
                 <div className="description">
-                  <h4 className="info-title"><strong>Team Members</strong></h4>
+                  <h4 className=""><strong>30 Team Members</strong></h4>
                   
                 </div>
               </div>
             </div>
             <div xl="3" md="3" sm="6" className="single-icon-container">
               <div className=" icon-ssk">
-                <div className="icon icon-info">
-                  <h3>30+</h3>
-                </div>
+                <i className="mt-4 fa fa-briefcase fa-5x" />
                 <div className="description">
-                  <h4 className="info-title">Projects </h4>
+                  <h4 className=""> <strong>30+ Projects </strong></h4>
                   
                 </div>
               </div>
             </div>
             <div xl="3" md="3" sm="6" className="single-icon-container">
               <div className=" icon-ssk">
-                <div className="icon icon-info">
-                  <h3>400+</h3>
-                </div>
+               <i className="fa fa-coffee fa-5x" />
                 <div className="description">
-                  <h4 className="info-title">NightOuts</h4>
+                  <h4 className=""><strong>400+ NightOuts</strong></h4>
                   
                 </div>
               </div>
             </div>
           </div>
+
         </Row>
         <br />
         <br />

@@ -32,7 +32,7 @@ function Sponsors() {
             <Row className="ml-2">
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto mb-4" md="8">
-                <h2 className="text-center mb-4 heading-main">Our Sponsors</h2>
+                <h2 className="text-center heading-main">Our Sponsors</h2>
                 <br />
               </Col>
               <br />

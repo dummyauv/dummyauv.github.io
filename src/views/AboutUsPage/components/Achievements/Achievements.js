@@ -29,21 +29,23 @@ function Posts() {
                         <Col md="2"></Col>
                         <Col className="ml-auto mr-auto" md="8">                        </Col>
                         <Col md="2"></Col>
+                        
                         <Col xl="4" className="text-center">
-                            <h3 className="heading-main">Undergraduate Roboticists</h3>
-                            <img src={atwork} className="image-anahita"></img>
+                            <h3 className="mt-0 mb-3 small-heading">   &nbsp; Undergraduate &nbsp;  Roboticists  </h3>
+                            <img src={atwork} className="border border-info w-100 m-3"></img>
                             <p className="desc-ssk1">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
                         </Col>
                         <Col xl="4" className="text-center">
-                            <h3 className="heading-main">National Competition Winner</h3>
-                            <img src={niotwin} className="image-anahita"></img>
-                            <p className="desc-ssk1">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
-                        </Col>
-                        <Col xl="4" className="text-center">
-                            <h3 className="heading-main">Ingenious Design & Creativity</h3>
-                            <img src={desbot} className="image-anahita"></img>
+                            <h3 className="mt-0 mb-3 small-heading">Ingenious Design & Creativity</h3>
+                            <img src={desbot} className="border border-info w-100 m-3"></img>
                             <p className="desc-ssk1 ">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
                         </Col>
+                        <Col xl="4" className="text-center">
+                            <h3 className="mt-0 mb-3 small-heading">National Competition Winner</h3>
+                            <img src={niotwin} className="border border-info w-100 m-3"></img>
+                            <p className="desc-ssk1">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
+                        </Col>
+                        
                     </Row>
 
                     </Container>       

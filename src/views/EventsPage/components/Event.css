@@ -24,3 +24,9 @@
     /* background-color: green; */
     margin-top: 20%;
 }
+
+.comp-heading{
+	font-weight: 400;
+	margin-bottom: 3rem;
+	text-decoration: underline;
+}

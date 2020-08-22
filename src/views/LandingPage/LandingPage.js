@@ -35,6 +35,9 @@ import {
   Col
 } from "reactstrap";
 
+import LandingPageHeader from "./components/Headers/LandingPageHeader.js";
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
+
 // core components
 import AboutUs from "./components/AboutUs/AboutUs.js";
 import Team from "./components/Team/Team.js";
@@ -56,12 +59,23 @@ function LandingPage() {
   });
   return (
     <>
+
+  <LandingPageHeader />
+  <ExamplesNavbar home="" page="landing-page"/>
+    <div className="section text-center ">
+      <Container className="reduce-margin">
+      
+          <Row>
+            <h2 className="heading-main">About Us</h2>          
+          </Row>
+      </Container>
+    </div>
       <div className="main">
         <AboutUs />
         <Team className="team"/>
-        <Sponsors className="sponsors"/>
         <Vehicles />
         <Achievements/>
+        <Sponsors className="sponsors"/>
       </div>
     </>
   );

@@ -41,12 +41,12 @@ function Posts() {
                     <Col md="6" className="text-center">
                     <h2 className="text-center mb-4 heading-main">Key Features</h2>
                         <ul classname>
-                            <li><h4 className="desc-ssk1"><b >Wired frame with truss structures</b> for
+                            <li><h4 className="text-left desc-ssk1"><b >Wired frame with truss structures</b> for
                             structural support and reduced mass</h4></li>
-                            <li><h4 className="desc-ssk1">Camera, IMU, DVL, Pressure Sensor and Hydrophones on board</h4></li>
-                            <li><h4 className="desc-ssk1">Only <b>32 Kgs</b> in weight</h4></li>
-                            <li><h4 className="desc-ssk1">Upto <b>4 hours of continuous operation</b> capability</h4></li>
-                            <li><h4 className="desc-ssk1">Production cost of Rs. <b >23,00,000</b></h4></li>
+                            <li><h4 className="text-left desc-ssk1">Camera, IMU, DVL, Pressure Sensor and Hydrophones on board</h4></li>
+                            <li><h4 className="text-left desc-ssk1">Only <b>32 Kgs</b> in weight</h4></li>
+                            <li><h4 className="text-left desc-ssk1">Upto <b>4 hours of continuous operation</b> capability</h4></li>
+                            <li><h4 className="text-left desc-ssk1">Production cost of Rs. <b >23,00,000</b></h4></li>
                         </ul>
                     </Col>
                 </Row>

@@ -23,11 +23,11 @@ function ContactUs() {
           <Container className="u-border">
             <Row>
               <Col md='6' >
-                <h2 className=" heading-main">Keep in touch with us</h2>
+                <h2 className=" small-heading">Keep in touch with us</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="12">
-                      <label className="desc-ssk">Name</label>
+                      <label className="mb-0 desc-ssk">Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
@@ -38,42 +38,56 @@ function ContactUs() {
                       </InputGroup>
                     </Col>
                     <Col md="12">
-                      <label className="desc-ssk">Email</label>
+                      <label className="mb-0 desc-ssk">Email</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="nc-icon nc-email-85" />
                           </InputGroupText>
                         </InputGroupAddon>
-                        <Input placeholder="Email" type="text" />
+                        <Input placeholder="Email" type="email" />
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label className="desc-ssk">Message</label>
+                  <label className="mb-0 desc-ssk">Message</label>
                   <Input
                     placeholder="Tell us your thoughts and feelings..."
                     type="textarea"
                     rows="4"
                   />
                   <Row> 
-                    <Col className="ml-auto mr-auto" md="4">
-                  <a className="btn-blue mt-5" href="javascript:alert('Sorry! There has been some problem ');">Send</a>
+                    <Col className="" md="4">
+                  <a className=" btn mt-3" href="javascript:alert('Sorry! There has been some problem ');">Send</a>
                     </Col>
                   </Row>
                 </Form>
               </Col>
-              <Col md="6">
-                <h2 className="small-heading">Contact details</h2>
-                <p className="desc-ssk u-margin-top-large"><i className="fa fa-phone contact-icon" />Phone Number:- +91 9521597992 </p>
-                <p className="desc-ssk "><i className="fa fa-envelope-square contact-icon" />Email id:- iitkauv@gmail.com </p>
-                <div className="contact-address-container">
-                <i className="fa fa-map contact-icon" />
-                <p className="desc-ssk contact-form-address" >Address:- AUV Room, Hall of Residence 2,
-                Indian Institute of Technology, Kanpur, Uttar Pradesh,    India - 208016 </p>
+              <Col  md="6">
+                <h2 className="ml-5 small-heading">Contact details</h2>
+                <div className="row u-margin-top-large">
+
+                  <Col md="1" >
+                    <i className="fa fa-phone contact-icon" />
+                  </Col>
+                  <Col md="10" className="ml-3 mt-4">
+                    <p className="desc-ssk">Phone Number : +91 9521597992 </p>
+                  </Col>
+
+                  <Col md="1" >
+                    <i className="fa fa-envelope-square contact-icon" />
+                  </Col>
+                  <Col md="10" className="ml-3 mt-4">
+                    <p className="desc-ssk">Email id : iitkauv@gmail.com </p>
+                  </Col>
+
+                  <Col md="1" >
+                    <i className="fa fa-map-marker contact-icon" />
+                  </Col>
+                  <Col md="10" className="ml-3 mt-4">
+                    <p className="desc-ssk">Address : AUV Room, Hall of Residence 2,
+                Indian Institute of Technology, Kanpur, &nbsp;  &nbsp;  &nbsp; Uttar Pradesh,    India - 208016 </p>
+                  </Col>
                 </div>
-                
-                
-                
               </Col>
             
             </Row>

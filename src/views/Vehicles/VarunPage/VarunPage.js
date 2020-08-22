@@ -34,6 +34,8 @@ import {
   Col
 } from "reactstrap";
 
+import ExamplesNavbar from "../../../components/Navbars/ExamplesNavbar";
+
 // core components
 import KeyFeatures from './components/KeyFeatures/KeyFeatures';
 import SketchFabEmbed from './components/SketchFabEmbed/SketchFabEmbed'
@@ -48,8 +50,16 @@ function LandingPage() {
   });
   return (
     <>
+    <ExamplesNavbar/>
+    <div className="section text-center ">
+        <Container className="reduce-margin">
+        
+          <Row>
+            <h2 className="heading-main">VARUN</h2>          
+          </Row>
+        </Container>
+      </div>
       <div className="main">
-        <SketchFabEmbed/>
         <KeyFeatures/>
         <SubsystemSpecs/>
       </div>  

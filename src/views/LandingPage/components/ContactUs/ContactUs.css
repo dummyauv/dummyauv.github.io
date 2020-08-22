@@ -50,7 +50,7 @@
 
 .u-border{
     padding: 5rem;
-    background-color: #eeeeee;
+    background-color: #dddddd;
     border: 1px solid #aaaaaa;
 }
 
@@ -69,4 +69,8 @@
 
 .contact-address-container{
     display: flex;
+}
+
+.desc-ssk{
+    font-weight: 400;
 }

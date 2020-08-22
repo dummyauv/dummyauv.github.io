@@ -15,6 +15,9 @@ import {
   Row,
   Col
 } from "reactstrap";
+
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
+
 import ContactUsComponent from '../LandingPage/components/ContactUs/ContactUs'
 
 function ContactUsPage() {
@@ -27,6 +30,15 @@ function ContactUsPage() {
   });
   return (
     <>
+    <ExamplesNavbar/>
+    <div className="section text-center ">
+        <Container className="reduce-margin">
+        
+          <Row>
+            <h2 className="heading-main">Contact Us</h2>          
+          </Row>
+        </Container>
+    </div>
       <div className="main">
           <ContactUsComponent/>
       </div>  

@@ -18,6 +18,7 @@ import {
 } from "reactstrap";
 
 // core components
+import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 
 import Blog from './components/Blog';
 function BlogsPage() {
@@ -53,6 +54,15 @@ function BlogsPage() {
 }
   return (
     <>
+    <ExamplesNavbar/>
+    <div className="section text-center ">
+        <Container className="reduce-margin">
+          
+          <Row>
+            <h2 className="heading-main">Blogs</h2>          
+          </Row>
+        </Container>
+    </div>
       <div className="main">
           <Blog blog={blog1}></Blog>
           <Blog blog={blog2}></Blog>

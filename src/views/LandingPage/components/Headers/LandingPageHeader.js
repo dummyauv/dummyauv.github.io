@@ -20,15 +20,18 @@ import React from "react";
  
 // reactstrap components
 import { Button, Container } from "reactstrap";
-import auvlogo from 'assets/img/auv-logo.png';
+import auvlogo from 'assets/img/logos/auv_logo.png';
 import "./LPHeader.scss"
 // core components
 
 function LandingPageHeader() {
 
   return (
-      <div className="header-styling" >
-      </div>
+  	<div>
+	      <div className="w-100 header-styling" >
+
+	      </div>
+  	</div>
 
   );
 }
