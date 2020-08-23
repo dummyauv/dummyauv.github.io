@@ -71,7 +71,7 @@ const event3={
 }
   return (
     <>
-    <ExamplesNavbar/>
+    <ExamplesNavbar activePage="/events"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
         

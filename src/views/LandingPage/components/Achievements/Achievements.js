@@ -30,17 +30,17 @@ function Posts() {
                         <Col className="heading-main" md="8" style={{textAlign:'center'}}>Our Achievements</Col>
                         <Col md="2"></Col>
                         <Col xl="4" className="text-center">
-                            <h3 className="small-heading">Achievement 1</h3>
+                            <h3 className="small-heading"></h3>
                             <img src={niot} className="image-anahita"></img>
                             <p className="desc-ssk1">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
                         </Col>
                         <Col xl="4" className="text-center">
-                            <h3 className="small-heading">Achievement 2</h3>
+                            <h3 className="small-heading"></h3>
                             <img src={paper} className="image-anahita"></img>
                             <p className="desc-ssk1">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
                         </Col>
                         <Col xl="4" className="text-center">
-                            <h3 className="small-heading">Achievement 3</h3>
+                            <h3 className="small-heading"></h3>
                             <img src={robosub} className="border border-dark image-anahita"></img>
                             <p className="desc-ssk1 ">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
                         </Col>

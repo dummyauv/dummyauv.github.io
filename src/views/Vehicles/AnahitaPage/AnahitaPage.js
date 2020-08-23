@@ -51,7 +51,7 @@ function LandingPage() {
   });
   return (
     <>
-    <ExamplesNavbar />
+    <ExamplesNavbar activePage="/vehicles/anahita"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
         

@@ -52,7 +52,7 @@ function LandingPage() {
     return (
         <>  
 
-     <ExamplesNavbar />
+     <ExamplesNavbar activePage="/about-us"/>
         <div className="section text-center ">
             <Container className="reduce-margin">
             

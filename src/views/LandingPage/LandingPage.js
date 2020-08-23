@@ -48,8 +48,8 @@ import ContactUs from "./components/ContactUs/ContactUs.js";
 import Achievements from './components/Achievements/Achievements';
 import "./LandingPage.css"
 import "./LandingPage.css"
-function LandingPage() {
-
+function LandingPage(props) {
+  // console.log(props.location.pathname);
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -61,7 +61,7 @@ function LandingPage() {
     <>
 
   <LandingPageHeader />
-  <ExamplesNavbar home="" page="landing-page"/>
+  <ExamplesNavbar home="" page="landing-page" activePage={props.location.pathname}/>
     <div className="section text-center ">
       <Container className="reduce-margin">
       

@@ -36,15 +36,15 @@ import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
 import EventsPage from 'views/EventsPage/EventsPage';
 import BlogsPage from 'views/BlogsPage/BlogsPage';
 import ContactUsPage from 'views/ContactUsPage/ContactUsPage';
+import SingleBlog from 'views/SingleBlogs/SingleBlog';
 // others
-
 ReactDOM.render(
-
+  
   <BrowserRouter>
     <Switch>
       <Route
         path="/landing-page"
-        render={props => <LandingPage {...props} />}
+        render={props => <LandingPage {...props} active="true"/>}
       />
       <Route
         path="/about-us"
@@ -67,10 +67,17 @@ ReactDOM.render(
         path="/events"
         render={props => <EventsPage {...props} />}
       />
+      
+      <Route
+        path="/blogs/:id"
+        render={props => <SingleBlog {...props} />}
+      />
       <Route
         path="/blogs"
         render={props => <BlogsPage {...props} />}
       />
+
+
 
       <Route
         path="/contact-us"

@@ -52,7 +52,7 @@ function LandingPage() {
     });
     return (
         <>
-        <ExamplesNavbar/>
+        <ExamplesNavbar activePage="/team"/>
             <div className="main">
                 <Team />
                 <Subsytems />
