@@ -35,7 +35,7 @@ function ContactUsPage() {
         <Container className="reduce-margin">
         
           <Row>
-            <h2 className="heading-main">Contact Us</h2>          
+            <h2 className="heading-main">CONTACT US</h2>          
           </Row>
         </Container>
     </div>

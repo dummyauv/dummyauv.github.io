@@ -28,7 +28,7 @@ function LandingPageHeader() {
 
   return (
   	<div>
-	      <div className="w-100 header-styling" >
+	      <div className="image-fluid header-styling" >
 
 	      </div>
   	</div>

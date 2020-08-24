@@ -59,7 +59,7 @@ function BlogsPage() {
         <Container className="reduce-margin">
           
           <Row>
-            <h2 className="heading-main">Blogs</h2>          
+            <h2 className="heading-main">BLOGS</h2>          
           </Row>
         </Container>
     </div>

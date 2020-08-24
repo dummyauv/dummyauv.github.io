@@ -26,7 +26,7 @@ function Vehicles() {
           <Container>
             <Row className="d-flex justify-content-center">
               <Col className="" md="12">
-                <h2 className="text-center heading-main">Vehicles</h2>
+                <h2 className="text-center heading-main">VEHICLES</h2>
               </Col>
               <Col lg="5" className="text-center">
                 <h2 className="mt-0 mb-3 small-heading">Varun</h2>

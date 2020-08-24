@@ -26,18 +26,14 @@ function AboutUs() {
   });
   return (
     <>
-      <div className="section text-center ">
-        <Container className="reduce-margin">
+      <div className="section landing-section text-center ">
+        <Container >
           <div className=" col-12 text-center">
             <h2 className="heading-main ">ABOUT US</h2>          
           </div>
+        
         <Row >
-          <Col className="mt-0 left-desc" xl="9">
-          
-          <img
-              src={anahitapic}
-              className=" w-100"
-            ></img>
+          <Col className="mt-0 left-desc" xl="12">
             
             <p className="description desc-ssk1">
               We are a team of undergraduate students researching in the field
@@ -54,16 +50,16 @@ function AboutUs() {
               environments, performing acoustic localization, and identifying
                 objects using computer vision.{" "}
             </p>
+            
+
             <br />
 
-            <Link to='/about-us' className="btn-blue">
-              More
-            </Link>
+          
 
           </Col>
 
-          <div xl="3" className="">
-            <div xl="3" md="3" sm="6" className=" single-icon-container">
+          <div className="row mt-5 mx-auto">
+            <div className="col-md-3 col-sm-6">
               <div className=" icon-ssk">
                   <i className=" mt-4 fa fa-cogs fa-5x" />
                 <div className="description">
@@ -72,7 +68,7 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
+            <div className="col-md-3 col-sm-6">
               <div className=" icon-ssk">
                 <i className="  mt-4 fa fa-users fa-5x" />
                 <div className="description">
@@ -81,7 +77,7 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
+            <div className="col-md-3 col-sm-6">
               <div className=" icon-ssk">
                 <i className="mt-4 fa fa-briefcase fa-5x" />
                 <div className="description">
@@ -90,9 +86,9 @@ function AboutUs() {
                 </div>
               </div>
             </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
+            <div className="col-md-3 col-sm-6">
               <div className=" icon-ssk">
-               <i className="fa fa-coffee fa-5x" />
+               <i className="mt-4 fa fa-coffee fa-5x" />
                 <div className="description">
                   <h4 className=""><strong>400+ NightOuts</strong></h4>
                   
@@ -100,13 +96,15 @@ function AboutUs() {
               </div>
             </div>
           </div>
-
+          <div className="mt-5 col-md-12 align-items-center">
+              <Link to='/about-us' className="btn-blue text-center">
+                More
+              </Link>
+          </div>
+        
         </Row>
-        <br />
-        <br />
-        <Row className="icons-row text-align-center">
-          
-        </Row>
+        <br/>
+        <br/>
         </Container>
       </div>
     </>

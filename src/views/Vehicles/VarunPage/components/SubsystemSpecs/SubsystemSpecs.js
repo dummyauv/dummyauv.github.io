@@ -41,14 +41,14 @@ function Posts() {
                 <Row>
                     <Col md="6" className="text-center">
                         <img src={labelled} className="image-anahita"></img>
-                        <p className="small-heading-edited">EXPLODED VIEW OF VARUN</p>
+                        <p className="small-heading-edited">VARUN VEHICLE : STRUCTURE</p>
                     </Col>
                     <Col className="text-center">
                         <ul style={{marginTop: '10rem'}}>
                             <li className="text-left desc-ssk1">Five degrees of freedom</li>
                             <li className="text-left desc-ssk1">Weigth of 44.5 kg with +1% buoyancy</li>
-                            <li className="text-left desc-ssk1">Max coefficient of drag at 1.5 m/s 0.42</li>
-                            <li className="text-left desc-ssk1">Motion through 6 brushed-DC Seabotix thrusters</li>
+                            <li className="text-left desc-ssk1">Max coefficient of drag at 1.5 m/s : 0.42</li>
+                            <li className="text-left desc-ssk1">6x brushed-DC Seabotix thrusters for locomotion</li>
                             <li className="text-left desc-ssk1">Pneumatics actuation for torpedo shooting</li>
                             <li className="text-left desc-ssk1">Fabricated using in-house manufacturing facilities</li>
                         </ul>
@@ -69,7 +69,7 @@ function Posts() {
                     </Col>
                     <Col md="6" className="text-center mb-5">
                         <img src={powerimg} className="image-anahita mb-large"></img>
-                        <p className="small-heading-edited mt-5">SCHEMATIC DIAGRAM OF POWER DISTRIBUTION BOARD</p>
+                        <p className="small-heading-edited mt-5">POWER DISTRIBUTION</p>
                     </Col>
                 </Row>
                 <Row>
@@ -78,7 +78,7 @@ function Posts() {
                 <Row>
                     <Col md="6" className="text-center mt-5">
                         <img src={soft} className="image-anahita"></img>
-                        <p className="small-heading-edited">FRAMEWORKS USED IN VARUN'S CODE</p>
+                        <p className="small-heading-edited">FRAMEWORKS USED IN VARUN</p>
                     </Col>
                     <Col md="6" className="text-center">
                         <ul style={{marginTop: '10rem'}}>
@@ -86,7 +86,6 @@ function Posts() {
                             <li className="text-left desc-ssk1">Simulation through Gazebo to optimize testing time</li>
                             <li className="text-left desc-ssk1">Image processing to perform vision-based tasks</li>
                             <li className="text-left desc-ssk1">Navigation through dead-reckoning sensors</li>
-                            <li className="text-left desc-ssk1">Intel NUC for high-processing power</li>
                             <li className="text-left desc-ssk1">GUI enabled control for debugging</li>
                             <li className="text-left desc-ssk1">Code available on GitHub with documentation under BSD-3 License Clause</li>
                         </ul>

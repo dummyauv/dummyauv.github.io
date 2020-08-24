@@ -71,3 +71,8 @@
   background-color: rgb(80, 80, 80) !important;
   border-radius: 0px !important;
 }
+
+.minilogo{
+  max-width: 100px;
+  margin-left: 0px;
+}

@@ -27,7 +27,7 @@ function Posts() {
                        
                     <Row className="d-flex justify-content-center">
                         <Col md="2"></Col>
-                        <Col className="heading-main" md="8" style={{textAlign:'center'}}>Our Achievements</Col>
+                        <Col className="heading-main" md="8" style={{textAlign:'center'}}>OUR ACHIEVEMENTS</Col>
                         <Col md="2"></Col>
                         <Col xl="4" className="text-center">
                             <h3 className="small-heading">Achievement 1</h3>

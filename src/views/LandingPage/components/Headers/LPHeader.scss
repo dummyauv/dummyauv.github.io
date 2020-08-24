@@ -20,11 +20,12 @@
 
 .header-styling{
     /* font-size: 62.5%; */
-    background-image:url(../../../../assets/img/backgrounds/drop-header.jpg);
-    background-size: 100% 100%;
+    background-image:url(../../../../assets/img/backgrounds/drop-header2.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 36rem;
+    max-width:100%;
 }
 
  @keyframes moveInLeft {

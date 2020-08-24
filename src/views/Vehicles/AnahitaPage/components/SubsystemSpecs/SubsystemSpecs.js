@@ -43,15 +43,15 @@ function Posts() {
                     <Col md="6" className="text-center">
                         
                         <img src={anahita_exploded} className="image-anahita"></img>
-                        <p className="small-heading-edited">Anahita Vehicle:- Structure</p>
+                        <p className="small-heading-edited">ANAHITA VEHICLE:- STRUCTURE</p>
                     </Col>
                     <Col md="6" className="text-center">    
                         <ul style={{marginTop: '8rem'}}>
                             <li className="text-left desc-ssk1"><b>Six</b> degrees of freedom.</li>
                             <li className="text-left desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
-                            <li className="text-left desc-ssk1">Max coefficient of drag at <b>0.6 m/s 0.12</b></li>
-                            <li className="text-left text-left desc-ssk1">Motion through <b>8 T200 (Blue Robotics) thrusters.</b></li>
-                            <li className="text-left desc-ssk1">Pneumatics actuation for torpedo shooting</li>
+                            <li className="text-left desc-ssk1">Max coefficient of drag at <b>0.6 m/s : 0.12</b></li>
+                            <li className="text-left text-left desc-ssk1"><b>8x T200 (Blue Robotics) thrusters</b>for locomotion</li>
+                            <li className="text-left desc-ssk1"><b>Pneumatics </b>actuation for torpedo shooting</li>
                             <li className="text-left desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
                         </ul>
                     </Col>
@@ -71,7 +71,7 @@ function Posts() {
                     </Col>
                     <Col md="6" className="text-center mb-5">
                         <img src={powerimg} className="image-anahita elec-edit"></img>
-                        <p className="small-heading-edited">COMPLETE ELECTRICAL FLOWCHART</p>
+                        <p className="small-heading-edited">COMPLETE ELECTRICAL ARCHITECTURE</p>
                     </Col>
                 </Row>    
                 <Row>

@@ -20,7 +20,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
-import auvlog from '../../assets/img/auv-logo-mini.png'
+import auvlogomini from '../../assets/img/logos/logo_v1.32.png'
 import "./ExamplesNavbar.css"
 // reactstrap components
 import {
@@ -38,6 +38,8 @@ import {
   Button,
   Row
 } from "reactstrap";
+
+
 
 function ExamplesNavbar(props) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -79,15 +81,15 @@ const [scrolled,setScrolled]=React.useState(false);
     >
       <Container >
       <div className="navbar-translate" style={{transform:'translateX(80%)'}}>
-          {/* <NavbarBrand
+           <NavbarBrand
             data-placement="bottom"
             to="/index"
-            target="_blank"
             title="Coded by Creative Tim"
             tag={Link}
+            style={{marginLeft:"0px",padding:"0 0"}}
           >
-            Paper Kit 2
-          </NavbarBrand> */} 
+          <img className="minilogo w-100" src={auvlogomini} alt="logo" />
+          </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {

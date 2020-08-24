@@ -53,14 +53,6 @@ function LandingPage() {
         <>  
 
      <ExamplesNavbar />
-        <div className="section text-center ">
-            <Container className="reduce-margin">
-            
-                <Row>
-                  <h2 className="heading-main">About Us</h2>          
-                </Row>
-            </Container>
-        </div>
             <div className="main ">
                 <AboutUs />
                 <Participation/>

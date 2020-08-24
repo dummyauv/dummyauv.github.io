@@ -35,7 +35,7 @@ function Posts() {
             <Container>                <Row className="d-flex justify-content-center">
                     <Col md="2"></Col>
                     <Col className="ml-auto mr-auto" md="8">
-                        <h2 className="text-center mb-4 heading-main">Key Features</h2>
+                        <h2 className="text-center mb-4 small-heading">Key Features</h2>
                     </Col>
                     <Col md="2"></Col>
                     <Col md="6" className="text-center">
