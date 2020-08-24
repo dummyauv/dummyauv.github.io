@@ -28,5 +28,9 @@
 .comp-heading{
 	font-weight: 400;
 	margin-bottom: 3rem;
-	text-decoration: underline;
+    /* text-decoration: underline; */
+}
+
+.comp-heading:hover{
+    text-decoration: underline;
 }

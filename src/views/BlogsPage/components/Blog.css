@@ -15,6 +15,13 @@
 
 .blog-container{
     height: 100%;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.blog-container:hover{
+    border-left: 1rem solid #66615B;
+    padding-left: 0;
 }
 
 .headings-container{

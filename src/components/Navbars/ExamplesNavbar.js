@@ -42,6 +42,7 @@ import {
 
 
 function ExamplesNavbar(props) {
+  console.log(props.activePage);
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -110,21 +111,21 @@ const [scrolled,setScrolled]=React.useState(false);
         >
           <Nav navbar className=" mr-5 navigation">
             <NavItem>
-              <NavLink  className="navbar-content" to="/landing-page" tag={Link}>Home
+              <NavLink  className={props.activePage==="/landing-page" ? "navbar-content active" : "navbar-content"} to="/landing-page" tag={Link} >Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="navbar-content" to="/about-us" tag={Link}>
+              <NavLink className={props.activePage==="/about-us" ? "navbar-content active" : "navbar-content"} to="/about-us" tag={Link}>
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="navbar-content" to="/team" tag={Link}>
+              <NavLink className={props.activePage==="/team" ? "navbar-content active" : "navbar-content"} to="/team" tag={Link}>
                 Team
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="navbar-content" to="/events" tag={Link}>
+              <NavLink className={props.activePage==="/events" ? "navbar-content active" : "navbar-content"} to="/events" tag={Link}>
                 Events
               </NavLink>
             </NavItem>
@@ -145,7 +146,7 @@ const [scrolled,setScrolled]=React.useState(false);
                 nav
                 onClick={e => e.preventDefault()}
                 role="button"
-                className="navbar-content"
+                className={props.activePage==="/vehicles/anahita" || props.activePage==="/vehicles/varun" ? "navbar-content active" : "navbar-content"}
               >
                 Vehicles
                       </DropdownToggle>
@@ -179,12 +180,12 @@ const [scrolled,setScrolled]=React.useState(false);
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
-              <NavLink className="navbar-content" to="/blogs" tag={Link}>
+              <NavLink className={props.activePage==="/blogs" ? "navbar-content active" : "navbar-content"} to="/blogs" tag={Link}>
                 Blogs
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="navbar-content" to="/contact-us" tag={Link}>
+              <NavLink className={props.activePage==="/contact-us" ? "navbar-content active" : "navbar-content"} to="/contact-us" tag={Link}>
                 Contact Us
               </NavLink>
             </NavItem>

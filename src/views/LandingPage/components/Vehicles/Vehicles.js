@@ -22,7 +22,7 @@ import {
 function Vehicles() {
     return (
         <>
-        <div className="section landing-section">
+        <div className="section landing-section mt-5">
           <Container>
             <Row className="d-flex justify-content-center">
               <Col className="" md="12">

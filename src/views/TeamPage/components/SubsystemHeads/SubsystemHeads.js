@@ -33,7 +33,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3 pt-3">Prof. Mangal Kothari</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3 pt-3">Prof. Mangal Kothari</CardTitle>
                       <h6 className="desc-ssk1">Aerospace Department, IITK</h6>
                     </div>
                   </a>
@@ -71,7 +71,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Ayush Gupta</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Ayush Gupta</CardTitle>
                       <h6 className="desc-ssk1">Y17, Software Subsystem</h6>
                     </div>
                   </a>
@@ -107,7 +107,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Inshu Namdev</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Inshu Namdev</CardTitle>
                       <h6 className="desc-ssk1">Y17, Electrical Subsystem</h6>
                     </div>
                   </a>
@@ -143,7 +143,7 @@ function TalkAbout() {
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="small-heading pt-3">Priank Prasad</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Priank Prasad</CardTitle>
                       <h6 className="desc-ssk1">Y17, Mechanical Subsystem</h6>
                     </div>
                   </a>

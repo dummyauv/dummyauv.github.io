@@ -18,12 +18,6 @@ import anahita_exploded from '../../../../../assets/img/anahita/anahita_exploded
 import powerimg from '../../../../../assets/img/anahita/AnahitaElec.jpg';
 import soft from '../../../../../assets/img/anahita/AnahitaSoft.jpg';
 import "./subs.css"
-const embedstyle= {
-    fontSize: "13px",
-    fontWeight: "normal",
-    margin: "5px",
-    color: "#4A4A4A"
-}
 function Posts() {
     return (
         <>
@@ -42,9 +36,9 @@ function Posts() {
                 <Row>
                     <Col md="6" className="text-center">
                         
-                        <img src={anahita_exploded} className="image-anahita"></img>
-                        <p className="small-heading-edited">ANAHITA VEHICLE:- STRUCTURE</p>
-                    </Col>
+                        <img src={anahita_exploded} className="image-anahita anahita-exploded"></img>
+                        <p className="small-heading-edited">ANAHITA VEHICLE :- STRUCTURE</p>
+                        
                     <Col md="6" className="text-center">    
                         <ul style={{marginTop: '8rem'}}>
                             <li className="text-left desc-ssk1"><b>Six</b> degrees of freedom.</li>

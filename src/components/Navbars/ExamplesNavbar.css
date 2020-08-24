@@ -54,10 +54,6 @@
   }
 }
 
-.custom-navbar-ssk{
-  
-}
-
 .navbar-content{
 
   font-family: Roboto,Arial,sans-serif ;
@@ -75,4 +71,7 @@
 .minilogo{
   max-width: 100px;
   margin-left: 0px;
+}
+.active{
+  border-bottom: 2px solid #66615b;
 }

@@ -50,7 +50,7 @@ function LandingPage() {
   });
   return (
     <>
-    <ExamplesNavbar/>
+    <ExamplesNavbar activePage="/vehicles/varun"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
         
