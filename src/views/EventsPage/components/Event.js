@@ -1,15 +1,6 @@
 import React from 'react';
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+
     Container,
     Row,
     Col 
@@ -18,7 +9,7 @@ import "./Event.css"
 
 
 function Event(props) {
-    return (
+    return ( 
         <>
             <div className="section landing-section ">
                    <Container className="red-back">

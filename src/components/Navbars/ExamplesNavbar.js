@@ -1,21 +1,4 @@
-/*!
 
-=========================================================
-* Paper Kit React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from 'react';
 import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
@@ -35,14 +18,12 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Button,
-  Row
+
 } from "reactstrap";
 
 
 
 function ExamplesNavbar(props) {
-  console.log(props.activePage);
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -80,8 +61,8 @@ const [scrolled,setScrolled]=React.useState(false);
       expand="lg"
       className="custom-navbar-ssk"
     >
-      <Container >
-      <div className="navbar-translate" style={{transform:'translateX(80%)'}}>
+      <Container className="navbar-container">
+      <div className="navbar-translate">
            <NavbarBrand
             data-placement="bottom"
             to="/index"
@@ -93,11 +74,11 @@ const [scrolled,setScrolled]=React.useState(false);
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
-            className={classnames("navbar-toggler navbar-toggler", {
+            className={classnames("navbar-toggler navbar-toggler u-margin-zero", {
               toggled: navbarCollapse,
             })}
             onClick={toggleNavbarCollapse}
-            style={{float: 'right'}}
+            
           >
             <span className="navbar-toggler-bar bar1" />
             <span className="navbar-toggler-bar bar2" />
@@ -146,17 +127,19 @@ const [scrolled,setScrolled]=React.useState(false);
                 nav
                 onClick={e => e.preventDefault()}
                 role="button"
+                style={{textAlign:'center'}}
                 className={props.activePage==="/vehicles/anahita" || props.activePage==="/vehicles/varun" ? "navbar-content active" : "navbar-content"}
               >
                 Vehicles
                       </DropdownToggle>
               <DropdownMenu
+              
                 aria-labelledby="dropdownMenuButton"
-                className="dropdown-info"
-                style={{backgroundColor:"rgb(220,220,220)",borderRadius:"0"}}
+                className="dropdown-info ml-auto mr-auto"
+                style={{backgroundColor:"rgb(220,220,220)",borderRadius:"0", textAlign:"center"}}
               >
                 
-                  <Link to='/vehicles/anahita' style={{color: 'black'}}>
+                  <Link to='/vehicles/anahita' style={{color: 'black', textAlign:"center"}} className="ml-auto mr-auto">
                   <DropdownItem
                   // href="#pablo"
                   // onClick={e => e.preventDefault()}
@@ -195,6 +178,7 @@ const [scrolled,setScrolled]=React.useState(false);
                 href="https://www.facebook.com/auviitk"
                 target="_blank"
                 title="Like us on Facebook"
+                style={{textAlign: "center"}}
               >
                 <i className="fa fa-facebook-square" />
                 <p className="d-lg-none">Facebook</p>
@@ -206,6 +190,7 @@ const [scrolled,setScrolled]=React.useState(false);
                 href="https://github.com/AUV-IITK"
                 target="_blank"
                 title="Star on GitHub"
+                style={{textAlign: "center"}}
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>

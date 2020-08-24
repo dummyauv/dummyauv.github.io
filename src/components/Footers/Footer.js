@@ -7,7 +7,7 @@ import {
     
     Form,
     Input,
-    InputGroupAddon,
+    InputGroupAddon, 
     InputGroupText,
     InputGroup,
     
@@ -21,9 +21,7 @@ function Footer() {
         </Row> 
         <br />
         <Row style={{width: "100%",padding:"10px"}}>
-            <Col md="1">
-            </Col>
-            <Col md="4">
+            <Col lg="4" md="6" className="footer-section-left">
                 <div className="footer-auv-logo"></div>
                 <div className="footer-heading-primary">Team AUV-IITK</div>
                 <div className="footer-address">
@@ -32,8 +30,7 @@ function Footer() {
                 <br />Uttar Pradesh-208016, India
                 </div>
             </Col>
-
-            <Col md="2">
+            <Col lg="4" md="6" className="footer-section-center">
                 <div className="footer-links-heading u-margin-top-negative-medium">Quick Links</div>   
                 <NavLink to="/landing-page" tag={Link} className="footer-nav-link">
                     Home
@@ -107,11 +104,9 @@ function Footer() {
 
                 
             </Col> 
-            <Col md="1">
-            </Col>
-            <Col md="3" >
+            <Col lg="4" md="12" className="footer-section-right">
 
-                <h1 className="footer-links-heading u-margin-top-negative-medium">Reach Us</h1>
+                <h1 className="footer-links-heading u-margin-top-negative-medium mb-4">Reach Us</h1>
                 
                 <Form className="footer-form">
                   <Row>
@@ -143,7 +138,7 @@ function Footer() {
                     className="footer-input-group mt-4"
                   />
                   <Row>
-                    <Col  md="4">
+                    <Col  md="12" className="mt-3">
                   <a className="btn mt-3" href="javascript:alert('Sorry we do not have a backend setup');">Send</a>
                     </Col>
                   </Row>

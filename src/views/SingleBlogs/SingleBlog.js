@@ -2,16 +2,6 @@ import React, {Component} from "react";
 
 // reactstrap components
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
     Container,
     Row,
     Col
@@ -57,7 +47,7 @@ render(){
           
           <Row>
             <h2 className="heading-main" style={{display:'block'}}>{this.state.blogs.heading}</h2>   
-            <h2 className="small-heading"style={{display:'block'}}>{this.state.blogs.subheading}</h2>       
+            {/* <h2 className="small-heading"style={{display:'block'}}>{this.state.blogs.subheading}</h2>        */}
           </Row>
         </Container>
     </div>

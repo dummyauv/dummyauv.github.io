@@ -57,3 +57,19 @@
     margin-top: -2rem !important;
 }
 
+.responsive-achievement-image{
+    background-color: yellow !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;    
+}
+
+.u-margin-top-negative{
+    margin-top: 1.5rem;
+}
+
+@media(max-width: 1200px){
+    .responsive-achievement-image2{
+        /* width: 50% !important; */
+        margin-top: 1rem !important;
+    }
+}

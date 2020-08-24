@@ -5,7 +5,7 @@
 
 .footer-heading{
 
-    background-color: rgba(102,97,91);
+    background-color: rgba(102,97,91); 
     width: 100%;
     margin: 0;
     padding:0;
@@ -114,9 +114,70 @@
 }
 
 .u-margin-top-negative-medium{
-    margin-top: 2.5rem;
+    margin-top: 4rem;
 }
 .u-margin-top-negative-small{
     margin-top: 1rem;
+}
+
+.footer-section-left{
+    /* background-color: yellow; */
+    /* text-align: center; */
+}
+
+@media(max-width: 992px){
+    .footer-section-center{
+        /* background-color:   green; */
+        text-align: center;
+    }
+
+    .nav-icons-container{
+        /* background-color: red; */
+        display: flex;
+        /* justify-items: center; */
+        justify-content: center;
+    }
+
+    .footer-section-right{
+        /* background-color: green; */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-form{
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width: 768px){
+    .footer-section-left{
+        /* background-color: red; */
+    }
+
+    .footer-auv-logo{
+        margin: 0rem auto;
+    }
+
+    .footer-heading-primary{
+        /* background-color: green; */
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .footer-address{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+    .footer-section-right{
+        /* background-color: purple; */
+        text-align: center;  
+    }
+
+    .footer-form{
+        margin: 1rem auto;
+    }
 }
 

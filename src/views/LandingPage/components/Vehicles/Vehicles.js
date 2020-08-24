@@ -4,16 +4,7 @@ import anahita from "assets/img/anahita/anahita-underwater.png";
 import {Link } from "react-router-dom";
 import "./Vehicles.css"
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+    
     Container,
     Row,
     Col

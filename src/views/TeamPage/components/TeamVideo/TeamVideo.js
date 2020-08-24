@@ -1,19 +1,9 @@
 import React from "react";
 import "./TeamVideo.css";
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
-  Row,
-  Col,
+
 } from "reactstrap";
 
 function TalkAbout() {

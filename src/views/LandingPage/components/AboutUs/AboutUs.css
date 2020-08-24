@@ -126,7 +126,7 @@
     text-align: center;
 }
 
-.info-title{
+.info-title{ 
     font-family: Lato  ;
     text-transform: uppercase;
     text-decoration: bold;
@@ -165,7 +165,7 @@
     .icons-container{
         background-color:transparent;
         width: 100%;
-        /* background-color: red; */
+        background-color: red;
         display: flex;
         flex-wrap: wrap;
     }
@@ -210,6 +210,68 @@
 
 .icon-infos{
     font-family: Roboto;
-    margin-top: 244px !important;
+    margin-top: 2.44rem !important;
     font-weight: 400;
+}
+
+.all-icons-container{
+    /* background-color: #3d3d3d; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (max-width: 1200px){
+    .all-icons-container{
+        /* background-color: green; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 3rem;
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 992px){
+    .all-icons-container{
+        /* background-color: green; */
+        display: block;
+        margin-top: 3rem;
+        width: 100%;
+
+    }
+
+    .single-icon-container{
+        display: inline-block;
+    }
+
+}
+
+.icon-responsive{
+    /* background-color: yellow; */
+    width: 100%;
+}
+
+@media (max-width: 1200px){
+    .icon-responsive{
+        font-size: 4rem;
+    }
+    .icon-ssk{
+        /* background-color: red; */
+        width: 20rem;
+    }
+}
+
+@media (max-width: 992px){
+    .description2{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px){
+    .icon-ssk{
+        /* background-color: red; */
+        width: 18rem;
+    }
 }

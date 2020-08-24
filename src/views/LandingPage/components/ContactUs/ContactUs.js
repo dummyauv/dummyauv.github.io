@@ -1,11 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
+
     Form,
     Input,
     InputGroupAddon,
@@ -22,11 +18,11 @@ function ContactUs() {
         <div className="section landing-section">
           <Container className="u-border">
             <Row>
-              <Col md='6' >
+              <Col lg='6' >
                 <h2 className=" small-heading">Keep in touch with us</h2>
                 <Form className="contact-form">
                   <Row>
-                    <Col md="12">
+                    <Col md="12">   
                       <label className="mb-0 desc-ssk">Name</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
@@ -62,7 +58,7 @@ function ContactUs() {
                   </Row>
                 </Form>
               </Col>
-              <Col  md="6">
+              <Col  lg="6">
                 <h2 className="ml-5 small-heading">Contact details</h2>
                 <div className="row u-margin-top-large">
 
@@ -85,7 +81,7 @@ function ContactUs() {
                   </Col>
                   <Col md="10" className="ml-3 mt-4">
                     <p className="desc-ssk">Address : AUV Room, Hall of Residence 2,
-                Indian Institute of Technology, Kanpur, &nbsp;  &nbsp;  &nbsp; Uttar Pradesh,    India - 208016 </p>
+                Indian Institute of Technology, Kanpur,  Uttar Pradesh, India - 208016 </p>
                   </Col>
                 </div>
               </Col>

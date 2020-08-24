@@ -10,7 +10,7 @@
 }
 
 .img-sska1{
-    border-radius: 20px;
+    border-radius: 20px; 
     background-color:  rgb(2, 13, 19);
     margin-top: 40px;
     max-width: 800px;
@@ -55,4 +55,19 @@
 
 .margin-neg{
     margin-top: -2rem !important;
+}
+
+.large-image-responsiveness{
+    width: 100%;
+}
+
+@media(max-width: 1200px){
+    .large-image-responsiveness{
+        width: 75% !important;
+    }
+}
+@media(max-width: 992px){
+    .large-image-responsiveness{
+        width: 100% !important;
+    }
 }

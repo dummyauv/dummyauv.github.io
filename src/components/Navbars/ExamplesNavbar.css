@@ -3,8 +3,7 @@
 
 .navbar{
   width: 100%;
-  max-width: 100%;
-  height: 6vh;
+  height: 6rem;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -13,6 +12,19 @@
   transition: all .2s ease;
   z-index: 100;
 
+} 
+
+@media(max-width: 992px){
+
+
+  .custom-navbar-ssk{
+    margin: 0 !important;
+    width: 100%;
+  }
+}
+
+.u-margin-zero{
+  margin: 0 !important;
 }
 
 .scrolled{
@@ -57,20 +69,39 @@
 .navbar-content{
 
   font-family: Roboto,Arial,sans-serif ;
-  font-size: 14px !important;
+  font-size: 1.4rem !important;
   font-weight: 900 !important;
   letter-spacing: 0.08em;
   color: rgb(0, 0, 0) !important;
+  text-align: center;
+}
+
+@media(max-width: 1200px)
+{
+  .navbar-content{
+    /* background-color: yellow; */
+    font-size: 1rem !important;
+    
+  }
 }
 
 .dropdown-item:hover{
   background-color: rgb(80, 80, 80) !important;
   border-radius: 0px !important;
+  text-align: center !important;
 }
 
 .minilogo{
-  max-width: 100px;
+  max-width: 9rem;
   margin-left: 0px;
+}
+
+@media(max-width: 576px)
+{
+  .minilogo{
+    max-width: 8rem;
+  }
+
 }
 .active{
   background-color: rgba(0,0,0,0.3);

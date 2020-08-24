@@ -1,15 +1,6 @@
 import React from 'react';
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+
     Container,
     Row,
     Col
@@ -20,7 +11,7 @@ import atwork from '../../../../assets/img/newreplaced.jpg';
 import "./Achievements.css"
 
 function Posts() {
-    return (
+    return ( 
         <>
             <div className="section landing-section ">
                    <Container>
@@ -31,18 +22,18 @@ function Posts() {
                         <Col md="2"></Col>
                         
                         <Col xl="4" className="text-center">
-                            <h3 className="mt-0 mb-3 small-heading">   &nbsp; Undergraduate &nbsp;  Roboticists  </h3>
-                            <img src={atwork} className="border border-info w-100 m-3"></img>
+                            <h3 className="mt-0 mb-3 small-heading">   &nbsp; Undergraduate  Roboticists  </h3>
+                            <img src={atwork} className="border border-info w-100 m-3 large-image-responsiveness"></img>
                             <p className="desc-ssk1">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
                         </Col>
                         <Col xl="4" className="text-center">
                             <h3 className="mt-0 mb-3 small-heading">Ingenious Design & Creativity</h3>
-                            <img src={desbot} className="border border-info w-100 m-3"></img>
+                            <img src={desbot} className="border border-info w-100 m-3 large-image-responsiveness"></img>
                             <p className="desc-ssk1 ">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
                         </Col>
                         <Col xl="4" className="text-center">
                             <h3 className="mt-0 mb-3 small-heading">National Competition Winner</h3>
-                            <img src={niotwin} className="border border-info w-100 m-3"></img>
+                            <img src={niotwin} className="border border-info w-100 m-3 large-image-responsiveness"></img>
                             <p className="desc-ssk1">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
                         </Col>
                         

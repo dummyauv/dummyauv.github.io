@@ -9,16 +9,7 @@ import xsens from "assets/img/sponsors/xsens.png"
 import ids from "assets/img/sponsors/ids.png"
 import "./Sponsors.css"
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText, 
-    InputGroup,
+
     Container,
     Row,
     Col
@@ -26,54 +17,54 @@ import {
 
 function Sponsors() {
     return (
-        <>
+        <> 
             <div className="section landing-section light-ssk" id="sponsors">
           <Container>
-            <Row className="ml-2">
+            <Row >
               <Col md="2"></Col>
               <Col className="ml-auto mr-auto mb-4" md="8">
                 <h2 className="text-center heading-main">OUR SPONSORS</h2>
                 <br />
               </Col>
               <br />
-              <Col md="2"></Col>
-              <Col lg="3" xs="6">
-                <img src={altium} className="img-responsive1" width="100%"></img>
-              </Col>
-              <Col lg="3" xs="6">
-                <img src={xsens} className="img-responsive1" width="100%"></img>
-              </Col>
-              <Col lg="3" xs="6">
-                <img src={ids} className="img-responsive1" width="100%"></img>
-              </Col>  
-              <Col lg="3" xs="6">
-                <img src={ansys} className="img-responsive1" width="100%"></img>
-              </Col>
-              </Row>
+                <Col md="3" sm="6">
+                  <img src={altium} className="img-responsive1" width="100%"></img>
+                </Col>
+                <Col md="3" sm="6">
+                  <img src={xsens} className="img-responsive1" width="100%"></img>
+                </Col>
+                <Col md="3" sm="6">
+                  <img src={ids} className="img-responsive1" width="100%"></img>
+                </Col>  
+                <Col md="3" sm="6">
+                  <img src={ansys} className="img-responsive1" width="100%"></img>
+                </Col>
+            </Row>
                             <br />
-              <Row>
-
-              <Col lg="4" xs=" ml-auto mr-auto">
+              <Row style={{textAlign:"center"}}>
+              
+              <Col md="4" sm="6" >
                 <img src={sparton} className="img-responsive1" width="100%"></img>
               </Col>
-              <Col lg="4" xs="ml-auto mr-auto">
+              
+              <Col md="4" sm="6">
                 <img src={mathworks}  className="img-responsive1" width="100%"></img>
               </Col>
-
-              <Col lg="4" xs="ml-auto mr-auto">
+              {/* <Col md="0" sm="4"></Col> */}
+              <Col md="4" sm="12">
                 <img src={solidworks} className=" img-responsive1" width="100%"></img>
-              </Col>
+              </Col> 
 
               </Row>
                 <br/>
               <Row>
-              <Col lg="3" xs="3">
+              <Col md="4" xs="2">
               </Col>
-              <Col lg="6" xs="ml-auto mr-auto">
+              <Col md="4" xs="8">
               <img src={dord} className="img-responsive1" width="100%"></img>
               </Col>
 
-              <Col lg="3" xs="3">
+              <Col md="4" xs="2">
               </Col>
             </Row>
           </Container>

@@ -5,11 +5,6 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
   Container,
   Row,
   Col
@@ -843,11 +838,11 @@ function TalkAbout() {
                     <div className="author">
                       <img
                         alt="..."
-                        src={require("assets/img/team/team-1.jpg")}
+                        src={require("assets/img/team/jayant.jpeg")}
                         className="image-prof"
                       />
                       <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Jayant</CardTitle>
+                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Jayant Reddy</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>

@@ -1,16 +1,7 @@
-import React from "react";
+import React, {useEffect} from "react";
 // reactstrap components
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
   Row,
   Col
@@ -23,13 +14,9 @@ import sauvcimg from "../../assets/img/Competetions/sauvc.jpg"
 
 import Event from "./components/Event"
 function LandingPage() {
-  document.documentElement.classList.remove("nav-open");
-  React.useEffect(() => {
-    document.body.classList.add("profile-page");
-    return function cleanup() {
-      document.body.classList.remove("profile-page");
-    };
-  });
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   const event1={
           name: 'ROBOSUB',

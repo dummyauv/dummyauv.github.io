@@ -2,17 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import "./Posts.css"
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
-    Container,
+
     Row,
     Col
 } from "reactstrap";

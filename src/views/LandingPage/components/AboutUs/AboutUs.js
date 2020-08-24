@@ -4,19 +4,10 @@ import {useEffect} from "react";
 import { Link } from "react-router-dom";
 import './AboutUs.css';
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
   Row,
-  Col,
+  Col, 
 } from "reactstrap";
 
 function AboutUs() {
@@ -26,7 +17,7 @@ function AboutUs() {
   });
   return (
     <>
-      <div className="section text-center ">
+      <div className=" text-center ">
         <Container className="reduce-margin">
           <div className=" col-12 text-center">
             <h2 className="heading-main ">ABOUT US</h2>          
@@ -62,45 +53,46 @@ function AboutUs() {
 
           </Col>
 
-          <div xl="3" className="">
-            <div xl="3" md="3" sm="6" className=" single-icon-container">
+          <div  className="all-icons-container">
+            <div className=" single-icon-container">
               <div className=" icon-ssk">
-                  <i className=" mt-4 fa fa-cogs fa-5x  " />
-                <div className="description">
+                  <i className=" mt-4 fa fa-cogs fa-5x icon-responsive " />
+                <div className="description2">
                   <h4 className=""><strong>2 Vehicles Made</strong></h4>
                   
                 </div>
               </div>
             </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
-              <div className=" icon-ssk">
-                <i className="  mt-4 fa fa-users fa-5x " />
-                {/* In order to align the icons center add the class 'icon-align' to each of the icon */}
-                <div className="description">
-                  <h4 className=""><strong>30 Team Members</strong></h4>
-                  
+            
+              <div className="single-icon-container">
+                <div className=" icon-ssk">
+                  <i className="  mt-4 fa fa-users fa-5x icon-responsive" />
+                  {/* In order to align the icons center add the class 'icon-align' to each of the icon */}
+                  <div className="description2">
+                    <h4 className=""><strong>30 Team Members</strong></h4>
+                    
+                  </div>
                 </div>
               </div>
-            </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
-              <div className=" icon-ssk">
-                <i className="mt-4 fa fa-briefcase fa-5x " />
-                <div className="description">
-                  <h4 className=""> <strong>30+ Projects </strong></h4>
-                  
-                </div>
-              </div> 
-            </div>
-            <div xl="3" md="3" sm="6" className="single-icon-container">
-              <div className=" icon-ssk">
-               <i className="fa fa-coffee fa-5x " />
-                <div className="description">
-                  <h4 className=""><strong>400+ NightOuts</strong></h4>
-                  
+              <div className="single-icon-container">
+                <div className=" icon-ssk">
+                  <i className="mt-4 fa fa-briefcase fa-5x icon-responsive" />
+                  <div className="description2">
+                    <h4 className=""> <strong>30+ Projects </strong></h4>
+                    
+                  </div>
+                </div> 
+              </div>
+              <div className="single-icon-container">
+                <div className=" icon-ssk">
+                <i className="mt-4 fa fa-coffee fa-5x icon-responsive" />
+                  <div className="description2">
+                    <h4 className=""><strong>400+ NightOuts</strong></h4>
+                    
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
+            </div>  
 
         </Row>
         <br />

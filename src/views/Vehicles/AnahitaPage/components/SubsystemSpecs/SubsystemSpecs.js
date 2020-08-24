@@ -1,15 +1,6 @@
 import React from 'react';
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+
     Container,
     Row,
     Col
@@ -33,19 +24,19 @@ function Posts() {
                 <Row>
                     <h3 className="small-heading ml-auto mr-auto">Mechanical</h3>
                 </Row>
-                <Row>
+                <Row> 
                     <Col md="6" className="text-center">
                         
-                        <img src={anahita_exploded} className="image-anahita anahita-exploded"></img>
+                        <img src={anahita_exploded} className="image-anahita image-responsive-shift2"></img>
                         <p className="small-heading-edited">ANAHITA VEHICLE :- STRUCTURE</p>
-                        </Col>
+                        </Col> 
                         
                     <Col md="6" className="text-center">    
-                        <ul style={{marginTop: '8rem'}}>
+                        <ul className="mechanical-list">
                             <li className="text-left desc-ssk1"><b>Six</b> degrees of freedom.</li>
                             <li className="text-left desc-ssk1">Weigth of <b>32 kg</b> with +1% buoyancy</li>
                             <li className="text-left desc-ssk1">Max coefficient of drag at <b>0.6 m/s : 0.12</b></li>
-                            <li className="text-left text-left desc-ssk1"><b>8x T200 (Blue Robotics) thrusters</b>for locomotion</li>
+                            <li className="text-left text-left desc-ssk1"><b>8x T200 (Blue Robotics) thrusters</b> for locomotion</li>
                             <li className="text-left desc-ssk1"><b>Pneumatics </b>actuation for torpedo shooting</li>
                             <li className="text-left desc-ssk1">Fabricated using advanced in-house manufacturing facilities like <b>Abrasive Water-jet Machining</b></li>
                         </ul>
@@ -56,7 +47,11 @@ function Posts() {
                 </Row>
                 <Row>
                     <Col md="6" className="text-center mb-5">
-                        <ul classname="mb-5" style={{marginTop: '10rem'}}>
+                            <img src={powerimg} className="image-anahita elec-edit"></img>
+                            <p className="small-heading-edited">COMPLETE ELECTRICAL ARCHITECTURE</p>
+                    </Col>
+                    <Col md="6" className="text-center mb-5">
+                        <ul className="electrical-list" >
                             <li className="text-left desc-ssk1">Powered by Two <b>25v Li-Po batteries</b></li>
                             <li className="text-left desc-ssk1"><b>Intel i7 NUC</b> for fast processing</li>
                             <li className="text-left desc-ssk1"><b>Two IDS UI-5260SE-C-HQ Rev.4</b> cameras for 1080p video feed</li>
@@ -64,21 +59,18 @@ function Posts() {
                             <li className="text-left desc-ssk1"><b>Custom PCB</b> for ESCs and Micro-controller with Compact design</li>
                         </ul>
                     </Col>
-                    <Col md="6" className="text-center mb-5">
-                        <img src={powerimg} className="image-anahita elec-edit"></img>
-                        <p className="small-heading-edited">COMPLETE ELECTRICAL ARCHITECTURE</p>
-                    </Col>
+                    
                 </Row>    
                 <Row>
                     <h3 className="small-heading ml-auto mr-auto">Software</h3>
                 </Row>
                 <Row>
                     <Col md="6" className="text-center mt-5 ml-auto mr-auto">                        
-                        <img src={soft} className="image-anahita"></img>
+                        <img src={soft} className="image-anahita image-responsive-shift2"></img>
                         <p className="small-heading-edited">SOFTWARE DATA AND CONTROL FLOW</p>
                     </Col>
                     <Col md="6" className="text-center mt-5 ml-auto mr-auto">
-                        <ul style={{marginTop: '5rem'}}>
+                        <ul className="mechanical-list">
                             <li className="text-left desc-ssk1">System integration through ROS on <b>Ubuntu 18.04</b></li>
                             <li className="text-left desc-ssk1">Simulation through <b>Gazebo and UWSim</b> to optimize testing time</li>
                             <li className="text-left desc-ssk1">Making use of a <b>faster and simpler simulator</b> designed specifically for underwater vehicles</li>

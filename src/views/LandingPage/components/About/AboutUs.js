@@ -4,16 +4,7 @@ import {useEffect} from "react";
 import { Link } from "react-router-dom";
 import './AboutUs.css';
 import {
-  Button,
-  Card,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
+
   Container,
   Row,
   Col,

@@ -18,7 +18,7 @@
 .headings-container{
     /* background-color: blue; */
     text-align: center;
-}
+} 
 
 .primary-heading-event{
     /* background-color: green; */
@@ -33,4 +33,12 @@
 
 .comp-heading:hover{
     text-decoration: underline;
+}
+
+@media(max-width: 768px){
+    .primary-heading-event{
+        /* background-color: green; */
+        margin-top: 1.5rem;
+    }
+    
 }

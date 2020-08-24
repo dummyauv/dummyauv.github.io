@@ -1,16 +1,6 @@
 import React, {Component} from "react";
 // reactstrap components
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
     Container,
     Row,
     Col

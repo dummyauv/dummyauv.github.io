@@ -1,16 +1,7 @@
 import React from 'react';
 import "./SketchFabEmbed.css"
 import {
-    Button,
-    Card,
-    CardBody,
-    CardFooter,
-    CardTitle,
-    Form,
-    Input,
-    InputGroupAddon,
-    InputGroupText,
-    InputGroup,
+
     Container,
     Row,
     Col
