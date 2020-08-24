@@ -73,5 +73,10 @@
   margin-left: 0px;
 }
 .active{
-  border-bottom: 2px solid #66615b;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.navbar-content:hover{
+  background-color: #aaaaaa;
+  transform: translateY(3px);
 }

@@ -38,6 +38,7 @@ function Posts() {
                         
                         <img src={anahita_exploded} className="image-anahita anahita-exploded"></img>
                         <p className="small-heading-edited">ANAHITA VEHICLE :- STRUCTURE</p>
+                        </Col>
                         
                     <Col md="6" className="text-center">    
                         <ul style={{marginTop: '8rem'}}>

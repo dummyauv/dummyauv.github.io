@@ -39,7 +39,7 @@ import LandingPageHeader from "./components/Headers/LandingPageHeader.js";
 import ExamplesNavbar from "../../components/Navbars/ExamplesNavbar";
 
 // core components
-import AboutUs from "./components/About/AboutUs.js";
+import AboutUs from "./components/AboutUs/AboutUs.js";
 import Team from "./components/Team/Team.js";
 import Sponsors from "./components/Sponsors/Sponsors.js";
 import Posts from "./components/Posts/Posts.js";
@@ -62,15 +62,7 @@ function LandingPage(props) {
 
   <LandingPageHeader />
 
-  <ExamplesNavbar home="" page="landing-page" activePage={props.location.pathname}/>
-    <div className="section text-center ">
-      <Container className="reduce-margin">
-      
-          <Row>
-            <h2 className="heading-main">About Us</h2>          
-          </Row>
-      </Container>
-    </div>
+  <ExamplesNavbar  page="landing-page" />
       <div className="main">
         <AboutUs />
         <Team className="team"/>

@@ -52,7 +52,7 @@ function LandingPage() {
     return (
         <>  
 
-     <ExamplesNavbar />
+     <ExamplesNavbar activePage="/about-us"/>
             <div className="main ">
                 <AboutUs />
                 <Participation/>

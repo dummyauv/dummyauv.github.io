@@ -29,7 +29,7 @@ function AboutUs() {
       <div className="section landing-section text-center ">
         <Container >
           <div className=" col-12 text-center">
-            <h2 className="heading-main ">ABOUT US</h2>          
+            <h2 className="mb-2 heading-main ">ABOUT US</h2>          
           </div>
         
         <Row >
@@ -58,7 +58,7 @@ function AboutUs() {
 
           </Col>
 
-          <div className="row mt-5 mx-auto">
+          <div className="row mt-3 mx-auto">
             <div className="col-md-3 col-sm-6">
               <div className=" icon-ssk">
                   <i className=" mt-4 fa fa-cogs fa-5x" />

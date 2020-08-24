@@ -31,18 +31,18 @@ function Posts() {
                         <Col md="2"></Col>
                         <Col xl="4" className="text-center">
                             <h3 className="small-heading"></h3>
-                            <img src={niot} className="image-anahita"></img>
-                            <p className="desc-ssk1">Selected after a comprehensive recruitment, sharing our love for robotics, we build low-cost robust AUV systems.</p>
-                        </Col>
-                        <Col xl="4" className="text-center">
-                            <h3 className="small-heading"></h3>
-                            <img src={paper} className="image-anahita"></img>
+                            <img src={niot} className="border border-dark w-100"></img>
                             <p className="desc-ssk1">Twice Runners’ Up (2017 & 2019) at the NIOT SAVe, organised by the National Insitute Of Ocean Technology, Chennai.</p>
                         </Col>
                         <Col xl="4" className="text-center">
                             <h3 className="small-heading"></h3>
-                            <img src={robosub} className="border border-dark image-anahita"></img>
-                            <p className="desc-ssk1 ">The designing process behind our latest vehicle, Anahita, has been appreciated at the international level.</p>
+                            <img src={paper} className="w-100"></img>
+                            <p className="desc-ssk1">Published a paper at IEEE OES Symposium 2018,  on design and development of an open frame AUV: Anahita (Our 2nd Gen Vehicle)</p>
+                        </Col>
+                        <Col xl="4" className="text-center">
+                            <h3 className="small-heading"></h3>
+                            <img src={robosub} className="border border-dark w-100"></img>
+                            <p className="desc-ssk1 ">Qualified and Participated in Robosub-2019 held at TRANSDEC Anechoic pool in San Diego, California.</p>
                         </Col>
                     </Row>
 

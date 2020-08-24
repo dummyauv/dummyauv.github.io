@@ -24,7 +24,7 @@ import Blog from './components/Blog';
 class BlogsPage extends Component {
 
   state= {
-    blogs: null,
+    blogs: 0,
     blogsArray:[]
   }
 
