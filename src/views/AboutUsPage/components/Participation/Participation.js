@@ -18,22 +18,24 @@ function Posts() {
                 <Container style={{ margin:"0 auto"}}>
                     
                     <Row className="d-flex justify-content-center">
-                        <Col lg="6" className="text-center" >
-                            <h2 className="mt-0 mb-3 small-heading">Student Competitions</h2>
+                        <Col sm="12" lg="5" className="text-center" >
+                            <h2 className="mt-5 mb-3 small-heading">Student Competitions</h2>
                             <img src={combinedimage} className="w-100 large-image-responsiveness"></img>
                             <p className="desc-ssk1">We aim to participate in National and International student-level AUV
                             compeititions - Robosub (organised by AUVSI), Singapore AUV Challenge, and the
                                     NIOT-Student AUV Challenge.</p> 
                         </Col>
-                        <Col lg="6" className="text-center">
-                            <h2 className="mt-0 mb-3 small-heading">Research Potential</h2>
+                        <Col sm="0" lg="2">
+                        </Col>
+                        <Col sm="12" lg="5" className="text-center">
+                            <h2 className="mt-5  mb-3 small-heading">Research Potential</h2>
                             <img src={resimage} className="w-100 large-image-responsiveness" ></img>
                             <p className="desc-ssk1">Contribute to the development in the fields of marine technology, and
                                     implement cutting-edge research ideas to our vehicles</p>
                         </Col>
                     </Row > 
                     <Row className="d-flex justify-content-center">   
-                        <Col lg="6" className="mt-5 text-center">
+                        <Col sm="12" lg="5" className="mt-5 text-center">
                             <h2 className="mt-5 mb-3 small-heading">Training</h2>
                             <img src={trainimage} className=" w-100 large-image-responsiveness" ></img>
                             <p className="desc-ssk1">Team AUV-IITK provides training to all its new recruits in the various
@@ -41,8 +43,10 @@ function Posts() {
                             team AUV-IITK are pursuing their careers in robotics and doing exceptionally well
                                     owing to their strong foundation.</p>
                         </Col>
+                        <Col sm="0" lg="2">
+                        </Col>
                         
-                        <Col lg="6" className=" mt-5 text-center">
+                        <Col sm="12" lg="5" className=" mt-5 text-center">
                             <h2 className="mt-5 mb-3 small-heading ">Social Projects</h2>
                             <img src={csrimage} className="w-100 large-image-responsiveness"></img>
                             <p className="desc-ssk1">Apart from Robotics competitions, team AUV-IITK also actively

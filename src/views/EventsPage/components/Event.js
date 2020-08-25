@@ -33,10 +33,10 @@ function Event(props) {
                             </Col>
                         </Row>
                         <Row>
-                            <p className="text-left desc-ssk1 event-responsive-content" >
+                            <p className="ml-3 text-left desc-ssk1 " >
                                 {props.event.para1}
                             </p>
-                            <p className="text-left desc-ssk1 event-responsive-content" >
+                            <p className="ml-3 text-left desc-ssk1 " >
                                 {props.event.para2}
                             </p>
                         </Row>

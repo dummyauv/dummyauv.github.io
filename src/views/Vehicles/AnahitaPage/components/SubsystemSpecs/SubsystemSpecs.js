@@ -27,7 +27,7 @@ function Posts() {
                 <Row> 
                     <Col md="6" className="text-center">
                         
-                        <img src={anahita_exploded} className="image-anahita image-responsive-shift2"></img>
+                        <img src={anahita_exploded} className="w-100"></img>
                         <p className="small-heading-edited">ANAHITA VEHICLE :- STRUCTURE</p>
                         </Col> 
                         
@@ -47,7 +47,7 @@ function Posts() {
                 </Row>
                 <Row>
                     <Col md="6" className="text-center mb-5">
-                            <img src={powerimg} className="image-anahita elec-edit"></img>
+                            <img src={powerimg} className="w-100"></img>
                             <p className="small-heading-edited">COMPLETE ELECTRICAL ARCHITECTURE</p>
                     </Col>
                     <Col md="6" className="text-center mb-5">
@@ -66,7 +66,7 @@ function Posts() {
                 </Row>
                 <Row>
                     <Col md="6" className="text-center mt-5 ml-auto mr-auto">                        
-                        <img src={soft} className="image-anahita image-responsive-shift2"></img>
+                        <img src={soft} className="w-100"></img>
                         <p className="small-heading-edited">SOFTWARE DATA AND CONTROL FLOW</p>
                     </Col>
                     <Col md="6" className="text-center mt-5 ml-auto mr-auto">

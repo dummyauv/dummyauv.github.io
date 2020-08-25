@@ -69,7 +69,7 @@ const [scrolled,setScrolled]=React.useState(false);
             to="/index"
             title="Coded by Creative Tim"
             tag={Link}
-            style={{marginLeft:"0px",padding:"0 0"}}
+            style={{marginLeft:"20px",padding:"0 0"}}
           >
           <img className="minilogo w-100" src={auvlogomini} alt="logo" />
           </NavbarBrand>

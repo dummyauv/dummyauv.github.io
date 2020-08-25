@@ -30,12 +30,12 @@ function Posts() {
                     <h3 className="small-heading ml-auto mr-auto">Mechanical</h3>
                 </Row>
                 <Row>
-                    <Col md="6" className="text-center">
-                        <img src={labelled} className="image-anahita mechanical-image-varun"></img>
+                    <Col sm="12" md="6" className="text-center">
+                        <img src={labelled} className="w-100"></img>
                         <p className="small-heading-edited">VARUN VEHICLE : STRUCTURE</p>
                     </Col>
-                    <Col className="text-center">
-                        <ul className="mechanical-list-varun">
+                    <Col sm="12" md="6" className="text-center">
+                        <ul className="ml-0">
                             <li className="text-left desc-ssk1">Five degrees of freedom</li>
                             <li className="text-left desc-ssk1">Weigth of 44.5 kg with +1% buoyancy</li>
                             <li className="text-left desc-ssk1">Max coefficient of drag at 1.5 m/s : 0.42</li>
@@ -50,12 +50,12 @@ function Posts() {
                 </Row>
                 <Row>
                     
-                    <Col md="6" className="text-center mb-5">
-                        <img src={powerimg} className="image-anahita electrical-image-varun"></img>
+                    <Col sm="12" md="6" className="text-center mb-5">
+                        <img src={powerimg} className="w-100"></img>
                         <p className="small-heading-edited mt-5">POWER DISTRIBUTION</p>
                     </Col>
-                    <Col md="6" className="text-center mb-5">    
-                        <ul className="electrical-list-varun" >
+                    <Col sm="12" md="6" className="text-center mb-5">    
+                        <ul className="ml-0" >
                             <li className="text-left desc-ssk1">Powered by four 3S Lithium-Polymer Batteries</li>
                             <li className="text-left desc-ssk1">Custom made power-distribution board with protection and monitoring circuits</li>
                             <li className="text-left desc-ssk1">Two Logitech C290 cameras for 1080p video feed</li>
@@ -68,12 +68,12 @@ function Posts() {
                     <h3 className="small-heading ml-auto mr-auto">Software</h3>
                 </Row>
                 <Row>
-                    <Col md="6" className="text-center mt-5">
-                        <img src={soft} className="image-anahita software-image-varun"></img>
+                    <Col sm="12" md="6" className="text-center mt-5">
+                        <img src={soft} className="w-100"></img>
                         <p className="small-heading-edited">FRAMEWORKS USED IN VARUN</p>
                     </Col>
-                    <Col md="6" className="text-center">
-                        <ul className="software-list-varun">
+                    <Col sm="12" md="6" className="text-center">
+                        <ul className="ml-0">
                             <li className="text-left desc-ssk1">System integration through ROS on Ubuntu 14.04</li>
                             <li className="text-left desc-ssk1">Simulation through Gazebo to optimize testing time</li>
                             <li className="text-left desc-ssk1">Image processing to perform vision-based tasks</li>

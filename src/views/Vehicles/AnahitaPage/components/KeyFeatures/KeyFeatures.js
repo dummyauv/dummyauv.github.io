@@ -16,14 +16,14 @@ function Posts() {
       }); 
     return (
         <>
-            <div className="">
+            <div className="mt-5">
             <Container>
                 <Row className="d-flex justify-content-center">
-                    <Col md="6"> 
+                    <Col sm="12" md="6"> 
                         {/* <h2 className="text-center mb-4 small-heading">ANAHITA</h2> */}
-                        <img src={require("../../../../../assets/img/anahita-2.jpg")} className="image-anahita image-responsive-shift"></img>
+                        <img src={require("../../../../../assets/img/anahita/anahita-3.jpg")} className="w-100"></img>
                     </Col>                    
-                    <Col md="6" className="text-center">
+                    <Col sm="12" md="6" className="text-center">
                     <h2 className="text-center mb-4 small-heading">Key Features</h2>
                         <ul className="key-features-list">
                             <li><h4 className="text-left desc-ssk1"><b >Wired frame with truss structures,</b> for

@@ -111,3 +111,11 @@
   background-color: #aaaaaa;
   transform: translateY(3px);
 }
+
+.navbar .navbar-collapse::after {
+    background-color: #555;
+}
+
+.navbar-collapse> .nav-item > .nav-link {
+  color: #cccccc !important;
+}
