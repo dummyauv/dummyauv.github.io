@@ -23,7 +23,7 @@ function LandingPage() {
     };
   });
   return (
-    <>
+    <div className="mobile-responsive">
     <ExamplesNavbar activePage="/vehicles/varun"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
@@ -37,7 +37,7 @@ function LandingPage() {
         <KeyFeatures/>
         <SubsystemSpecs/>
       </div>  
-    </>
+    </div>
   );
 }
 

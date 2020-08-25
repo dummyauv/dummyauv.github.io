@@ -24,7 +24,7 @@ function LandingPage() {
     };
   });
   return (
-    <>
+    <div className="mobile-responsive">
     <ExamplesNavbar activePage="/vehicles/anahita"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
@@ -39,7 +39,7 @@ function LandingPage() {
         
         <SubsystemSpecs/>
       </div>
-    </>
+    </div >
   ); 
 }
 

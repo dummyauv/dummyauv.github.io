@@ -8,7 +8,7 @@ import {
     Form,
     Input,
     InputGroupAddon, 
-    InputGroupText,
+    InputGroupText, 
     InputGroup,
     
 } from "reactstrap";
@@ -57,7 +57,7 @@ function Footer() {
                         className="footer-nav-icon"
                     >
                         <i className="fa fa-github" />
-                        <p className="d-lg-none">GitHub</p>
+                        <p className="d-lg-none"></p>
                 </NavLink>    
                 <NavLink
                     data-placement="bottom"
@@ -67,7 +67,7 @@ function Footer() {
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-facebook-square" />
-                    <p className="d-lg-none">Facebook</p>
+                    <p className="d-lg-none"></p>
                 </NavLink>
                 <NavLink
                     data-placement="bottom"
@@ -77,7 +77,7 @@ function Footer() {
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-linkedin-square" />
-                    <p className="d-lg-none">Linkedin</p>
+                    <p className="d-lg-none"></p>
                 </NavLink>
                 <NavLink
                     data-placement="bottom"
@@ -87,7 +87,7 @@ function Footer() {
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-envelope-square" />
-                    <p className="d-lg-none">Mail</p>
+                    <p className="d-lg-none"></p>
                 </NavLink>
                 <NavLink
                     data-placement="bottom"
@@ -98,7 +98,7 @@ function Footer() {
                     className="footer-nav-icon"
                 >
                     <i className="fa fa-instagram" />
-                    <p className="d-lg-none">Instagram</p>
+                    <p className="d-lg-none"></p>
                 </NavLink>
                 </div>
 

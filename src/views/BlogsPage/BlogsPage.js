@@ -3,7 +3,8 @@ import React, {Component} from "react";
 import {
     Container,
     Row,
-    Col
+    Col,
+    Spinner
 } from "reactstrap";
 
 // core components
@@ -15,13 +16,21 @@ class BlogsPage extends Component {
 
   state= {
     blogs: 0,
-    blogsArray:[]
+    blogsArray:[],
+    loading: "false"
   }
-
+  // React.useEffect(() => {
+  //   document.body.classList.add("profile-page");
+  //   return function cleanup() {
+  //     document.body.classList.remove("profile-page");
+  //   };
+  // });
   componentDidMount(){
+    document.documentElement.classList.remove("nav-open");
+    this.setState({loading:"true"});
     axios.get('https://auv-iitk.firebaseio.com/blogs.json')
           .then(response => {
-              this.setState({blogs: response.data});
+              this.setState({blogs: response.data, loading: "false"});
               // console.log("blogs recieved");
               const newArray= Object.entries(this.state.blogs)
               this.setState({blogsArray: newArray});
@@ -36,6 +45,10 @@ render(){
       <Blog blog={recievedBlog} key={recievedBlog.id}></Blog>
     )
   })
+
+  console.log(this.state.laoding)
+
+  const display= (this.state.loading == "true")? <Spinner className="blogs-page-spinner"/> : blogList;
   return (
     <>
     <ExamplesNavbar activePage="/blogs"/>
@@ -47,11 +60,12 @@ render(){
           </Row>
         </Container>
     </div>
+    
       <div className="main">
           {/* <Blog blog={blog1}></Blog> */}
           {/* <Blog blog={blog2}></Blog>
           <Blog blog={blog3}></Blog> */}
-          {blogList}  
+          {display}
       </div>  
     </>
   );

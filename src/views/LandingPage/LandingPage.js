@@ -41,7 +41,7 @@ function LandingPage(props) {
     };
   });
   return (
-    <>
+    <div className="mobile-responsive">
 
   <LandingPageHeader />
 
@@ -53,7 +53,7 @@ function LandingPage(props) {
         <Achievements/>
         <Sponsors className="sponsors"/>
       </div>
-    </>
+    </div>
   );
 }
 

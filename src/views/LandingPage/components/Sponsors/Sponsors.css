@@ -13,18 +13,29 @@
 
 .img-responsive1{
     background-color: white;
+    width: 90%;
     /* box-shadow: 2px 2px 20px black; */
-    /* padding: 30px; */
+    /* padding: 30px; */ 
 }
 
-@media(max-width: 992px){
-    
+@media(max-width: 767px){
+    .img-responsive1{
+        /* background-color: aquamarine; */
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .top-margin-reduce{
+        margin-top: -6rem;
+        /* background-color: blueviolet; */
+    }
 }
 
 .img-responsive1:hover{
-    transform: translateY(4px);
-    transform: scale(1.2);
+    /* transform: translateY(4px); */
+    /* transform: scale(1.2); */
     cursor: pointer;
+    
 }
 
 @keyframes moveInLeft {

@@ -24,6 +24,7 @@ import {
 
 
 function ExamplesNavbar(props) {
+    
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
   const [navbarCollapse, setNavbarCollapse] = React.useState(false);
 
@@ -185,7 +186,7 @@ const [scrolled,setScrolled]=React.useState(false);
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
+              <NavLink 
                 data-placement="bottom"
                 href="https://github.com/AUV-IITK"
                 target="_blank"

@@ -13,14 +13,14 @@ import {
 function AboutUs() {
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0)  
   });
-  return (
-    <>
+  return ( 
+    <div >
       <div className=" text-center ">
-        <Container className="reduce-margin">
+        <Container className="" style={{marginTop:"10rem"}}>
           <div className=" col-12 text-center">
-            <h2 className="heading-main ">ABOUT US</h2>          
+            <h2 className="heading-main mt-5 mb-5">ABOUT US</h2>          
           </div>
         <Row >
           <Col className="mt-0 left-desc" xl="9">
@@ -69,7 +69,7 @@ function AboutUs() {
                   <i className="  mt-4 fa fa-users fa-5x icon-responsive" />
                   {/* In order to align the icons center add the class 'icon-align' to each of the icon */}
                   <div className="description2">
-                    <h4 className=""><strong>30 Team Members</strong></h4>
+                    <h4 className=""><strong>30 Members</strong></h4>
                     
                   </div>
                 </div>
@@ -97,12 +97,9 @@ function AboutUs() {
         </Row>
         <br />
         <br />
-        <Row className="icons-row text-align-center">
-          
-        </Row>
         </Container>
       </div>
-    </>
+    </div>
   );
 }
 export default AboutUs;

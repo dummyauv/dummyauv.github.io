@@ -56,7 +56,7 @@ class ContactUsPage extends Component {
   }
   componentDidMount(){
     window.scrollTo(0,0);
-    console.log({})
+    document.documentElement.classList.remove("nav-open");
   };
 
   orderHandler= (event)=> {

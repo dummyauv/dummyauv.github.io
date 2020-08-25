@@ -60,7 +60,7 @@
 .responsive-achievement-image{
     background-color: yellow !important;
     width: 100% !important;
-    margin-bottom: 0 !important;    
+    margin-bottom: 0 !important;     
 }
 
 .u-margin-top-negative{
@@ -71,5 +71,17 @@
     .responsive-achievement-image2{
         /* width: 50% !important; */
         margin-top: 1rem !important;
+    }
+}
+
+@media(max-width: 768px){
+    .responsive-achievement-image3{
+        width: 80% !important;
+    }
+}
+
+@media(max-width: 768px){
+    .mobile-margin-top{
+        margin-top: 0;
     }
 }

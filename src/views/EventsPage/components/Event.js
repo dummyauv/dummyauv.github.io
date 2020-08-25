@@ -11,8 +11,8 @@ import "./Event.css"
 function Event(props) {
     return ( 
         <>
-            <div className="section landing-section ">
-                   <Container className="red-back">
+            <div className="">
+                   <Container> 
                        
                         <Row className="event-container">
                             <Col className="ml-auto mr-auto" md="12">
@@ -33,10 +33,10 @@ function Event(props) {
                             </Col>
                         </Row>
                         <Row>
-                            <p className="text-left desc-ssk1">
+                            <p className="text-left desc-ssk1 event-responsive-content" >
                                 {props.event.para1}
                             </p>
-                            <p className="text-left desc-ssk1">
+                            <p className="text-left desc-ssk1 event-responsive-content" >
                                 {props.event.para2}
                             </p>
                         </Row>

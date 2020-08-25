@@ -14,9 +14,15 @@ import sauvcimg from "../../assets/img/Competetions/sauvc.jpg"
 
 import Event from "./components/Event"
 function LandingPage() {
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+
+  document.documentElement.classList.remove("nav-open");
+    React.useEffect(() => {
+        window.scrollTo(0, 0)
+        document.body.classList.add("profile-page");
+        return function cleanup() {
+            document.body.classList.remove("profile-page");
+        };
+    });
 
   const event1={
           name: 'ROBOSUB',
@@ -57,7 +63,7 @@ const event3={
         image: sauvcimg
 }
   return (
-    <>
+    <div className="mobile-responsive">
     <ExamplesNavbar activePage="/events"/>
     <div className="section text-center ">
         <Container className="reduce-margin">
@@ -72,7 +78,7 @@ const event3={
         <Event event={event2}>   </Event>
         <Event event={event3}>   </Event>
       </div>  
-    </>
+    </div>
   );
 }
 

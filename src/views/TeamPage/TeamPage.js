@@ -51,16 +51,16 @@ function LandingPage() {
         };
     });
     return (
-        <>
+        <div className="mobile-responsive">
         <ExamplesNavbar activePage="/team"/>
             <div className="main">
-                <Team />
+                <Team style={{marginTop:"8rem"}}/>
                 <Subsytems />
                 <SubsystemHeads />
                 {/* <TeamMembers/> */}
                 <TeamVideo />
             </div>
-        </>
+        </div>
     );
 }
 
