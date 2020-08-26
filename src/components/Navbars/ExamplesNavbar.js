@@ -18,6 +18,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
+  NavbarToggler,
 
 } from "reactstrap";
 
@@ -93,21 +94,21 @@ const [scrolled,setScrolled]=React.useState(false);
         >
           <Nav navbar className=" mr-5 navigation">
             <NavItem>
-              <NavLink  className={props.activePage==="/landing-page" ? "navbar-content active" : "navbar-content"} to="/landing-page" tag={Link} >Home
+              <NavLink  className={props.activePage==="/landing-page" ? "navbar-content active" : "navbar-content"} to="/landing-page" tag={Link} onClick={toggleNavbarCollapse}>Home
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className={props.activePage==="/about-us" ? "navbar-content active" : "navbar-content"} to="/about-us" tag={Link}>
+              <NavLink className={props.activePage==="/about-us" ? "navbar-content active" : "navbar-content"} to="/about-us" tag={Link} onClick={toggleNavbarCollapse}>
                 About Us
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className={props.activePage==="/team" ? "navbar-content active" : "navbar-content"} to="/team" tag={Link}>
+              <NavLink className={props.activePage==="/team" ? "navbar-content active" : "navbar-content"} to="/team" tag={Link} onClick={toggleNavbarCollapse}>
                 Team
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className={props.activePage==="/events" ? "navbar-content active" : "navbar-content"} to="/events" tag={Link}>
+              <NavLink className={props.activePage==="/events" ? "navbar-content active" : "navbar-content"} to="/events" tag={Link} onClick={toggleNavbarCollapse} onClick={toggleNavbarCollapse}>
                 Events
               </NavLink>
             </NavItem>
@@ -140,11 +141,13 @@ const [scrolled,setScrolled]=React.useState(false);
                 style={{backgroundColor:"rgb(220,220,220)",borderRadius:"0", textAlign:"center"}}
               >
                 
-                  <Link to='/vehicles/anahita' style={{color: 'black', textAlign:"center"}} className="ml-auto mr-auto">
+                  <Link to='/vehicles/anahita' style={{color: 'black'}}>
                   <DropdownItem
                   // href="#pablo"
                   // onClick={e => e.preventDefault()}
                   style={{textAlign: "center"}}
+                  className=" dropdown-ssk"
+                  onClick={toggleNavbarCollapse}
                 >
                   Anahita
                   </DropdownItem>
@@ -157,6 +160,7 @@ const [scrolled,setScrolled]=React.useState(false);
                   // onClick={e => e.preventDefault()}
                   style={{textAlign: "center"}}
                   className="dropdown-ssk"
+                  onClick={toggleNavbarCollapse}
                 >
                   Varun
                   </DropdownItem>

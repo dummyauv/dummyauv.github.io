@@ -20,13 +20,14 @@ class BlogsPage extends Component {
     loading: "false"
   }
   // React.useEffect(() => {
-  //   document.body.classList.add("profile-page");
-  //   return function cleanup() {
-  //     document.body.classList.remove("profile-page");
-  //   };
+    
   // });
-  componentDidMount(){
+  componentDidMount(){ 
     document.documentElement.classList.remove("nav-open");
+    // document.body.classList.add("profile-page");
+    // return function cleanup() {
+    //   document.body.classList.remove("profile-page");
+    // };
     this.setState({loading:"true"});
     axios.get('https://auv-iitk.firebaseio.com/blogs.json')
           .then(response => {

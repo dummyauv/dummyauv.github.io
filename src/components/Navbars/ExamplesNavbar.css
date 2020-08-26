@@ -86,7 +86,7 @@
 }
 
 .dropdown-item:hover{
-  background-color: rgb(80, 80, 80) !important;
+  background-color: rgb(56, 54, 54) !important;
   border-radius: 0px !important;
   text-align: center !important;
 }
@@ -118,4 +118,14 @@
 
 .navbar-collapse> .nav-item > .nav-link {
   color: #cccccc !important;
+}
+
+.dropdown-ssk{
+  background-color: #555 ;
+  border-radius: 0 !important;
+  color: black !important;
+}
+
+.dropdown-item{
+  border-radius: 0;
 }
