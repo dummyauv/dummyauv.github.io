@@ -319,78 +319,6 @@ function TalkAbout() {
           <Row>
             <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
-                <CardBody className="margin-bottom">
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/rishab.jpg")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Rishabh Dugaye</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/shivanshu.png")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Shivanshu Tyagi</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
                 <CardBody>
                   <a href="#pablo" onClick={e => e.preventDefault()}>
                     <div className="author">
@@ -533,83 +461,10 @@ function TalkAbout() {
                 </CardFooter>
               </Card>
             </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/atharv.jpg")}
-                        className="image-prof"
-                      />
-                      
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Atharv Singh Patlan</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
-
           </Row>
 
           <h1 className="title heading-main">Electrical Subsystem</h1>
           <Row>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/Utkarshjha.jpg")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Utkarsh Jha</CardTitle>
-                      <h6 className="desc-ssk1">  </h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
             <Col xl="3 ml-auto mr-auto" md="4" sm="6">
               <Card className="card-profile card-plain card-ssk">
                 <CardBody>
@@ -623,42 +478,6 @@ function TalkAbout() {
                       <></>
                       <CardTitle tag="h4" className="desc-ssk1 pt-3">Neelabh Singhania</CardTitle>
                       <h6 className="desc-ssk1"> </h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/Munish.jpg")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Munish Gupta</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
                 </CardBody>
@@ -735,42 +554,6 @@ function TalkAbout() {
                       />
                       <></>
                       <CardTitle tag="h4" className="desc-ssk1 pt-3">Shashank Katiyar</CardTitle>
-                      <h6 className="desc-ssk1"></h6>
-                    </div>
-                  </a>
-                </CardBody>
-                <CardFooter className="text-center margin-neg">
-                  <Button
-                    className="btn-just-icon btn-neutral"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-facebook flip" />
-                  </Button>
-                  <Button
-                    className="btn-just-icon btn-neutral ml-1"
-                    color="link"
-                    href="#pablo"
-                    onClick={e => e.preventDefault()}
-                  >
-                    <i className="fa fa-linkedin flip" />
-                  </Button>
-                </CardFooter>
-              </Card>
-            </Col>
-            <Col xl="3 ml-auto mr-auto" md="4" sm="6">
-              <Card className="card-profile card-plain card-ssk">
-                <CardBody>
-                  <a href="#pablo" onClick={e => e.preventDefault()}>
-                    <div className="author">
-                      <img
-                        alt="..."
-                        src={require("assets/img/team/prateek.jpg")}
-                        className="image-prof"
-                      />
-                      <></>
-                      <CardTitle tag="h4" className="desc-ssk1 pt-3">Prateek Pandey</CardTitle>
                       <h6 className="desc-ssk1"></h6>
                     </div>
                   </a>
