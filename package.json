@@ -5,6 +5,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.20.0",
+    "caniuse-lite": "^1.0.30001185",
     "classnames": "2.2.6",
     "moment": "2.24.0",
     "node-sass": "4.12.0",
