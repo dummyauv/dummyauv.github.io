@@ -400,7 +400,7 @@ function TalkAbout() {
                           className="image-prof"
                         />
                         <></>
-                        <CardTitle tag="h4" className="desc-ssk1 pt-3">Aryansh Bansal</CardTitle>
+                        <CardTitle tag="h4" className="desc-ssk1 pt-3">Aaryansh Bansal</CardTitle>
                         <h6 className="desc-ssk1"></h6>
                       </div>
                     </a>

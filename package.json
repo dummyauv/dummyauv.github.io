@@ -4,12 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "axios": "^0.20.0",
-    "caniuse-lite": "^1.0.30001185",
-=======
     "axios": "^0.21.1",
->>>>>>> 303753732356a65892334dfc836194ea37e9624f
     "classnames": "2.2.6",
     "moment": "2.24.0",
     "node-sass": "4.13.1",
