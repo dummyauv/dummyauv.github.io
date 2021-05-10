@@ -16,34 +16,34 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
-import ReactDOM from "react-dom";
-import {BrowserRouter, Route, Redirect, Switch} from "react-router-dom";
+// eslint-disable-next-line no-use-before-define
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom'
 
 // styles
-import "assets/css/bootstrap.min.css";
-import "assets/scss/paper-kit.scss";
-import "assets/demo/demo.css";
+import 'assets/css/bootstrap.min.css'
+import 'assets/scss/paper-kit.scss'
+import 'assets/demo/demo.css'
 // pages
-import Footer from "./components/Footers/Footer";
+import Footer from './components/Footers/Footer'
 
-import LandingPage from "views/LandingPage/LandingPage";
-import DemoFooter from "components/Footers/DemoFooter";
-import AboutUsPage from 'views/AboutUsPage/AboutUsPage';
+import LandingPage from 'views/LandingPage/LandingPage'
+import AboutUsPage from 'views/AboutUsPage/AboutUsPage'
 import TeamPage from 'views/TeamPage/TeamPage'
-import AnahitaPage from 'views/Vehicles/AnahitaPage/AnahitaPage';
-import VarunPage from 'views/Vehicles/VarunPage/VarunPage';
-import EventsPage from 'views/EventsPage/EventsPage';
-import BlogsPage from 'views/BlogsPage/BlogsPage';
-import ContactUsPage from 'views/ContactUsPage/ContactUsPage';
-import SingleBlog from 'views/SingleBlogs/SingleBlog';
+import AnahitaPage from 'views/Vehicles/AnahitaPage/AnahitaPage'
+import VarunPage from 'views/Vehicles/VarunPage/VarunPage'
+import EventsPage from 'views/EventsPage/EventsPage'
+import BlogsPage from 'views/BlogsPage/BlogsPage'
+import ContactUsPage from 'views/ContactUsPage/ContactUsPage'
+import SingleBlog from 'views/SingleBlogs/SingleBlog'
 // others
 ReactDOM.render(
     <BrowserRouter>
         <Switch>
             <Route
                 path="/landing-page"
-                render={props => <LandingPage {...props} active="true"/>}
+                    render={props => <LandingPage {...props} active="true"/>}
             />
             <Route
                 path="/about-us"
@@ -76,7 +76,6 @@ ReactDOM.render(
                 render={props => <BlogsPage {...props} />}
             />
 
-
             <Route
                 path="/contact-us"
                 render={props => <ContactUsPage {...props} />}
@@ -86,5 +85,5 @@ ReactDOM.render(
 
         <Footer/>
     </BrowserRouter>,
-    document.getElementById("root")
-);
+    document.getElementById('root')
+)
