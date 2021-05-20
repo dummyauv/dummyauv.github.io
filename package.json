@@ -1,8 +1,8 @@
 {
-  "homepage" : "https://abhishekshree.github.io/test/",
+  "homepage": "https://dummyauv.github.io",
   "name": "paper-kit-react",
   "version": "1.0.0",
-  "private": true,
+  "private": true,  
   "dependencies": {
     "axios": "^0.21.1",
     "classnames": "2.2.6",
